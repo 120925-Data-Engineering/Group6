@@ -40,7 +40,8 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
         with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
             f.write(json.dumps(record.value) + '\n')
     
-    return f"Read {topic} for {batch_duration_sec*1000} ms and written to {output_path}/{topic}_{timestamp}.json"
+    consumed = sum(len(v) for v in records.values())
+    return f"Read {topic} for {batch_duration_sec*1000} ms and written to {output_path}/{topic}_{timestamp}.json and consumed {consumed} ammount of records"
 
 
 if __name__ == "__main__":
