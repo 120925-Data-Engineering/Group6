@@ -33,9 +33,10 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     )
     
     records = consumer.poll(timeout_ms = batch_duration_sec*1000)
+    timestamp = time.time()
     
     for record in records:
-        with open(f"./data/landing/{topic}.json", "a") as f:
+        with open(f"./data/landing/{topic}_{timestamp}.json", "a") as f:
             f.write(json.dumps(record.value) + '\n')
 
 
