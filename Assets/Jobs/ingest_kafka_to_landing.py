@@ -36,12 +36,25 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     timestamp = time.time()
     
     for record in records:
-        with open(f"./data/landing/{topic}_{timestamp}.json", "a") as f:
+        
+        with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
             f.write(json.dumps(record.value) + '\n')
+    
+    return f"Read {topic} for {batch_duration_sec*1000} ms and written to {output_path}/{topic}_{timestamp}.json"
 
 
 if __name__ == "__main__":
     # TODO: Parse args and call consume_batch
-    transaction_topic = "transaction_events"
-    user_topic = "user_events"
-    pass
+    parser = argparse.ArgumentParser(description = "Subscribing to a Kafka server and writing to a json file")
+    parser.add_argument("--topic", default= "user_events", help = "Kafka topic name")
+    parser.add_argument("--batch-time", default = "30000", help = "How long it subscribes for")
+    parser.add_argument("--output-path", default = "./data/landing", help = "Where is the folder where the files are saved")
+    
+    args = parser.parse_args()
+    
+    output_path = args.output_path
+    topic = args.topic
+    batch_time = args.batch_time
+    
+    topic_Info = consume_batch(topic = topic,batch_duration_sec = batch_time,output_path = output_path)
+    print(topic_Info)
