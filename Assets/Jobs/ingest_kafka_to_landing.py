@@ -24,8 +24,19 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     Returns:
         Number of messages consumed
     """
-    # TODO: Implement
-    pass
+    consumer = KafkaConsumer(
+        topic,
+        bootstrap_servers = ["kafka:9092"],
+        auto_offset_reset = "latest",
+        enable_auto_commit = True,
+        value_deserializer = lambda v: json.loads(v.decode('utf-8'))
+    )
+    
+    records = consumer.poll(timeout_ms = batch_duration_sec*1000)
+    
+    for record in records:
+        with open(f"./data/landing/{topic}.json", "a") as f:
+            f.write(json.dumps(record.value) + '\n')
 
 
 if __name__ == "__main__":
