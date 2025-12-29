@@ -30,4 +30,6 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
 
 if __name__ == "__main__":
     # TODO: Parse args and call consume_batch
+    transaction_topic = "transaction-events"
+    user_topic = "user-events"
     pass
