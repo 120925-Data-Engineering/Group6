@@ -28,5 +28,4 @@ with DAG(
     # - validate: Check output files
     
     # TODO: Set dependencies
-    # ingest_kafka >> spark_etl >> validate
     pass
