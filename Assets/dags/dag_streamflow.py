@@ -6,14 +6,17 @@ Orchestrates: Kafka Ingest -> Spark ETL -> Validation
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+from airflow.operators.empty import EmptyOperator
 from datetime import datetime, timedelta
 
 
 default_args = {
     'owner': 'student',
-    'topics': ['user_events','transaction_events']
     # TODO: Add retry logic, email alerts, etc.
 }
+
+
+
 
 with DAG(
     dag_id='streamflow_main',
@@ -22,6 +25,8 @@ with DAG(
     schedule_interval=None,
     catchup=False,
 ) as dag:
+    # Notify dag start
+    start = 
     
     # Creates the topic for the kafka server if it doesn't exist
     create_topics = BashOperator(
@@ -34,6 +39,13 @@ with DAG(
                 --topic transaction_events"',
         dag = dag
     )
+    
+    running_producers = BashOperator(
+        task_id = "Connecting_the_producers",
+        bash_command = ''
+    )
+    
+    
     
     
     
