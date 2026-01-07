@@ -167,7 +167,7 @@ services:
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      - AIRFLOW__CORE__FERNET_KEY=your-fernet-key-here-replace-in-production
+      - AIRFLOW__CORE__FERNET_KEY='zTvhZH8vXj5lZK8bT9nxC3wR2fHgJ6mN4pQ7sU0vY1c='
       - AIRFLOW__CORE__LOAD_EXAMPLES=false
       - AIRFLOW__WEBSERVER__SECRET_KEY=streamflow-secret-key
       - _AIRFLOW_DB_MIGRATE=true

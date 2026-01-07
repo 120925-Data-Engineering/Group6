@@ -32,10 +32,10 @@ with DAG(
     create_topics = BashOperator(
         task_id = "create_kafka_topics",
         bash_command = 'echo "kafka-topics --boostrap-server kafka:9092 \
-                --create --if-not-exist \
+                --create --if-not-exists \
                 --topic user_events"; echo"\
             kafka-topics --boostrap-server kafka:9092 \
-                --create --if-not-exist \
+                --create --if-not-exists \
                 --topic transaction_events"',
         dag = dag
     )
