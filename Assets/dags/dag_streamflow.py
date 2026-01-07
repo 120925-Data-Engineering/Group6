@@ -26,7 +26,7 @@ with DAG(
     catchup=False,
 ) as dag:
     # Notify dag start
-    start = 
+    start = EmptyOperator(task_id = 'start')
     
     # Creates the topic for the kafka server if it doesn't exist
     create_topics = BashOperator(

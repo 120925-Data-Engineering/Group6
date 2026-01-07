@@ -128,7 +128,31 @@ services:
     networks:
       - streamflow-network
 
+    
+   # =============================================================================
+  # POSTGRES (Airflow Metadata DB)
   # =============================================================================
+  postgres:
+    image: postgres:15
+    container_name: streamflow-postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - airflow_pgdata:/var/lib/postgresql/data
+    networks:
+      - streamflow-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+
+   # =============================================================================
   # AIRFLOW (Custom Image with Spark Client)
   # =============================================================================
   airflow:
@@ -136,11 +160,13 @@ services:
       context: .
       dockerfile: Dockerfile.airflow
     container_name: streamflow-airflow
+    # Run as root to match Spark container permissions for shared volume access
+    user: root
     ports:
       - "8082:8080"
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CORE__FERNET_KEY=your-fernet-key-here-replace-in-production
       - AIRFLOW__CORE__LOAD_EXAMPLES=false
       - AIRFLOW__WEBSERVER__SECRET_KEY=streamflow-secret-key
@@ -150,11 +176,16 @@ services:
       - _AIRFLOW_WWW_USER_PASSWORD=admin
     volumes:
       - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
       - ./jobs:/opt/spark-jobs
       - spark_data:/opt/spark-data
       - ./logs:/opt/airflow/logs
       - airflow_data:/opt/airflow
-    command: standalone
+    command: >
+      bash -c "airflow db upgrade && \ 
+      airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com && \ 
+      airflow scheduler & \
+      airflow webserver"
     healthcheck:
       test: [ "CMD-SHELL", "curl -f http://localhost:8080/health || exit 1" ]
       interval: 30s
@@ -165,6 +196,8 @@ services:
         condition: service_healthy
       spark-master:
         condition: service_started
+      postgres:
+        condition: service_healthy
     networks:
       - streamflow-network
 
@@ -181,3 +214,4 @@ volumes:
   kafka_data:
   airflow_data:
   spark_data:
+  airflow_pgdata:
