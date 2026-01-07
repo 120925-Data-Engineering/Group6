@@ -11,6 +11,7 @@ from datetime import datetime, timedelta
 
 default_args = {
     'owner': 'student',
+    'topics': ['user_events','transaction_events']
     # TODO: Add retry logic, email alerts, etc.
 }
 
@@ -21,6 +22,20 @@ with DAG(
     schedule_interval=None,
     catchup=False,
 ) as dag:
+    
+    # Creates the topic for the kafka server if it doesn't exist
+    create_topics = BashOperator(
+        task_id = "create_kafka_topics",
+        bash_command = 'echo "kafka-topics --boostrap-server kafka:9092 \
+                --create --if-not-exist \
+                --topic user_events"; echo"\
+            kafka-topics --boostrap-server kafka:9092 \
+                --create --if-not-exist \
+                --topic transaction_events"',
+        dag = dag
+    )
+    
+    
     
     # TODO: Define tasks
     # - ingest_kafka: Run ingest_kafka_to_landing.py
