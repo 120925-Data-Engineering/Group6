@@ -19,6 +19,14 @@ from kafka import KafkaProducer
 
 
 fake = Faker()
+Faker.seed(42)  # Fixed seed for reproducible user pool
+
+# Shared user pool - generates the same 100 users when seed is fixed
+# This enables joins with transaction_events_producer.py
+USER_POOL = [Faker().uuid4()[:8] for _ in range(100)]
+
+# Shared product pool - enables joins with transaction_events_producer.py
+PRODUCT_POOL = [f"PROD_{1000 + i}" for i in range(200)]
 
 EVENT_TYPES = ["login", "logout", "page_view", "click", "search", "add_to_cart", "remove_from_cart"]
 PAGES = ["home", "products", "product_detail", "cart", "checkout", "profile", "settings", "help"]
@@ -28,7 +36,7 @@ BROWSERS = ["Chrome", "Firefox", "Safari", "Edge"]
 
 def generate_user_event():
     """Generate a single mock user event."""
-    user_id = fake.uuid4()[:8]
+    user_id = random.choice(USER_POOL)  # Select from shared pool for joinability
     session_id = fake.uuid4()[:12]
     event_type = random.choice(EVENT_TYPES)
     
@@ -52,7 +60,7 @@ def generate_user_event():
     elif event_type == "click":
         event["element_id"] = f"btn_{fake.word()}_{random.randint(1, 100)}"
     elif event_type in ["add_to_cart", "remove_from_cart"]:
-        event["product_id"] = f"PROD_{random.randint(1000, 9999)}"
+        event["product_id"] = random.choice(PRODUCT_POOL)  # Select from shared pool for joinability
         event["quantity"] = random.randint(1, 5)
     
     return event
