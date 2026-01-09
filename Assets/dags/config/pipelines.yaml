@@ -1,0 +1,11 @@
+# Pipeline configuration for the topics we can subscribe to
+# Add or remove the available topics here to see them in the DAG
+
+pipelines:
+  - name: user_events
+    source: kafka
+    destination: landing zone
+  
+  - name: transaction_events
+    source: kafka
+    destination: landing zone

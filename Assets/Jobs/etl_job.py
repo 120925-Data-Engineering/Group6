@@ -8,9 +8,17 @@ Pattern: ./data/landing/*.json -> (This Job) -> ./data/gold/
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql import functions as F
 from pyspark.sql.window import Window
+from spark_session_factory import create_spark_session
 
 
-def run_etl(spark: SparkSession, input_path: str, output_path: str):
+"""
+We would have two input paths created,
+One for user events and another for transaction events
+We would want to join the two tables together
+Do some cleaning
+and send it back to the gold zone
+"""
+def run_etl(spark: SparkSession, input_path_topic1: str, input_path_topic2: str, output_path: str):
     """
     Main ETL pipeline: read -> transform -> write.
     
@@ -20,6 +28,12 @@ def run_etl(spark: SparkSession, input_path: str, output_path: str):
         output_path: Gold zone path (e.g., '/opt/spark-data/gold')
     """
     # TODO: Implement
+    spark = create_spark_session("ETL_job")
+    
+    df_topic1 = spark.read.json(input_path_topic1)
+    df_topic2 = spark.read.json(input_path_topic2)
+    
+    
     pass
 
 
