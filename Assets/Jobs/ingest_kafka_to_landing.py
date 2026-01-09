@@ -30,23 +30,42 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
         bootstrap_servers = ["localhost:9094"],
         auto_offset_reset = "earliest",
         enable_auto_commit = True,
+        group_id = "landing_group",
         value_deserializer = lambda v: json.loads(v.decode('utf-8'))
     )
     
-    #records = consumer.poll(timeout_ms = batch_duration_sec*1000)
-    # Figures out when it should stop listening to the kafka topic
-    end_time = time.time() + batch_duration_sec
+    # Creates the end time when we need to stop listening
+    end_time = time.time() + batch_duration_sec   
     
-    
-    for message  in consumer:
-        print(message)
-                
-                
+    # Collects the current time
     timestamp = time.time()
-    with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
-        f.write(json.dumps(message.value) + '\n')
     
-    consumed = sum(len(v) for v in records.values())
+    # How many messages were consumed
+    consumed = 0
+    
+    # Writes a file to the Bronze zone
+    with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
+        # While time is left don't end the loop
+        while time.time() < end_time:
+            # Checks if there are any new messages from the topic
+            records = consumer.poll(timeout_ms = 10000) # This waits 10 seconds before returning
+            # returns nothing if time is passed or returns up to 500 messages back
+            
+            # Loops through the batch of messages returned
+            for batch_records in records.values():
+                
+                # Collects how much are consumed in this batch
+                consumed += len(batch_records)
+                
+                # Collects each specific message for each batch
+                for message in batch_records:
+                    
+                    # Adds the message value to a list of messages to be saved
+                    f.write(json.dumps(message.value) + '\n')
+                    
+    # Closes the consumer
+    consumer.close()
+    
     return f"Read {topic} for {batch_duration_sec*1000} ms and written to {output_path}/{topic}_{timestamp}.json and consumed {consumed} ammount of records"
 
 
