@@ -180,7 +180,7 @@ services:
       - ./jobs:/opt/spark-jobs
       - spark_data:/opt/spark-data
       - ./logs:/opt/airflow/logs
-      - airflow_data:/opt/airflow
+      - ./data:/opt/airflow
     command: >
       bash -c "airflow db upgrade && \ 
       airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com && \ 
