@@ -24,6 +24,7 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     Returns:
         Number of messages consumed
     """
+    # Creates a kafka consumer
     consumer = KafkaConsumer(
         topic,
         bootstrap_servers = ["localhost:9094"],
@@ -32,13 +33,18 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
         value_deserializer = lambda v: json.loads(v.decode('utf-8'))
     )
     
-    records = consumer.poll(timeout_ms = batch_duration_sec*1000)
-    timestamp = time.time()
+    #records = consumer.poll(timeout_ms = batch_duration_sec*1000)
+    # Figures out when it should stop listening to the kafka topic
+    end_time = time.time() + batch_duration_sec
     
-    for record_key,record_message  in records.items():
-        for message in record_message:
-            with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
-                f.write(json.dumps(message.value) + '\n')
+    
+    for message  in consumer:
+        print(message)
+                
+                
+    timestamp = time.time()
+    with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
+        f.write(json.dumps(message.value) + '\n')
     
     consumed = sum(len(v) for v in records.values())
     return f"Read {topic} for {batch_duration_sec*1000} ms and written to {output_path}/{topic}_{timestamp}.json and consumed {consumed} ammount of records"
