@@ -2070,3 +2070,1655 @@ Traceback (most recent call last):
 NameError: name 'KAFKA_TOPICS' is not defined
 [2026-01-09T02:08:23.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
 [2026-01-09T02:08:23.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:08:55.507+0000] {processor.py:161} INFO - Started process (PID=2359) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:08:55.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:08:55.509+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:08:55.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:08:55.521+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:08:55.520+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:08:55.522+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:08:55.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:09:29.056+0000] {processor.py:161} INFO - Started process (PID=2371) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:09:29.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:09:29.058+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:09:29.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:09:29.070+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:09:29.068+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:09:29.071+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:09:29.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:10:02.542+0000] {processor.py:161} INFO - Started process (PID=2383) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:10:02.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:10:02.544+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:10:02.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:10:02.555+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:10:02.553+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:10:02.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:10:02.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:10:36.043+0000] {processor.py:161} INFO - Started process (PID=2395) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:10:36.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:10:36.044+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:10:36.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:10:36.054+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:10:36.052+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:10:36.055+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:10:36.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:11:09.540+0000] {processor.py:161} INFO - Started process (PID=2407) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:11:09.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:11:09.542+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:11:09.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:11:09.555+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:11:09.553+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:11:09.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:11:09.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.035 seconds
+[2026-01-09T02:11:43.076+0000] {processor.py:161} INFO - Started process (PID=2419) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:11:43.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:11:43.078+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:11:43.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:11:43.087+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:11:43.085+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:11:43.087+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:11:43.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:12:15.563+0000] {processor.py:161} INFO - Started process (PID=2431) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:12:15.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:12:15.565+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:12:15.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:12:15.581+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:12:15.578+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:12:15.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:12:15.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.043 seconds
+[2026-01-09T02:12:49.119+0000] {processor.py:161} INFO - Started process (PID=2443) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:12:49.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:12:49.128+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:12:49.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:12:49.203+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:12:49.196+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:12:49.205+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:12:49.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.168 seconds
+[2026-01-09T02:13:22.625+0000] {processor.py:161} INFO - Started process (PID=2455) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:13:22.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:13:22.629+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:13:22.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:13:22.670+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:13:22.667+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:13:22.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:13:22.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.083 seconds
+[2026-01-09T02:13:56.120+0000] {processor.py:161} INFO - Started process (PID=2467) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:13:56.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:13:56.123+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:13:56.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:13:56.146+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:13:56.141+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:13:56.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:13:56.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.056 seconds
+[2026-01-09T02:14:29.645+0000] {processor.py:161} INFO - Started process (PID=2479) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:14:29.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:14:29.646+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:14:29.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:14:29.656+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:14:29.654+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:14:29.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:14:29.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:15:03.150+0000] {processor.py:161} INFO - Started process (PID=2491) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:15:03.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:15:03.151+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:15:03.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:15:03.160+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:15:03.159+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:15:03.161+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:15:03.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:15:35.640+0000] {processor.py:161} INFO - Started process (PID=2503) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:15:35.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:15:35.642+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:15:35.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:15:35.654+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:15:35.652+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:15:35.654+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:15:35.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:16:09.187+0000] {processor.py:161} INFO - Started process (PID=2515) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:16:09.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:16:09.189+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:16:09.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:16:09.213+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:16:09.208+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:16:09.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:16:09.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.052 seconds
+[2026-01-09T02:16:42.662+0000] {processor.py:161} INFO - Started process (PID=2527) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:16:42.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:16:42.664+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:16:42.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:16:42.676+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:16:42.674+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:16:42.677+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:16:42.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.039 seconds
+[2026-01-09T02:17:16.206+0000] {processor.py:161} INFO - Started process (PID=2539) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:17:16.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:17:16.208+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:17:16.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:17:16.221+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:17:16.219+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:17:16.221+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:17:16.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:17:49.711+0000] {processor.py:161} INFO - Started process (PID=2551) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:17:49.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:17:49.713+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:17:49.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:17:49.722+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:17:49.720+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:17:49.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:17:49.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:18:22.220+0000] {processor.py:161} INFO - Started process (PID=2563) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:18:22.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:18:22.222+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:18:22.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:18:22.233+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:18:22.231+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:18:22.234+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:18:22.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:18:55.731+0000] {processor.py:161} INFO - Started process (PID=2575) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:18:55.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:18:55.732+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:18:55.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:18:55.741+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:18:55.739+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:18:55.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:18:55.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T02:19:29.243+0000] {processor.py:161} INFO - Started process (PID=2587) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:19:29.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:19:29.245+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:19:29.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:19:29.257+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:19:29.255+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:19:29.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:19:29.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:20:02.769+0000] {processor.py:161} INFO - Started process (PID=2598) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:20:02.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:20:02.771+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:20:02.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:20:02.821+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:20:02.804+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:20:02.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:20:02.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.076 seconds
+[2026-01-09T02:20:36.256+0000] {processor.py:161} INFO - Started process (PID=2609) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:20:36.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:20:36.258+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:20:36.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:20:36.270+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:20:36.268+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:20:36.271+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:20:36.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:21:09.784+0000] {processor.py:161} INFO - Started process (PID=2621) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:21:09.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:21:09.786+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:21:09.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:21:09.798+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:21:09.796+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:21:09.799+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:21:09.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.033 seconds
+[2026-01-09T02:21:42.301+0000] {processor.py:161} INFO - Started process (PID=2633) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:21:42.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:21:42.303+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:21:42.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:21:42.323+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:21:42.319+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:21:42.324+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:21:42.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.047 seconds
+[2026-01-09T02:22:15.919+0000] {processor.py:161} INFO - Started process (PID=2645) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:22:15.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:22:15.921+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:22:15.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:22:15.950+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:22:15.943+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:22:15.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:22:15.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.071 seconds
+[2026-01-09T02:22:49.509+0000] {processor.py:161} INFO - Started process (PID=2657) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:22:49.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:22:49.512+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:22:49.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:22:49.557+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:22:49.550+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:22:49.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:22:49.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.074 seconds
+[2026-01-09T02:23:23.055+0000] {processor.py:161} INFO - Started process (PID=2669) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:23:23.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:23:23.058+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:23:23.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:23:23.071+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:23:23.068+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:23:23.072+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:23:23.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.038 seconds
+[2026-01-09T02:23:55.613+0000] {processor.py:161} INFO - Started process (PID=2681) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:23:55.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:23:55.617+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:23:55.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:23:55.649+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:23:55.640+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:23:55.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:23:55.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.064 seconds
+[2026-01-09T02:24:29.109+0000] {processor.py:161} INFO - Started process (PID=2693) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:24:29.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:24:29.111+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:24:29.111+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:24:29.126+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:24:29.123+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:24:29.128+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:24:29.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.043 seconds
+[2026-01-09T02:25:02.688+0000] {processor.py:161} INFO - Started process (PID=2704) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:25:02.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:25:02.690+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:25:02.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:25:02.702+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:25:02.700+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:25:02.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:25:02.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.034 seconds
+[2026-01-09T02:25:36.187+0000] {processor.py:161} INFO - Started process (PID=2716) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:25:36.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:25:36.189+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:25:36.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:25:36.201+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:25:36.199+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:25:36.202+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:25:36.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.034 seconds
+[2026-01-09T02:26:09.695+0000] {processor.py:161} INFO - Started process (PID=2728) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:26:09.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:26:09.696+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:26:09.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:26:09.706+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:26:09.704+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:26:09.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:26:09.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:26:43.193+0000] {processor.py:161} INFO - Started process (PID=2740) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:26:43.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:26:43.195+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:26:43.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:26:43.206+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:26:43.204+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:26:43.206+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:26:43.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:27:15.692+0000] {processor.py:161} INFO - Started process (PID=2752) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:27:15.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:27:15.693+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:27:15.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:27:15.705+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:27:15.702+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:27:15.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:27:15.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:27:49.211+0000] {processor.py:161} INFO - Started process (PID=2764) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:27:49.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:27:49.213+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:27:49.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:27:49.228+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:27:49.225+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:27:49.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:27:49.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.037 seconds
+[2026-01-09T02:28:22.699+0000] {processor.py:161} INFO - Started process (PID=2776) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:28:22.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:28:22.702+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:28:22.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:28:22.713+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:28:22.711+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:28:22.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:28:22.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.033 seconds
+[2026-01-09T02:28:56.219+0000] {processor.py:161} INFO - Started process (PID=2788) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:28:56.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:28:56.220+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:28:56.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:28:56.232+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:28:56.229+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:28:56.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:28:56.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:29:29.710+0000] {processor.py:161} INFO - Started process (PID=2801) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:29:29.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:29:29.711+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:29:29.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:29:29.721+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:29:29.719+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:29:29.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:29:29.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:30:02.246+0000] {processor.py:161} INFO - Started process (PID=2813) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:30:02.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:30:02.248+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:30:02.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:30:02.259+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:30:02.257+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:30:02.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:30:02.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:30:35.757+0000] {processor.py:161} INFO - Started process (PID=2824) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:30:35.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:30:35.759+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:30:35.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:30:35.783+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:30:35.778+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:30:35.785+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:30:35.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.055 seconds
+[2026-01-09T02:31:09.278+0000] {processor.py:161} INFO - Started process (PID=2836) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:31:09.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:31:09.280+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:31:09.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:31:09.303+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:31:09.299+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:31:09.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:31:09.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.052 seconds
+[2026-01-09T02:31:42.789+0000] {processor.py:161} INFO - Started process (PID=2848) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:31:42.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:31:42.791+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:31:42.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:31:42.804+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:31:42.801+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:31:42.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:31:42.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.038 seconds
+[2026-01-09T02:32:16.306+0000] {processor.py:161} INFO - Started process (PID=2860) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:32:16.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:32:16.308+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:32:16.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:32:16.329+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:32:16.326+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:32:16.330+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:32:16.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.044 seconds
+[2026-01-09T02:32:49.818+0000] {processor.py:161} INFO - Started process (PID=2872) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:32:49.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:32:49.820+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:32:49.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:32:49.833+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:32:49.831+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:32:49.834+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:32:49.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.037 seconds
+[2026-01-09T02:33:22.299+0000] {processor.py:161} INFO - Started process (PID=2884) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:33:22.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:33:22.301+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:33:22.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:33:22.314+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:33:22.312+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:33:22.315+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:33:22.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.034 seconds
+[2026-01-09T02:33:55.932+0000] {processor.py:161} INFO - Started process (PID=2896) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:33:55.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:33:55.934+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:33:55.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:33:55.948+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:33:55.946+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:33:55.949+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:33:55.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.039 seconds
+[2026-01-09T02:34:29.354+0000] {processor.py:161} INFO - Started process (PID=2908) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:34:29.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:34:29.356+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:34:29.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:34:29.370+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:34:29.366+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:34:29.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:34:29.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.040 seconds
+[2026-01-09T02:35:02.875+0000] {processor.py:161} INFO - Started process (PID=2920) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:35:02.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:35:02.877+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:35:02.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:35:02.901+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:35:02.890+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:35:02.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:35:02.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.049 seconds
+[2026-01-09T02:35:36.361+0000] {processor.py:161} INFO - Started process (PID=2932) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:35:36.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:35:36.363+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:35:36.363+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:35:36.376+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:35:36.374+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:35:36.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:35:36.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.041 seconds
+[2026-01-09T02:36:09.884+0000] {processor.py:161} INFO - Started process (PID=2944) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:36:09.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:36:09.886+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:36:09.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:36:09.907+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:36:09.903+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:36:09.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:36:09.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.049 seconds
+[2026-01-09T02:36:42.406+0000] {processor.py:161} INFO - Started process (PID=2956) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:36:42.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:36:42.408+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:36:42.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:36:42.421+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:36:42.418+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:36:42.422+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:36:42.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.036 seconds
+[2026-01-09T02:37:15.889+0000] {processor.py:161} INFO - Started process (PID=2968) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:37:15.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:37:15.890+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:37:15.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:37:15.900+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:37:15.898+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:37:15.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:37:15.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:37:49.404+0000] {processor.py:161} INFO - Started process (PID=2980) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:37:49.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:37:49.405+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:37:49.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:37:49.414+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:37:49.412+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:37:49.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:37:49.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:38:22.897+0000] {processor.py:161} INFO - Started process (PID=2991) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:38:22.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:38:22.898+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:38:22.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:38:22.907+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:38:22.906+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:38:22.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:38:22.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.026 seconds
+[2026-01-09T02:38:56.371+0000] {processor.py:161} INFO - Started process (PID=3003) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:38:56.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:38:56.372+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:38:56.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:38:56.382+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:38:56.381+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:38:56.383+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:38:56.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:39:29.889+0000] {processor.py:161} INFO - Started process (PID=3015) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:39:29.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:39:29.890+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:39:29.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:39:29.899+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:39:29.898+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:39:29.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:39:29.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:40:02.381+0000] {processor.py:161} INFO - Started process (PID=3027) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:40:02.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:40:02.383+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:40:02.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:40:02.391+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:40:02.390+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:40:02.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:40:02.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:40:35.887+0000] {processor.py:161} INFO - Started process (PID=3039) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:40:35.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:40:35.888+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:40:35.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:40:35.898+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:40:35.896+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:40:35.899+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:40:35.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:41:09.411+0000] {processor.py:161} INFO - Started process (PID=3051) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:41:09.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:41:09.413+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:41:09.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:41:09.425+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:41:09.423+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:41:09.426+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:41:09.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.033 seconds
+[2026-01-09T02:41:42.897+0000] {processor.py:161} INFO - Started process (PID=3063) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:41:42.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:41:42.899+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:41:42.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:41:42.909+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:41:42.907+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:41:42.910+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:41:42.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:42:16.518+0000] {processor.py:161} INFO - Started process (PID=3075) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:42:16.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:42:16.519+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:42:16.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:42:16.530+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:42:16.528+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:42:16.538+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:42:16.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.039 seconds
+[2026-01-09T02:42:48.978+0000] {processor.py:161} INFO - Started process (PID=3087) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:42:48.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:42:48.979+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:42:48.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:42:48.989+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:42:48.987+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:42:48.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:42:49.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:43:22.485+0000] {processor.py:161} INFO - Started process (PID=3099) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:43:22.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:43:22.488+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:43:22.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:43:22.499+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:43:22.496+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:43:22.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:43:22.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:43:55.988+0000] {processor.py:161} INFO - Started process (PID=3111) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:43:55.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:43:55.990+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:43:55.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:43:56.000+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:43:55.999+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:43:56.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:43:56.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:44:29.470+0000] {processor.py:161} INFO - Started process (PID=3123) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:44:29.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:44:29.473+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:44:29.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:44:29.481+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:44:29.480+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:44:29.482+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:44:29.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:45:03.003+0000] {processor.py:161} INFO - Started process (PID=3135) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:45:03.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:45:03.005+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:45:03.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:45:03.013+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:45:03.012+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:45:03.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:45:03.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T02:45:33.428+0000] {processor.py:161} INFO - Started process (PID=3147) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:45:33.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:45:33.430+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:45:33.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:45:33.441+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:45:33.439+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:45:33.441+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:45:33.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.034 seconds
+[2026-01-09T02:46:04.313+0000] {processor.py:161} INFO - Started process (PID=3159) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:46:04.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:46:04.319+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:46:04.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:46:04.338+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:46:04.336+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:46:04.339+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:46:04.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.043 seconds
+[2026-01-09T02:46:35.127+0000] {processor.py:161} INFO - Started process (PID=3171) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:46:35.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:46:35.129+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:46:35.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:46:35.137+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:46:35.136+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:46:35.138+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:46:35.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:47:05.586+0000] {processor.py:161} INFO - Started process (PID=3183) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:47:05.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:47:05.587+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:47:05.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:47:05.598+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:47:05.596+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:47:05.598+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:47:05.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T02:47:36.060+0000] {processor.py:161} INFO - Started process (PID=3195) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:47:36.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:47:36.062+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:47:36.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:47:36.070+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:47:36.068+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:47:36.071+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:47:36.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T02:48:06.529+0000] {processor.py:161} INFO - Started process (PID=3207) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:48:06.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:48:06.531+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:48:06.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:48:06.542+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:48:06.540+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:48:06.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:48:06.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:48:37.012+0000] {processor.py:161} INFO - Started process (PID=3212) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:48:37.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:48:37.013+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:48:37.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:48:37.029+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:48:37.026+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:48:37.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:48:37.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.035 seconds
+[2026-01-09T02:49:07.478+0000] {processor.py:161} INFO - Started process (PID=3224) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:49:07.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:49:07.479+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:49:07.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:49:07.488+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:49:07.487+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:49:07.489+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:49:07.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:49:38.030+0000] {processor.py:161} INFO - Started process (PID=3236) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:49:38.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:49:38.032+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:49:38.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:49:38.040+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:49:38.039+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:49:38.041+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:49:38.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.026 seconds
+[2026-01-09T02:50:08.504+0000] {processor.py:161} INFO - Started process (PID=3248) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:50:08.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:50:08.506+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:50:08.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:50:08.516+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:50:08.514+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:50:08.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:50:08.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:50:39.002+0000] {processor.py:161} INFO - Started process (PID=3260) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:50:39.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:50:39.005+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:50:39.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:50:39.016+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:50:39.014+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:50:39.016+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:50:39.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:51:09.494+0000] {processor.py:161} INFO - Started process (PID=3271) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:51:09.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:51:09.496+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:51:09.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:51:09.508+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:51:09.506+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:51:09.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:51:09.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T02:51:42.990+0000] {processor.py:161} INFO - Started process (PID=3283) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:51:42.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:51:42.991+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:51:42.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:51:43.000+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:51:42.999+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:51:43.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:51:43.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:52:16.513+0000] {processor.py:161} INFO - Started process (PID=3295) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:52:16.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:52:16.515+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:52:16.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:52:16.523+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:52:16.522+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:52:16.524+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:52:16.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.026 seconds
+[2026-01-09T02:52:49.046+0000] {processor.py:161} INFO - Started process (PID=3307) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:52:49.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:52:49.048+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:52:49.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:52:49.057+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:52:49.055+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:52:49.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:52:49.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:53:22.517+0000] {processor.py:161} INFO - Started process (PID=3319) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:53:22.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:53:22.518+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:53:22.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:53:22.527+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:53:22.526+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:53:22.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:53:22.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T02:53:56.021+0000] {processor.py:161} INFO - Started process (PID=3331) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:53:56.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:53:56.023+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:53:56.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:53:56.033+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:53:56.032+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:53:56.034+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:53:56.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:54:29.495+0000] {processor.py:161} INFO - Started process (PID=3343) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:54:29.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:54:29.496+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:54:29.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:54:29.509+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:54:29.507+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:54:29.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:54:29.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.034 seconds
+[2026-01-09T02:55:03.087+0000] {processor.py:161} INFO - Started process (PID=3355) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:55:03.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:55:03.088+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:55:03.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:55:03.097+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:55:03.095+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:55:03.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:55:03.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:55:36.597+0000] {processor.py:161} INFO - Started process (PID=3367) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:55:36.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:55:36.599+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:55:36.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:55:36.607+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:55:36.606+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:55:36.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:55:36.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.026 seconds
+[2026-01-09T02:56:09.081+0000] {processor.py:161} INFO - Started process (PID=3379) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:56:09.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:56:09.083+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:56:09.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:56:09.119+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:56:09.115+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:56:09.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:56:09.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.061 seconds
+[2026-01-09T02:56:42.565+0000] {processor.py:161} INFO - Started process (PID=3391) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:56:42.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:56:42.566+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:56:42.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:56:42.576+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:56:42.574+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:56:42.576+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:56:42.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:57:13.034+0000] {processor.py:161} INFO - Started process (PID=3403) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:57:13.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:57:13.035+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:57:13.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:57:13.044+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:57:13.042+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:57:13.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:57:13.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.026 seconds
+[2026-01-09T02:57:43.890+0000] {processor.py:161} INFO - Started process (PID=3415) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:57:43.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:57:43.892+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:57:43.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:57:43.902+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:57:43.900+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:57:43.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:57:43.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T02:58:14.695+0000] {processor.py:161} INFO - Started process (PID=3427) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:58:14.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:58:14.696+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:58:14.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:58:14.705+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:58:14.703+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:58:14.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:58:14.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T02:58:45.200+0000] {processor.py:161} INFO - Started process (PID=3439) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:58:45.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:58:45.201+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:58:45.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:58:45.211+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:58:45.210+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:58:45.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:58:45.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T02:59:15.659+0000] {processor.py:161} INFO - Started process (PID=3451) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:59:15.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:59:15.661+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:59:15.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:59:15.670+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:59:15.669+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:59:15.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:59:15.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T02:59:46.158+0000] {processor.py:161} INFO - Started process (PID=3463) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:59:46.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T02:59:46.160+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:59:46.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:59:46.170+0000] {logging_mixin.py:188} INFO - [2026-01-09T02:59:46.168+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T02:59:46.170+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T02:59:46.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T03:00:16.623+0000] {processor.py:161} INFO - Started process (PID=3468) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:00:16.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:00:16.624+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:00:16.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:00:16.633+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:00:16.631+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:00:16.633+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:00:16.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T03:00:47.081+0000] {processor.py:161} INFO - Started process (PID=3480) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:00:47.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:00:47.082+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:00:47.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:00:47.090+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:00:47.089+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:00:47.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:00:47.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T03:01:17.587+0000] {processor.py:161} INFO - Started process (PID=3492) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:01:17.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:01:17.589+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:01:17.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:01:17.598+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:01:17.597+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:01:17.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:01:17.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T03:01:48.080+0000] {processor.py:161} INFO - Started process (PID=3504) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:01:48.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:01:48.081+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:01:48.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:01:48.090+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:01:48.089+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:01:48.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:01:48.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T03:02:18.569+0000] {processor.py:161} INFO - Started process (PID=3516) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:02:18.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:02:18.570+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:02:18.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:02:18.579+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:02:18.578+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:02:18.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:02:18.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T03:02:49.106+0000] {processor.py:161} INFO - Started process (PID=3528) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:02:49.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:02:49.108+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:02:49.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:02:49.193+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:02:49.167+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:02:49.205+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:02:49.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.120 seconds
+[2026-01-09T03:03:22.747+0000] {processor.py:161} INFO - Started process (PID=3541) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:03:22.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:03:22.749+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:03:22.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:03:22.771+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:03:22.769+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:03:22.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:03:22.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.046 seconds
+[2026-01-09T03:03:56.286+0000] {processor.py:161} INFO - Started process (PID=3553) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:03:56.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:03:56.287+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:03:56.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:03:56.298+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:03:56.296+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:03:56.299+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:03:56.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.030 seconds
+[2026-01-09T03:04:29.796+0000] {processor.py:161} INFO - Started process (PID=3565) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:04:29.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:04:29.798+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:04:29.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:04:29.808+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:04:29.807+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:04:29.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:04:29.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.029 seconds
+[2026-01-09T03:05:03.317+0000] {processor.py:161} INFO - Started process (PID=3577) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:05:03.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:05:03.319+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:05:03.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:05:03.331+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:05:03.329+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:05:03.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:05:03.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.033 seconds
+[2026-01-09T03:05:35.818+0000] {processor.py:161} INFO - Started process (PID=3589) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:05:35.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:05:35.820+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:05:35.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:05:35.840+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:05:35.837+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:05:35.841+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:05:35.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.047 seconds
+[2026-01-09T03:06:09.317+0000] {processor.py:161} INFO - Started process (PID=3601) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:06:09.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:06:09.319+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:06:09.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:06:09.333+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:06:09.330+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:06:09.334+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:06:09.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.040 seconds
+[2026-01-09T03:06:42.828+0000] {processor.py:161} INFO - Started process (PID=3613) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:06:42.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:06:42.830+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:06:42.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:06:42.843+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:06:42.841+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:06:42.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:06:42.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.035 seconds
+[2026-01-09T03:07:16.328+0000] {processor.py:161} INFO - Started process (PID=3625) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:07:16.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:07:16.330+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:07:16.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:07:16.341+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:07:16.339+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:07:16.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:07:16.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T03:07:49.819+0000] {processor.py:161} INFO - Started process (PID=3637) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:07:49.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:07:49.821+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:07:49.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:07:49.831+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:07:49.829+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:07:49.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:07:49.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.034 seconds
+[2026-01-09T03:08:23.372+0000] {processor.py:161} INFO - Started process (PID=3649) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:08:23.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:08:23.374+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:08:23.374+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:08:23.392+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:08:23.388+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:08:23.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:08:23.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.045 seconds
+[2026-01-09T03:08:55.850+0000] {processor.py:161} INFO - Started process (PID=3661) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:08:55.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:08:55.852+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:08:55.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:08:55.862+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:08:55.860+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:08:55.863+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:08:55.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.031 seconds
+[2026-01-09T03:09:29.331+0000] {processor.py:161} INFO - Started process (PID=3673) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:09:29.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:09:29.333+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:09:29.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:09:29.342+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:09:29.340+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:09:29.343+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:09:29.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T03:10:02.877+0000] {processor.py:161} INFO - Started process (PID=3685) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:10:02.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:10:02.878+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:10:02.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:10:02.888+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:10:02.886+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:10:02.888+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:10:02.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.027 seconds
+[2026-01-09T03:10:36.386+0000] {processor.py:161} INFO - Started process (PID=3698) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:10:36.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:10:36.387+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:10:36.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:10:36.397+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:10:36.395+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:10:36.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:10:36.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.028 seconds
+[2026-01-09T03:11:09.875+0000] {processor.py:161} INFO - Started process (PID=3710) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:11:09.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:11:09.878+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:11:09.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:11:09.905+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:11:09.900+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:11:09.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:11:09.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.056 seconds
+[2026-01-09T03:11:42.403+0000] {processor.py:161} INFO - Started process (PID=3722) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:11:42.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:11:42.405+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:11:42.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:11:42.414+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:11:42.412+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:11:42.414+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:11:42.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.026 seconds
+[2026-01-09T03:12:15.892+0000] {processor.py:161} INFO - Started process (PID=3734) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:12:15.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:12:15.894+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:12:15.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:12:15.904+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:12:15.902+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:12:15.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:12:15.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.032 seconds
+[2026-01-09T03:12:49.414+0000] {processor.py:161} INFO - Started process (PID=3746) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:12:49.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-09T03:12:49.417+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:12:49.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:12:49.440+0000] {logging_mixin.py:188} INFO - [2026-01-09T03:12:49.436+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_streamflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_streamflow.py", line 70, in <module>
+    --topic {KAFKA_TOPICS} \\
+NameError: name 'KAFKA_TOPICS' is not defined
+[2026-01-09T03:12:49.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-09T03:12:49.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.053 seconds
