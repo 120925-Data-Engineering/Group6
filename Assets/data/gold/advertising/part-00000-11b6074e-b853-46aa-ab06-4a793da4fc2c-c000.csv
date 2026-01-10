@@ -1,0 +1,36 @@
+browser,user_id,t_timestamp,device,state,city,country,category,product_id,product_name,quantity,unit_price,line_revenue
+Safari,beb79919,2026-01-09T15:57:15.894200Z,tablet,CT,West Jennifer,SB,electronics,PROD_1160,Pass Electronics,2,464.98,929.96
+Safari,beb79919,2026-01-09T15:57:15.894200Z,tablet,CT,West Jennifer,SB,food,PROD_1070,Market Food,1,112.78,112.78
+Safari,beb79919,2026-01-09T15:57:15.894200Z,tablet,CT,West Jennifer,SB,food,PROD_1196,Write Food,5,253.72,1268.60
+Safari,beb79919,2026-01-09T15:57:15.894200Z,tablet,CT,West Jennifer,SB,books,PROD_1147,Whose Books,3,156.87,470.61
+Firefox,fc377a4c,2026-01-09T15:52:56.219375Z,desktop,TX,Keithshire,MU,electronics,PROD_1088,Despite Electronics,3,315.28,945.84
+Firefox,fc377a4c,2026-01-09T15:52:56.219375Z,desktop,TX,Keithshire,MU,home,PROD_1001,Option Home,4,348.49,1393.96
+Firefox,fc377a4c,2026-01-09T15:52:56.219375Z,desktop,TX,Keithshire,MU,toys,PROD_1144,Garden Toys,2,80.17,160.34
+Chrome,dc713d96,2026-01-09T15:54:23.435669Z,mobile,ID,Amyfort,ER,toys,PROD_1189,Hot Toys,3,139.33,417.99
+Chrome,23e2fcb4,2026-01-09T15:56:48.837652Z,mobile,PA,Hortonburgh,GM,sports,PROD_1147,Step Sports,3,455.67,1367.01
+Chrome,23e2fcb4,2026-01-09T15:56:48.837652Z,mobile,PA,Hortonburgh,GM,electronics,PROD_1184,College Electronics,3,499.73,1499.19
+Chrome,23e2fcb4,2026-01-09T15:56:48.837652Z,mobile,PA,Hortonburgh,GM,clothing,PROD_1168,Same Clothing,4,117.1,468.40
+Safari,2a45c2ab,2026-01-09T15:53:05.234995Z,tablet,IL,Susantown,SZ,home,PROD_1156,Sure Home,4,254.8,1019.20
+Safari,2a45c2ab,2026-01-09T15:53:05.234995Z,tablet,IL,Susantown,SZ,books,PROD_1174,Major Books,5,100.86,504.30
+Safari,2a45c2ab,2026-01-09T15:53:05.234995Z,tablet,IL,Susantown,SZ,books,PROD_1138,Who Books,5,93.39,466.95
+Safari,2a45c2ab,2026-01-09T15:53:05.234995Z,tablet,IL,Susantown,SZ,toys,PROD_1053,Article Toys,3,84.68,254.04
+Safari,2a45c2ab,2026-01-09T15:53:05.234995Z,tablet,IL,Susantown,SZ,sports,PROD_1175,Or Sports,1,374.09,374.09
+Firefox,839fbc50,2026-01-09T15:53:38.304653Z,mobile,MP,Harrisberg,IL,toys,PROD_1011,Assume Toys,2,363.68,727.36
+Firefox,839fbc50,2026-01-09T15:53:38.304653Z,mobile,MP,Harrisberg,IL,clothing,PROD_1199,City Clothing,4,371.44,1485.76
+Firefox,839fbc50,2026-01-09T15:53:38.304653Z,mobile,MP,Harrisberg,IL,home,PROD_1002,Soldier Home,3,199.2,597.60
+Edge,a28defe3,2026-01-09T15:53:49.334119Z,mobile,SD,Lake Jenniferview,PH,electronics,PROD_1133,Prepare Electronics,5,465.03,2325.15
+Edge,a28defe3,2026-01-09T15:53:49.334119Z,mobile,SD,Lake Jenniferview,PH,electronics,PROD_1095,Buy Electronics,1,227.74,227.74
+Edge,a28defe3,2026-01-09T15:53:49.334119Z,mobile,SD,Lake Jenniferview,PH,sports,PROD_1076,Fear Sports,3,406.6,1219.80
+Edge,a28defe3,2026-01-09T15:53:49.334119Z,mobile,SD,Lake Jenniferview,PH,toys,PROD_1027,Build Toys,1,486.71,486.71
+Firefox,3eabedcb,2026-01-09T15:54:44.486889Z,mobile,CO,Lisaside,PT,food,PROD_1017,Occur Food,2,116.61,233.22
+Firefox,3eabedcb,2026-01-09T15:54:44.486889Z,mobile,CO,Lisaside,PT,toys,PROD_1182,Hard Toys,3,290.32,870.96
+Firefox,3eabedcb,2026-01-09T15:54:44.486889Z,mobile,CO,Lisaside,PT,home,PROD_1084,Often Home,1,33.26,33.26
+Firefox,3eabedcb,2026-01-09T15:54:44.486889Z,mobile,CO,Lisaside,PT,electronics,PROD_1016,From Electronics,3,25.58,76.74
+Safari,5be6128e,2026-01-09T15:55:37.612615Z,tablet,CT,Port Annahaven,ZM,electronics,PROD_1001,Onto Electronics,2,236.74,473.48
+Safari,5be6128e,2026-01-09T15:55:37.612615Z,tablet,CT,Port Annahaven,ZM,toys,PROD_1075,Anyone Toys,1,498.39,498.39
+Safari,5be6128e,2026-01-09T15:55:37.612615Z,tablet,CT,Port Annahaven,ZM,beauty,PROD_1070,Affect Beauty,2,440.76,881.52
+Safari,5be6128e,2026-01-09T15:55:37.612615Z,tablet,CT,Port Annahaven,ZM,books,PROD_1014,Her Books,3,413.59,1240.77
+Firefox,b92da22b,2026-01-09T15:56:25.782757Z,tablet,SC,Townsendland,BO,beauty,PROD_1170,Resource Beauty,5,482.84,2414.20
+Firefox,b92da22b,2026-01-09T15:56:25.782757Z,tablet,SC,Townsendland,BO,clothing,PROD_1094,Story Clothing,5,209.15,1045.75
+Chrome,93829b43,2026-01-09T15:57:05.875107Z,mobile,AS,Tommyland,AL,toys,PROD_1011,Box Toys,5,194.98,974.90
+Chrome,93829b43,2026-01-09T15:57:05.875107Z,mobile,AS,Tommyland,AL,clothing,PROD_1084,Eye Clothing,3,424.26,1272.78
