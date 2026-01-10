@@ -12,6 +12,11 @@ from datetime import datetime, timedelta
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
 TIME_DURATION = '180' # In seconds
+FIRST_TOPIC = 'user_events'
+SECOND_TOPIC = 'transaction_events'
+BRONZE_PATH = '/opt/airflow/landing'
+GOLD_PATH = '/opt/airflow/gold'
+
 
 default_args = {
     'owner': 'student',
@@ -62,16 +67,38 @@ with DAG(
     
     # First thing we need to do is collect from the topics
     # by the consumers we have
-    kafka_consumers = BashOperator(
+    kafka_consumers_user = BashOperator(
         task_id = "kafka_consumers",
         bash_command = f"""
             echo "Starting Kafka consumer"
             python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
-                --topic {KAFKA_TOPICS} \\
+                --topic {FIRST_TOPIC} \\
                 --batch-time {TIME_DURATION} \\
                 --
         """
     )
+    
+    kafka_consumers_transaction = BashOperator(
+        task_id = "kafka_consumers_transaction",
+        bash_command = f"""
+            echo "Starting Kafka consumer"
+            python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
+                --topic {SECOND_TOPIC} \\
+                --batch-time {TIME_DURATION} \\
+                --output-path {BRONZE_PATH}
+        """
+    )
+    
+    submit_spark_job = BashOperator(
+        task_id = "Spark_Submit",
+        bash_command = """
+            spark-submit \
+                --master 
+        """
+    )
+    
+    
+    
     
     
     

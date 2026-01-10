@@ -11,6 +11,7 @@ from pyspark.sql import functions as F
 from pyspark.sql.window import Window
 from pyspark.sql.types import DecimalType
 from pathlib import Path
+import argparse
 
 """
 We would have two input paths created,
@@ -98,5 +99,9 @@ def run_etl(spark: SparkSession, input_path: str, output_path: str):
 
 if __name__ == "__main__":
     # TODO: Create SparkSession, parse args, run ETL
+    parser = argparse.ArgumentParser(description = "Subscribing to a Kafka server and writing to a json file")
+    parser.add_argument("--topic", default= "user_events", help = "Kafka topic name")
+    parser.add_argument("--batch-time", default = "30", help = "How long it subscribes for in seconds")
+    parser.add_argument("--output-path", default = "./data/landing", help = "Where is the folder where the files are saved")
     
     run_etl(create_spark_session("ETL_job"),'./Assets/data/landing', "./Assets/data/gold")
