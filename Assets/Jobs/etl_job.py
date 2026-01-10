@@ -18,6 +18,16 @@ We would want to join the two tables together
 Do some cleaning
 and send it back to the gold zone
 """
+
+def reading_data_from_landing(spark: SparkSession, input_path_topic1: str, input_path_topic2: str):
+    
+    df_topic_transaction = spark.read.json(input_path_topic1)
+    df_topic_user = spark.read.json(input_path_topic2)
+    
+    
+    return (df_topic_transaction, df_topic_user)
+
+
 def run_etl(spark: SparkSession, input_path_topic1: str, input_path_topic2: str, output_path: str):
     """
     Main ETL pipeline: read -> transform -> write.
