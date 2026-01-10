@@ -1,0 +1,18 @@
+[2026-01-10T17:38:54.223+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streamflow_main.kafka_consumers_transaction manual__2026-01-10T17:38:50.081899+00:00 [queued]>
+[2026-01-10T17:38:54.350+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streamflow_main.kafka_consumers_transaction manual__2026-01-10T17:38:50.081899+00:00 [queued]>
+[2026-01-10T17:38:54.356+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-01-10T17:38:54.562+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): kafka_consumers_transaction> on 2026-01-10 17:38:50.081899+00:00
+[2026-01-10T17:38:54.646+0000] {standard_task_runner.py:60} INFO - Started process 809 to run task
+[2026-01-10T17:38:54.810+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'streamflow_main', 'kafka_consumers_transaction', 'manual__2026-01-10T17:38:50.081899+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/dag_streamflow.py', '--cfg-path', '/tmp/tmpc3amqvge']
+[2026-01-10T17:38:54.886+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask kafka_consumers_transaction
+[2026-01-10T17:38:55.638+0000] {task_command.py:423} INFO - Running <TaskInstance: streamflow_main.kafka_consumers_transaction manual__2026-01-10T17:38:50.081899+00:00 [running]> on host 398b12f7f91a
+[2026-01-10T17:38:56.402+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='streamflow_main' AIRFLOW_CTX_TASK_ID='kafka_consumers_transaction' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T17:38:50.081899+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T17:38:50.081899+00:00'
+[2026-01-10T17:38:56.413+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-10T17:38:56.422+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n            echo "Starting Kafka consumer"\n            python /opt/spark-jobs/ingest_kafka_to_landing.py \\\n                --topic transaction_events \\\n                --batch-time 180 \\\n                --output-path /opt/spark-data/landing\n        ']
+[2026-01-10T17:38:56.478+0000] {subprocess.py:86} INFO - Output:
+[2026-01-10T17:38:56.488+0000] {subprocess.py:93} INFO - Starting Kafka consumer
+[2026-01-10T17:42:12.670+0000] {subprocess.py:93} INFO - Read transaction_events for 180000 ms and written to /opt/spark-data/landing/transaction_events_1768066741.9360116.json and consumed 0 ammount of records
+[2026-01-10T17:42:12.960+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-10T17:42:13.206+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=streamflow_main, task_id=kafka_consumers_transaction, execution_date=20260110T173850, start_date=20260110T173854, end_date=20260110T174213
+[2026-01-10T17:42:13.317+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T17:42:13.460+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

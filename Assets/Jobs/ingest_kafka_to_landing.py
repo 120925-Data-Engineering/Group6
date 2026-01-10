@@ -27,7 +27,7 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     # Creates a kafka consumer
     consumer = KafkaConsumer(
         topic,
-        bootstrap_servers = ["localhost:9094"],
+        bootstrap_servers = ["kafka:9092"],
         auto_offset_reset = "earliest",
         enable_auto_commit = True,
         group_id = "landing_group",

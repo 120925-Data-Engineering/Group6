@@ -14,8 +14,8 @@ SPARK_JOBS_PATH = '/opt/spark-jobs'
 TIME_DURATION = '180' # In seconds
 FIRST_TOPIC = 'user_events'
 SECOND_TOPIC = 'transaction_events'
-BRONZE_PATH = '/opt/airflow/landing'
-GOLD_PATH = '/opt/airflow/gold'
+BRONZE_PATH = '/opt/spark-data/landing'
+GOLD_PATH = '/opt/spark-data/gold'
 
 
 default_args = {
@@ -74,7 +74,7 @@ with DAG(
             python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
                 --topic {FIRST_TOPIC} \\
                 --batch-time {TIME_DURATION} \\
-                --
+                --output-path {BRONZE_PATH}
         """
     )
     
@@ -89,49 +89,15 @@ with DAG(
         """
     )
     
-    submit_spark_job = BashOperator(
-        task_id = "Spark_Submit",
-        bash_command = """
-            spark-submit \
-                --master 
-        """
-    )
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    # Collecting the kafka information from connections
-    # get_config_details = PythonOperator(
-    #     task_id = "get_kafka_config",
-    #     python_callable = get_kafka_details
+    # submit_spark_job = BashOperator(
+    #     task_id = "Spark_Submit",
+    #     bash_command = """
+    #         spark-submit \
+    #             --master 
+    #     """
     # )
     
-    # Creates the topic for the kafka server if it doesn't exist
-    # create_topics = BashOperator(
-    #     task_id = "create_kafka_topics",
-    #     bash_command = 'echo "kafka-topics --boostrap-server {{ ti.xcom_pull}} \
-    #             --create --if-not-exists \
-    #             --topic user_events"; echo"\
-    #         kafka-topics --boostrap-server kafka:9092 \
-    #             --create --if-not-exists \
-    #             --topic transaction_events"',
-    #     env = {
-    #         "server" : "{{ ti.xcom_pull(task_ids = 'get_kafka_config', key = ''}}"
-    #     },
-    #     dag = dag
-    # )
-    
-    # running_producers = BashOperator(
-    #     task_id = "Connecting_the_producers",
-    #     bash_command = ''
-    # )
-    
-    
+    start >> [kafka_consumers_transaction, kafka_consumers_user] >> end
     
     
     
@@ -141,4 +107,4 @@ with DAG(
     # - validate: Check output files
     
     # TODO: Set dependencies
-    pass
+    

@@ -1,0 +1,31 @@
+[2026-01-10T17:37:02.547+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streamflow_main.kafka_consumers manual__2026-01-10T17:36:59.107636+00:00 [queued]>
+[2026-01-10T17:37:02.599+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streamflow_main.kafka_consumers manual__2026-01-10T17:36:59.107636+00:00 [queued]>
+[2026-01-10T17:37:02.603+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-01-10T17:37:02.696+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): kafka_consumers> on 2026-01-10 17:36:59.107636+00:00
+[2026-01-10T17:37:02.717+0000] {standard_task_runner.py:60} INFO - Started process 756 to run task
+[2026-01-10T17:37:02.735+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'streamflow_main', 'kafka_consumers', 'manual__2026-01-10T17:36:59.107636+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dag_streamflow.py', '--cfg-path', '/tmp/tmpmikoit79']
+[2026-01-10T17:37:02.748+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask kafka_consumers
+[2026-01-10T17:37:03.080+0000] {task_command.py:423} INFO - Running <TaskInstance: streamflow_main.kafka_consumers manual__2026-01-10T17:36:59.107636+00:00 [running]> on host 398b12f7f91a
+[2026-01-10T17:37:03.732+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='streamflow_main' AIRFLOW_CTX_TASK_ID='kafka_consumers' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T17:36:59.107636+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T17:36:59.107636+00:00'
+[2026-01-10T17:37:03.742+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-10T17:37:03.751+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n            echo "Starting Kafka consumer"\n            python /opt/spark-jobs/ingest_kafka_to_landing.py \\\n                --topic user_events \\\n                --batch-time 180 \\\n                --output-path /opt/spark-data/bronze\n        ']
+[2026-01-10T17:37:03.797+0000] {subprocess.py:86} INFO - Output:
+[2026-01-10T17:37:03.806+0000] {subprocess.py:93} INFO - Starting Kafka consumer
+[2026-01-10T17:37:05.811+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-01-10T17:37:05.814+0000] {subprocess.py:93} INFO -   File "/opt/spark-jobs/ingest_kafka_to_landing.py", line 85, in <module>
+[2026-01-10T17:37:05.826+0000] {subprocess.py:93} INFO -     topic_Info = consume_batch(topic = topic,batch_duration_sec = batch_time,output_path = output_path)
+[2026-01-10T17:37:05.829+0000] {subprocess.py:93} INFO -   File "/opt/spark-jobs/ingest_kafka_to_landing.py", line 47, in consume_batch
+[2026-01-10T17:37:05.843+0000] {subprocess.py:93} INFO -     with open(f"{output_path}/{topic}_{timestamp}.json", "a") as f:
+[2026-01-10T17:37:05.845+0000] {subprocess.py:93} INFO - FileNotFoundError: [Errno 2] No such file or directory: '/opt/spark-data/bronze/user_events_1768066625.810625.json'
+[2026-01-10T17:37:05.991+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-01-10T17:37:06.060+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-01-10T17:37:06.077+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=streamflow_main, task_id=kafka_consumers, execution_date=20260110T173659, start_date=20260110T173702, end_date=20260110T173706
+[2026-01-10T17:37:06.167+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task kafka_consumers (Bash command failed. The command returned a non-zero exit code 1.; 756)
+[2026-01-10T17:37:06.222+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-01-10T17:37:06.370+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
