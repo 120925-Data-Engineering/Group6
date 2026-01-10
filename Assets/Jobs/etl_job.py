@@ -24,7 +24,7 @@ def collecting_bronze_layer(starting_path: str = "./Assests/data/landing"):
     transaction_file = next(Path(starting_path).glob("transaction*.json"),None)
     user_file = next(Path(starting_path).glob("user*.json"), None)
     # Returns the two files we expect
-    print(transaction_file, user_file)
+    # print(transaction_file, user_file)
     return transaction_file, user_file
     
 
@@ -93,12 +93,10 @@ def run_etl(spark: SparkSession, input_path: str, output_path: str):
     # Creates the gold zone
     advertising_gold_zone(spark,df_topic_transaction,df_topic_user,output_path)
     
-    
-    pass
+    spark.stop()
 
 
 if __name__ == "__main__":
     # TODO: Create SparkSession, parse args, run ETL
     
     run_etl(create_spark_session("ETL_job"),'./Assets/data/landing', "./Assets/data/gold")
-    pass
