@@ -81,6 +81,44 @@ def advertising_gold_zone(spark: SparkSession, df_topic_transaction, df_topic_us
     # saves it to the gold layer
     df_advertising_dept.write.csv(f"{output_path}/advertising",mode = "overwrite", header = True)
     
+    
+def transaction_analytics_gold(spark: SparkSession, df_topic_transaction, output_path: str):
+
+    """
+    Uses SQL Window Functions to create an analytics table.
+    Expects 'view_transactions' to be registered.
+    """
+    df_topic_transaction.createOrReplaceTempView("view_transactions")
+
+    analytics_query = """
+        SELECT 
+            transaction_id,
+            timestamp,
+            shipping_address.city,
+            total,
+            -- 1. SUM: Running total of spent money per user
+            SUM(total) OVER (
+                PARTITION BY transaction_id 
+                ORDER BY timestamp
+            ) as running_total_spent,
+
+            -- 2. RANK: Rank purchases from most expensive to cheapest for each user
+            DENSE_RANK() OVER (
+                PARTITION BY transaction_id 
+                ORDER BY total DESC
+            ) as purchase_rank_by_price
+        FROM view_transactions
+    """
+
+    df_analytics = spark.sql(analytics_query)
+
+
+    df_analytics.coalesce(1).write.csv(f"{output_path}/transaction_analytics", mode="overwrite", header=True)
+
+
+    print("Analytics Table with Window Functions created successfully.")
+    return df_analytics
+
 
 def run_etl(spark: SparkSession, input_path: str, output_path: str):
     """
@@ -103,6 +141,7 @@ def run_etl(spark: SparkSession, input_path: str, output_path: str):
     
     # Creates the gold zone
     advertising_gold_zone(spark,df_topic_transaction,df_topic_user,output_path)
+    transaction_analytics_gold(spark, df_topic_transaction, output_path)
     
     spark.stop()
 

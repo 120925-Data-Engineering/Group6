@@ -11,7 +11,7 @@ from airflow.hooks.base import BaseHook
 from datetime import datetime, timedelta
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
-TIME_DURATION = '60' # In seconds 
+TIME_DURATION = '5' # In seconds 
 FIRST_TOPIC = 'user_events'
 SECOND_TOPIC = 'transaction_events'
 BRONZE_PATH = '/opt/spark-data/landing'
