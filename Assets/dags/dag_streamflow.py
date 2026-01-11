@@ -11,7 +11,7 @@ from airflow.hooks.base import BaseHook
 from datetime import datetime, timedelta
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
-TIME_DURATION = '5' # In seconds - 3 minutes
+TIME_DURATION = '60' # In seconds 
 FIRST_TOPIC = 'user_events'
 SECOND_TOPIC = 'transaction_events'
 BRONZE_PATH = '/opt/spark-data/landing'
@@ -68,7 +68,7 @@ with DAG(
     # First thing we need to do is collect from the topics
     # by the consumers we have
     kafka_consumers_user = BashOperator(
-        task_id = "kafka_consumers",
+        task_id = "kafka_consumers_users",
         bash_command = f"""
             echo "Starting Kafka consumer"
             python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\

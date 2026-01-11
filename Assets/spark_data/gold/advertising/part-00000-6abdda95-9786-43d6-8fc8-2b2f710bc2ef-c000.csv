@@ -1,0 +1,130 @@
+browser,user_id,t_timestamp,device,state,city,country,category,product_id,product_name,quantity,unit_price,line_revenue
+Safari,ce177b4e,2026-01-11T01:22:11.503346Z,desktop,RI,Grosstown,VN,home,PROD_1026,Hand Home,4,33.54,134.16
+Safari,ce177b4e,2026-01-11T01:22:11.503346Z,desktop,RI,Grosstown,VN,clothing,PROD_1148,Support Clothing,4,226.34,905.36
+Safari,ce177b4e,2026-01-11T01:22:11.503346Z,desktop,RI,Grosstown,VN,electronics,PROD_1186,Wait Electronics,2,450.3,900.60
+Safari,ce177b4e,2026-01-11T01:22:11.503346Z,desktop,RI,Grosstown,VN,beauty,PROD_1156,Leg Beauty,5,381.88,1909.40
+Safari,ce177b4e,2026-01-11T01:22:11.503346Z,desktop,RI,Grosstown,VN,books,PROD_1065,Significant Books,1,308.89,308.89
+Chrome,4b0dbb41,2026-01-11T01:22:11.624582Z,desktop,TX,New Jesse,MK,clothing,PROD_1134,Number Clothing,2,193.43,386.86
+Chrome,4b0dbb41,2026-01-11T01:22:11.624582Z,desktop,TX,New Jesse,MK,clothing,PROD_1115,Return Clothing,2,377.45,754.90
+Chrome,4b0dbb41,2026-01-11T01:22:11.624582Z,desktop,TX,New Jesse,MK,sports,PROD_1057,Such Sports,3,50.54,151.62
+Chrome,4b0dbb41,2026-01-11T01:22:11.624582Z,desktop,TX,New Jesse,MK,clothing,PROD_1130,Degree Clothing,5,347.69,1738.45
+Edge,6c307511,2026-01-11T01:22:11.768319Z,mobile,MA,South Patrick,MD,beauty,PROD_1168,While Beauty,3,241.24,723.72
+Safari,451b4cf3,2026-01-11T01:22:13.830337Z,desktop,OK,West Sethbury,SO,electronics,PROD_1158,Kind Electronics,4,85.18,340.72
+Safari,451b4cf3,2026-01-11T01:22:13.830337Z,desktop,OK,West Sethbury,SO,home,PROD_1021,Likely Home,2,279.04,558.08
+Safari,451b4cf3,2026-01-11T01:22:13.830337Z,desktop,OK,West Sethbury,SO,home,PROD_1003,Gas Home,5,421.33,2106.65
+Safari,451b4cf3,2026-01-11T01:22:13.830337Z,desktop,OK,West Sethbury,SO,sports,PROD_1012,End Sports,2,425.5,851.00
+Safari,451b4cf3,2026-01-11T01:22:13.830337Z,desktop,OK,West Sethbury,SO,beauty,PROD_1091,Recognize Beauty,2,144.42,288.84
+Firefox,1064005c,2026-01-11T01:22:14.112312Z,desktop,WY,Port Ritaville,TO,toys,PROD_1050,Continue Toys,4,140.78,563.12
+Firefox,1064005c,2026-01-11T01:22:14.112312Z,desktop,WY,Port Ritaville,TO,electronics,PROD_1160,Become Electronics,1,231.13,231.13
+Firefox,1064005c,2026-01-11T01:22:14.112312Z,desktop,WY,Port Ritaville,TO,clothing,PROD_1189,Nor Clothing,5,459.38,2296.90
+Firefox,ff50bde4,2026-01-11T01:22:14.237523Z,mobile,NC,Port Brianshire,HN,books,PROD_1121,Guess Books,1,345.34,345.34
+Firefox,ff50bde4,2026-01-11T01:22:14.237523Z,mobile,NC,Port Brianshire,HN,books,PROD_1077,Down Books,2,492.8,985.60
+Firefox,ff50bde4,2026-01-11T01:22:14.237523Z,mobile,NC,Port Brianshire,HN,clothing,PROD_1110,For Clothing,3,103.29,309.87
+Firefox,ff50bde4,2026-01-11T01:22:14.237523Z,mobile,NC,Port Brianshire,HN,home,PROD_1149,Design Home,4,257.15,1028.60
+Firefox,ff50bde4,2026-01-11T01:22:14.237523Z,mobile,NC,Port Brianshire,HN,sports,PROD_1106,Door Sports,3,182.62,547.86
+Chrome,5715bd6f,2026-01-11T01:22:14.410079Z,tablet,OR,Robertberg,AU,electronics,PROD_1181,Sense Electronics,2,377.46,754.92
+Chrome,5715bd6f,2026-01-11T01:22:14.410079Z,tablet,OR,Robertberg,AU,clothing,PROD_1051,Big Clothing,2,86.79,173.58
+Edge,6b65a6a4,2026-01-11T01:22:14.465319Z,mobile,DC,East Tabithaview,CM,beauty,PROD_1123,Fund Beauty,2,444.65,889.30
+Edge,6b65a6a4,2026-01-11T01:22:14.465319Z,mobile,DC,East Tabithaview,CM,clothing,PROD_1013,Century Clothing,2,10.48,20.96
+Edge,6b65a6a4,2026-01-11T01:22:14.465319Z,mobile,DC,East Tabithaview,CM,home,PROD_1041,Set Home,1,49.81,49.81
+Edge,6b65a6a4,2026-01-11T01:22:14.465319Z,mobile,DC,East Tabithaview,CM,books,PROD_1177,Writer Books,2,453.0,906.00
+Chrome,080aadfb,2026-01-11T01:22:15.254003Z,desktop,DC,Nicolemouth,BF,clothing,PROD_1022,Card Clothing,2,430.2,860.40
+Chrome,080aadfb,2026-01-11T01:22:15.254003Z,desktop,DC,Nicolemouth,BF,food,PROD_1078,Support Food,4,74.09,296.36
+Chrome,080aadfb,2026-01-11T01:22:15.254003Z,desktop,DC,Nicolemouth,BF,electronics,PROD_1025,Although Electronics,5,296.79,1483.95
+Chrome,080aadfb,2026-01-11T01:22:15.254003Z,desktop,DC,Nicolemouth,BF,sports,PROD_1045,Design Sports,5,17.2,86.00
+Chrome,080aadfb,2026-01-11T01:22:15.254003Z,desktop,DC,Nicolemouth,BF,home,PROD_1043,Back Home,1,470.58,470.58
+Chrome,01d74256,2026-01-11T01:22:15.590651Z,mobile,PA,Mcdonaldton,AD,food,PROD_1131,Store Food,5,285.14,1425.70
+Chrome,01d74256,2026-01-11T01:22:15.590651Z,mobile,PA,Mcdonaldton,AD,beauty,PROD_1062,Professor Beauty,4,41.07,164.28
+Chrome,01d74256,2026-01-11T01:22:15.590651Z,mobile,PA,Mcdonaldton,AD,food,PROD_1145,Smile Food,1,321.74,321.74
+Chrome,01d74256,2026-01-11T01:22:15.590651Z,mobile,PA,Mcdonaldton,AD,sports,PROD_1145,Point Sports,1,295.09,295.09
+Chrome,01d74256,2026-01-11T01:22:15.590651Z,mobile,PA,Mcdonaldton,AD,food,PROD_1173,Agree Food,5,404.51,2022.55
+Safari,47378190,2026-01-11T01:22:15.807084Z,desktop,IA,South Joshuaton,GA,toys,PROD_1196,Time Toys,2,67.57,135.14
+Safari,47378190,2026-01-11T01:22:15.807084Z,desktop,IA,South Joshuaton,GA,clothing,PROD_1079,Way Clothing,5,175.4,877.00
+Safari,47378190,2026-01-11T01:22:15.807084Z,desktop,IA,South Joshuaton,GA,sports,PROD_1168,Whatever Sports,2,384.21,768.42
+Safari,47378190,2026-01-11T01:22:15.807084Z,desktop,IA,South Joshuaton,GA,electronics,PROD_1155,Community Electronics,4,382.24,1528.96
+Firefox,451b4cf3,2026-01-11T01:22:17.128591Z,tablet,AL,Arnoldville,ET,home,PROD_1130,Receive Home,1,453.7,453.70
+Firefox,451b4cf3,2026-01-11T01:22:17.128591Z,tablet,AL,Arnoldville,ET,home,PROD_1034,Start Home,3,142.51,427.53
+Firefox,451b4cf3,2026-01-11T01:22:17.128591Z,tablet,AL,Arnoldville,ET,home,PROD_1185,Other Home,1,473.91,473.91
+Firefox,451b4cf3,2026-01-11T01:22:17.128591Z,tablet,AL,Arnoldville,ET,home,PROD_1044,Speak Home,2,276.13,552.26
+Firefox,451b4cf3,2026-01-11T01:22:17.128591Z,tablet,AL,Arnoldville,ET,clothing,PROD_1000,Population Clothing,4,307.65,1230.60
+Firefox,aefcfad8,2026-01-11T01:22:17.308924Z,desktop,NV,Crawfordfort,MT,toys,PROD_1042,Act Toys,4,186.79,747.16
+Chrome,43b7a3a6,2026-01-11T01:22:17.875892Z,desktop,KS,New Antonio,TO,toys,PROD_1027,Indicate Toys,5,47.45,237.25
+Chrome,43b7a3a6,2026-01-11T01:22:17.875892Z,desktop,KS,New Antonio,TO,books,PROD_1161,Race Books,1,71.34,71.34
+Chrome,43b7a3a6,2026-01-11T01:22:17.875892Z,desktop,KS,New Antonio,TO,beauty,PROD_1188,Glass Beauty,3,356.17,1068.51
+Chrome,43b7a3a6,2026-01-11T01:22:17.875892Z,desktop,KS,New Antonio,TO,toys,PROD_1090,Than Toys,3,303.11,909.33
+Safari,ff50bde4,2026-01-11T01:22:18.515204Z,tablet,OK,Tyronebury,GD,food,PROD_1182,Actually Food,1,394.08,394.08
+Safari,ff50bde4,2026-01-11T01:22:18.515204Z,tablet,OK,Tyronebury,GD,clothing,PROD_1197,Past Clothing,3,42.64,127.92
+Safari,ff50bde4,2026-01-11T01:22:18.515204Z,tablet,OK,Tyronebury,GD,toys,PROD_1135,Speech Toys,2,127.02,254.04
+Safari,ff50bde4,2026-01-11T01:22:18.515204Z,tablet,OK,Tyronebury,GD,toys,PROD_1064,Lead Toys,5,324.4,1622.00
+Safari,ff50bde4,2026-01-11T01:22:18.515204Z,tablet,OK,Tyronebury,GD,toys,PROD_1184,Pull Toys,5,102.74,513.70
+Edge,6c307511,2026-01-11T01:22:20.252678Z,desktop,MH,Cookfort,LV,sports,PROD_1009,One Sports,5,392.82,1964.10
+Edge,6c307511,2026-01-11T01:22:20.252678Z,desktop,MH,Cookfort,LV,toys,PROD_1042,Performance Toys,5,372.2,1861.00
+Edge,6c307511,2026-01-11T01:22:20.252678Z,desktop,MH,Cookfort,LV,clothing,PROD_1187,Full Clothing,2,354.09,708.18
+Edge,6c307511,2026-01-11T01:22:20.252678Z,desktop,MH,Cookfort,LV,beauty,PROD_1194,Detail Beauty,2,370.42,740.84
+Edge,6c307511,2026-01-11T01:22:20.252678Z,desktop,MH,Cookfort,LV,electronics,PROD_1190,Edge Electronics,1,469.93,469.93
+Edge,6c307511,2026-01-11T01:22:21.079164Z,desktop,AS,Tylerland,KI,sports,PROD_1190,Arrive Sports,4,435.14,1740.56
+Edge,6c307511,2026-01-11T01:22:21.079164Z,desktop,AS,Tylerland,KI,beauty,PROD_1193,Father Beauty,3,195.27,585.81
+Safari,81f631d4,2026-01-11T01:22:21.303229Z,tablet,AK,East Jenniferburgh,IR,beauty,PROD_1084,Or Beauty,5,74.65,373.25
+Safari,bd9c66b3,2026-01-11T01:22:21.744249Z,mobile,KS,South Mariamouth,MY,books,PROD_1149,Thousand Books,4,317.43,1269.72
+Safari,bd9c66b3,2026-01-11T01:22:21.744249Z,mobile,KS,South Mariamouth,MY,electronics,PROD_1023,Director Electronics,2,32.19,64.38
+Safari,bd9c66b3,2026-01-11T01:22:21.744249Z,mobile,KS,South Mariamouth,MY,books,PROD_1029,Structure Books,5,212.75,1063.75
+Safari,bd9c66b3,2026-01-11T01:22:21.744249Z,mobile,KS,South Mariamouth,MY,toys,PROD_1002,Knowledge Toys,2,484.87,969.74
+Chrome,47378190,2026-01-11T01:22:22.081166Z,mobile,DE,Ericton,ML,books,PROD_1009,Current Books,3,121.1,363.30
+Chrome,47378190,2026-01-11T01:22:22.081166Z,mobile,DE,Ericton,ML,food,PROD_1054,Buy Food,1,167.67,167.67
+Chrome,47378190,2026-01-11T01:22:22.081166Z,mobile,DE,Ericton,ML,food,PROD_1016,Trial Food,1,293.11,293.11
+Chrome,47378190,2026-01-11T01:22:22.081166Z,mobile,DE,Ericton,ML,food,PROD_1100,Live Food,3,154.22,462.66
+Firefox,885f6e66,2026-01-11T01:22:22.107101Z,desktop,MI,Robinsonhaven,TW,toys,PROD_1198,Buy Toys,4,53.35,213.40
+Firefox,885f6e66,2026-01-11T01:22:22.107101Z,desktop,MI,Robinsonhaven,TW,sports,PROD_1016,Child Sports,3,379.9,1139.70
+Chrome,956269f0,2026-01-11T01:22:22.535929Z,tablet,DE,Heathershire,ET,home,PROD_1192,Voice Home,5,42.34,211.70
+Chrome,956269f0,2026-01-11T01:22:22.535929Z,tablet,DE,Heathershire,ET,food,PROD_1093,And Food,2,18.11,36.22
+Chrome,956269f0,2026-01-11T01:22:22.535929Z,tablet,DE,Heathershire,ET,home,PROD_1069,Civil Home,1,14.25,14.25
+Chrome,956269f0,2026-01-11T01:22:22.535929Z,tablet,DE,Heathershire,ET,sports,PROD_1006,Approach Sports,2,490.94,981.88
+Chrome,956269f0,2026-01-11T01:22:22.535929Z,tablet,DE,Heathershire,ET,books,PROD_1015,President Books,3,340.37,1021.11
+Safari,4b0dbb41,2026-01-11T01:22:22.831021Z,mobile,TX,East Melissa,AR,sports,PROD_1052,Help Sports,5,338.79,1693.95
+Chrome,e2acf72f,2026-01-11T01:22:23.160722Z,tablet,SC,West Dylantown,PL,clothing,PROD_1113,Choose Clothing,3,246.97,740.91
+Chrome,e2acf72f,2026-01-11T01:22:23.160722Z,tablet,SC,West Dylantown,PL,clothing,PROD_1065,Letter Clothing,5,71.92,359.60
+Chrome,e2acf72f,2026-01-11T01:22:23.160722Z,tablet,SC,West Dylantown,PL,food,PROD_1036,Half Food,1,464.54,464.54
+Chrome,e2acf72f,2026-01-11T01:22:23.160722Z,tablet,SC,West Dylantown,PL,books,PROD_1108,Place Books,2,382.89,765.78
+Chrome,e2acf72f,2026-01-11T01:22:23.160722Z,tablet,SC,West Dylantown,PL,sports,PROD_1112,Eight Sports,1,56.98,56.98
+Chrome,080aadfb,2026-01-11T01:22:23.370417Z,mobile,PR,Littleview,BO,electronics,PROD_1075,Agree Electronics,2,417.54,835.08
+Chrome,080aadfb,2026-01-11T01:22:23.370417Z,mobile,PR,Littleview,BO,beauty,PROD_1194,Buy Beauty,5,90.15,450.75
+Chrome,080aadfb,2026-01-11T01:22:23.370417Z,mobile,PR,Littleview,BO,clothing,PROD_1155,Throw Clothing,1,58.43,58.43
+Firefox,bd9c66b3,2026-01-11T01:22:23.810014Z,mobile,PW,Jonathanmouth,KN,food,PROD_1123,Article Food,3,125.5,376.50
+Firefox,bd9c66b3,2026-01-11T01:22:23.810014Z,mobile,PW,Jonathanmouth,KN,clothing,PROD_1084,To Clothing,5,367.99,1839.95
+Firefox,bd9c66b3,2026-01-11T01:22:23.810014Z,mobile,PW,Jonathanmouth,KN,food,PROD_1183,College Food,1,112.77,112.77
+Firefox,bd9c66b3,2026-01-11T01:22:23.810014Z,mobile,PW,Jonathanmouth,KN,books,PROD_1086,Give Books,4,63.01,252.04
+Firefox,bd9c66b3,2026-01-11T01:22:23.810014Z,mobile,PW,Jonathanmouth,KN,home,PROD_1066,Difference Home,5,220.83,1104.15
+Safari,ab9099a4,2026-01-11T01:22:24.122405Z,tablet,WI,Ericaside,MN,books,PROD_1119,Note Books,3,74.04,222.12
+Safari,ab9099a4,2026-01-11T01:22:24.122405Z,tablet,WI,Ericaside,MN,clothing,PROD_1081,Town Clothing,4,74.58,298.32
+Safari,ab9099a4,2026-01-11T01:22:24.122405Z,tablet,WI,Ericaside,MN,toys,PROD_1115,Glass Toys,2,58.34,116.68
+Safari,ab9099a4,2026-01-11T01:22:24.122405Z,tablet,WI,Ericaside,MN,beauty,PROD_1070,Less Beauty,5,446.57,2232.85
+Chrome,4b0dbb41,2026-01-11T01:22:24.174007Z,desktop,PR,Taylorburgh,AU,books,PROD_1128,Any Books,2,495.26,990.52
+Chrome,4b0dbb41,2026-01-11T01:22:24.174007Z,desktop,PR,Taylorburgh,AU,beauty,PROD_1065,Finally Beauty,5,243.3,1216.50
+Chrome,4b0dbb41,2026-01-11T01:22:24.174007Z,desktop,PR,Taylorburgh,AU,toys,PROD_1115,Camera Toys,2,355.34,710.68
+Chrome,4b0dbb41,2026-01-11T01:22:24.174007Z,desktop,PR,Taylorburgh,AU,sports,PROD_1082,Deep Sports,1,368.25,368.25
+Chrome,bd9c66b3,2026-01-11T01:22:25.220476Z,tablet,NH,New Coryside,NO,clothing,PROD_1050,Again Clothing,3,113.96,341.88
+Chrome,bd9c66b3,2026-01-11T01:22:25.220476Z,tablet,NH,New Coryside,NO,toys,PROD_1197,Visit Toys,5,378.11,1890.55
+Chrome,bd9c66b3,2026-01-11T01:22:25.220476Z,tablet,NH,New Coryside,NO,beauty,PROD_1119,Accept Beauty,2,332.96,665.92
+Chrome,bd9c66b3,2026-01-11T01:22:25.220476Z,tablet,NH,New Coryside,NO,books,PROD_1012,Paper Books,3,328.47,985.41
+Firefox,6c307511,2026-01-11T01:22:27.474955Z,desktop,OR,New Cynthia,BB,food,PROD_1156,Although Food,2,26.3,52.60
+Firefox,6c307511,2026-01-11T01:22:27.474955Z,desktop,OR,New Cynthia,BB,toys,PROD_1076,Group Toys,2,424.42,848.84
+Safari,ff50bde4,2026-01-11T01:22:27.774385Z,tablet,NH,Carsonchester,TD,books,PROD_1197,Four Books,5,348.64,1743.20
+Safari,ff50bde4,2026-01-11T01:22:27.774385Z,tablet,NH,Carsonchester,TD,toys,PROD_1153,City Toys,3,376.47,1129.41
+Safari,ff50bde4,2026-01-11T01:22:27.774385Z,tablet,NH,Carsonchester,TD,electronics,PROD_1023,Picture Electronics,4,300.5,1202.00
+Safari,43b7a3a6,2026-01-11T01:22:27.887511Z,desktop,WV,Patriciamouth,JP,clothing,PROD_1080,Real Clothing,5,24.55,122.75
+Safari,43b7a3a6,2026-01-11T01:22:27.887511Z,desktop,WV,Patriciamouth,JP,beauty,PROD_1089,Example Beauty,3,163.82,491.46
+Safari,43b7a3a6,2026-01-11T01:22:27.887511Z,desktop,WV,Patriciamouth,JP,clothing,PROD_1191,Want Clothing,1,75.92,75.92
+Safari,43b7a3a6,2026-01-11T01:22:27.887511Z,desktop,WV,Patriciamouth,JP,clothing,PROD_1047,Political Clothing,3,182.89,548.67
+Safari,43b7a3a6,2026-01-11T01:22:27.887511Z,desktop,WV,Patriciamouth,JP,beauty,PROD_1000,Mind Beauty,3,118.96,356.88
+Edge,47378190,2026-01-11T01:22:28.320176Z,desktop,UT,Joseland,IL,toys,PROD_1042,Blood Toys,5,369.65,1848.25
+Edge,47378190,2026-01-11T01:22:28.320176Z,desktop,UT,Joseland,IL,electronics,PROD_1086,Almost Electronics,4,430.18,1720.72
+Edge,47378190,2026-01-11T01:22:28.320176Z,desktop,UT,Joseland,IL,home,PROD_1011,Recently Home,4,449.17,1796.68
+Edge,47378190,2026-01-11T01:22:28.320176Z,desktop,UT,Joseland,IL,food,PROD_1018,Control Food,3,495.59,1486.77
+Edge,47378190,2026-01-11T01:22:28.320176Z,desktop,UT,Joseland,IL,toys,PROD_1005,Perhaps Toys,5,328.06,1640.30
+Chrome,956269f0,2026-01-11T01:22:29.966186Z,tablet,TN,Lake Brian,PL,beauty,PROD_1039,Home Beauty,1,105.38,105.38
+Chrome,956269f0,2026-01-11T01:22:29.966186Z,tablet,TN,Lake Brian,PL,sports,PROD_1100,Tax Sports,1,83.75,83.75
+Chrome,956269f0,2026-01-11T01:22:29.966186Z,tablet,TN,Lake Brian,PL,sports,PROD_1093,Notice Sports,5,20.04,100.20
+Chrome,43b7a3a6,2026-01-11T01:22:30.581958Z,desktop,DC,New Monicaburgh,MK,clothing,PROD_1156,Human Clothing,5,362.85,1814.25
+Chrome,43b7a3a6,2026-01-11T01:22:30.581958Z,desktop,DC,New Monicaburgh,MK,home,PROD_1136,Range Home,5,373.38,1866.90
+Chrome,43b7a3a6,2026-01-11T01:22:30.581958Z,desktop,DC,New Monicaburgh,MK,sports,PROD_1013,Probably Sports,2,401.95,803.90
+Chrome,43b7a3a6,2026-01-11T01:22:30.581958Z,desktop,DC,New Monicaburgh,MK,home,PROD_1161,Thank Home,4,294.65,1178.60
