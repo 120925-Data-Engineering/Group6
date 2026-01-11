@@ -22,8 +22,17 @@ and send it back to the gold zone
 """
 def collecting_bronze_layer(starting_path: str = "./Assests/data/landing"):
     # Collects the two file names
-    transaction_file = next(Path(starting_path).glob("transaction*.json"),None)
-    user_file = next(Path(starting_path).glob("user*.json"), None)
+    transaction_file = max(
+    Path(starting_path).glob("transaction_*.json"),
+    key = lambda p: p.name,
+    default = None
+    )
+    
+    user_file = max(
+    Path(starting_path).glob("./user_*.json"),
+    key = lambda p: p.name,
+    default = None
+    )
     # Returns the two files we expect
     # print(transaction_file, user_file)
     return transaction_file, user_file
