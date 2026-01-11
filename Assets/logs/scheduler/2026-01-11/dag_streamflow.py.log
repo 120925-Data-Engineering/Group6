@@ -439,3 +439,59 @@
 [2026-01-11T01:28:57.643+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:28:57.642+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-01-11T01:28:57.654+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:28:57.653+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
 [2026-01-11T01:28:57.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.175 seconds
+[2026-01-11T02:47:23.360+0000] {processor.py:161} INFO - Started process (PID=4385) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:47:23.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:47:23.374+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:47:23.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:47:23.522+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:47:23.741+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:47:23.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:47:23.900+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:47:23.898+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:47:24.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.741 seconds
+[2026-01-11T02:47:55.517+0000] {processor.py:161} INFO - Started process (PID=4397) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:47:55.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:47:55.527+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:47:55.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:47:55.727+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:47:55.927+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:47:55.925+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:47:56.047+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:47:56.046+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:47:56.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.695 seconds
+[2026-01-11T02:48:27.054+0000] {processor.py:161} INFO - Started process (PID=4409) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:48:27.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:48:27.065+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:48:27.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:48:27.208+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:48:27.336+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:48:27.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:48:27.445+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:48:27.443+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:48:27.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.555 seconds
+[2026-01-11T02:48:59.603+0000] {processor.py:161} INFO - Started process (PID=4422) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:48:59.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:48:59.615+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:48:59.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:48:59.732+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:48:59.921+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:48:59.920+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:49:00.025+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:49:00.024+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:49:00.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.544 seconds
+[2026-01-11T02:49:30.502+0000] {processor.py:161} INFO - Started process (PID=4434) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:49:30.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:49:30.517+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:49:30.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:49:30.750+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:49:31.026+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:49:31.025+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:49:31.177+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:49:31.176+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:49:31.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.863 seconds
+[2026-01-11T02:50:01.865+0000] {processor.py:161} INFO - Started process (PID=4446) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:50:01.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:50:01.877+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:50:01.874+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:50:02.039+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:50:02.438+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:50:02.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:50:02.615+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:50:02.613+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:50:02.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 1.001 seconds
+[2026-01-11T02:50:35.250+0000] {processor.py:161} INFO - Started process (PID=4458) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:50:35.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:50:35.263+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:50:35.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:50:35.426+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:50:35.603+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:50:35.603+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:50:35.700+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:50:35.698+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:50:35.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.611 seconds
+[2026-01-11T02:51:06.359+0000] {processor.py:161} INFO - Started process (PID=4470) to work on /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:51:06.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_streamflow.py for tasks to queue
+[2026-01-11T02:51:06.371+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:51:06.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:51:06.506+0000] {processor.py:840} INFO - DAG(s) 'streamflow_main' retrieved from /opt/airflow/dags/dag_streamflow.py
+[2026-01-11T02:51:06.687+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:51:06.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:51:06.769+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:51:06.767+0000] {dag.py:3823} INFO - Setting next_dagrun for streamflow_main to None, run_after=None
+[2026-01-11T02:51:06.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_streamflow.py took 0.545 seconds
