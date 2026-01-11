@@ -1,0 +1,18 @@
+[2026-01-11T01:26:52.880+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streamflow_main.kafka_consumers manual__2026-01-11T01:26:51.008574+00:00 [queued]>
+[2026-01-11T01:26:52.893+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streamflow_main.kafka_consumers manual__2026-01-11T01:26:51.008574+00:00 [queued]>
+[2026-01-11T01:26:52.894+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-01-11T01:26:52.915+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): kafka_consumers> on 2026-01-11 01:26:51.008574+00:00
+[2026-01-11T01:26:52.920+0000] {standard_task_runner.py:60} INFO - Started process 1864 to run task
+[2026-01-11T01:26:52.925+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'streamflow_main', 'kafka_consumers', 'manual__2026-01-11T01:26:51.008574+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/dag_streamflow.py', '--cfg-path', '/tmp/tmpkiupzr05']
+[2026-01-11T01:26:52.929+0000] {standard_task_runner.py:88} INFO - Job 40: Subtask kafka_consumers
+[2026-01-11T01:26:52.993+0000] {task_command.py:423} INFO - Running <TaskInstance: streamflow_main.kafka_consumers manual__2026-01-11T01:26:51.008574+00:00 [running]> on host e997e4968980
+[2026-01-11T01:26:53.121+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='streamflow_main' AIRFLOW_CTX_TASK_ID='kafka_consumers' AIRFLOW_CTX_EXECUTION_DATE='2026-01-11T01:26:51.008574+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-11T01:26:51.008574+00:00'
+[2026-01-11T01:26:53.123+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-11T01:26:53.125+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n            echo "Starting Kafka consumer"\n            python /opt/spark-jobs/ingest_kafka_to_landing.py \\\n                --topic user_events \\\n                --batch-time 5 \\\n                --output-path /opt/spark-data/landing\n        ']
+[2026-01-11T01:26:53.136+0000] {subprocess.py:86} INFO - Output:
+[2026-01-11T01:26:53.138+0000] {subprocess.py:93} INFO - Starting Kafka consumer
+[2026-01-11T01:26:59.867+0000] {subprocess.py:93} INFO - Read user_events for 5000 ms and written to /opt/spark-data/landing/user_events_1768094813.526999.json and consumed 500 ammount of records
+[2026-01-11T01:26:59.913+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-11T01:26:59.946+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=streamflow_main, task_id=kafka_consumers, execution_date=20260111T012651, start_date=20260111T012652, end_date=20260111T012659
+[2026-01-11T01:26:59.978+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-11T01:27:00.007+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
