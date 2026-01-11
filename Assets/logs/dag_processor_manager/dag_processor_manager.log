@@ -26628,3 +26628,53 @@ File Path                            PID    Runtime      # DAGs    # Errors  Las
 -----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /opt/airflow/dags/dag_streamflow.py                           1           0  0.11s           2026-01-11T01:11:24
 ================================================================================
+[2026-01-11T03:02:15.869+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-11T03:02:15.882+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-11T03:02:15.888+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-11T03:02:15.894+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-11T03:02:16.029+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2026-01-11T03:02:17.593+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_streamflow.py    297  0.76s             0           0
+================================================================================
+[2026-01-11T03:02:48.507+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_streamflow.py                           1           0  2.65s           2026-01-11T03:02:19
+================================================================================
+[2026-01-11T03:05:53.028+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-11T03:05:53.034+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-11T03:05:53.038+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-11T03:05:53.043+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-11T03:05:53.196+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2026-01-11T03:05:53.806+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_streamflow.py    268  0.28s             0           0
+================================================================================
+[2026-01-11T03:06:25.129+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_streamflow.py    280  0.02s             1           0  1.44s           2026-01-11T03:05:54
+================================================================================
+[2026-01-11T03:06:58.262+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_streamflow.py                           1           0  0.64s           2026-01-11T03:06:56
+================================================================================

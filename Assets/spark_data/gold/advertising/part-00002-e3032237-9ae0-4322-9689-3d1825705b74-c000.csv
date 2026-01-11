@@ -1,0 +1,1317 @@
+browser,user_id,t_timestamp,device,state,city,country,category,product_id,product_name,quantity,unit_price,line_revenue
+Safari,db20a56e,2026-01-11T03:17:48.594146Z,tablet,NE,East Caitlin,PK,clothing,PROD_1082,Couple Clothing,1,124.41,124.41
+Safari,db20a56e,2026-01-11T03:17:48.594146Z,tablet,NE,East Caitlin,PK,beauty,PROD_1145,Fear Beauty,3,393.33,1179.99
+Safari,db20a56e,2026-01-11T03:17:48.594146Z,tablet,NE,East Caitlin,PK,electronics,PROD_1183,Professor Electronics,3,104.97,314.91
+Safari,db20a56e,2026-01-11T03:17:48.594146Z,tablet,NE,East Caitlin,PK,food,PROD_1141,Series Food,3,274.27,822.81
+Safari,db20a56e,2026-01-11T03:17:48.594146Z,tablet,NE,East Caitlin,PK,food,PROD_1019,Share Food,3,313.47,940.41
+Firefox,29a3b2e9,2026-01-11T03:17:48.747231Z,desktop,AR,Kathleenland,WS,electronics,PROD_1079,Agency Electronics,2,476.83,953.66
+Firefox,29a3b2e9,2026-01-11T03:17:48.747231Z,desktop,AR,Kathleenland,WS,beauty,PROD_1034,Program Beauty,4,482.97,1931.88
+Firefox,29a3b2e9,2026-01-11T03:17:48.747231Z,desktop,AR,Kathleenland,WS,books,PROD_1162,Security Books,1,38.44,38.44
+Firefox,29a3b2e9,2026-01-11T03:17:48.747231Z,desktop,AR,Kathleenland,WS,toys,PROD_1095,Quite Toys,2,207.11,414.22
+Chrome,5fb8d16c,2026-01-11T03:17:48.799051Z,tablet,PA,Ellischester,MC,electronics,PROD_1125,Ground Electronics,4,26.6,106.40
+Chrome,5fb8d16c,2026-01-11T03:17:48.799051Z,tablet,PA,Ellischester,MC,electronics,PROD_1017,Way Electronics,3,201.2,603.60
+Chrome,5fb8d16c,2026-01-11T03:17:48.799051Z,tablet,PA,Ellischester,MC,home,PROD_1045,Long Home,5,465.11,2325.55
+Chrome,5fb8d16c,2026-01-11T03:17:48.799051Z,tablet,PA,Ellischester,MC,home,PROD_1026,Culture Home,3,431.53,1294.59
+Edge,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,food,PROD_1171,Girl Food,2,395.23,790.46
+Edge,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,food,PROD_1047,End Food,4,166.91,667.64
+Edge,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,home,PROD_1139,Process Home,4,43.65,174.60
+Edge,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,food,PROD_1014,Next Food,3,79.83,239.49
+Edge,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,clothing,PROD_1160,Follow Clothing,4,457.71,1830.84
+Firefox,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,food,PROD_1171,Girl Food,2,395.23,790.46
+Firefox,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,food,PROD_1047,End Food,4,166.91,667.64
+Firefox,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,home,PROD_1139,Process Home,4,43.65,174.60
+Firefox,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,food,PROD_1014,Next Food,3,79.83,239.49
+Firefox,371ecd7b,2026-01-11T03:17:48.958846Z,desktop,OR,New Sarahtown,AG,clothing,PROD_1160,Follow Clothing,4,457.71,1830.84
+Edge,5f987c71,2026-01-11T03:17:49.045191Z,mobile,SD,West Luke,ER,beauty,PROD_1099,Remain Beauty,3,54.14,162.42
+Safari,0f844fef,2026-01-11T03:17:49.057040Z,mobile,MH,Port Kevinshire,SD,beauty,PROD_1124,Eight Beauty,4,279.61,1118.44
+Safari,0f844fef,2026-01-11T03:17:49.057040Z,mobile,MH,Port Kevinshire,SD,food,PROD_1171,Decision Food,1,12.49,12.49
+Safari,0f844fef,2026-01-11T03:17:49.057040Z,mobile,MH,Port Kevinshire,SD,beauty,PROD_1052,Minute Beauty,3,211.52,634.56
+Chrome,405cacec,2026-01-11T03:17:49.163036Z,desktop,ND,Port Jerryberg,AL,sports,PROD_1121,Fight Sports,4,326.91,1307.64
+Chrome,405cacec,2026-01-11T03:17:49.163036Z,desktop,ND,Port Jerryberg,AL,sports,PROD_1055,Than Sports,5,242.08,1210.40
+Chrome,405cacec,2026-01-11T03:17:49.163036Z,desktop,ND,Port Jerryberg,AL,clothing,PROD_1140,Easy Clothing,5,288.01,1440.05
+Chrome,405cacec,2026-01-11T03:17:49.163036Z,desktop,ND,Port Jerryberg,AL,beauty,PROD_1054,Since Beauty,2,249.16,498.32
+Safari,405cacec,2026-01-11T03:17:49.163036Z,tablet,ND,Port Jerryberg,AL,sports,PROD_1121,Fight Sports,4,326.91,1307.64
+Safari,405cacec,2026-01-11T03:17:49.163036Z,tablet,ND,Port Jerryberg,AL,sports,PROD_1055,Than Sports,5,242.08,1210.40
+Safari,405cacec,2026-01-11T03:17:49.163036Z,tablet,ND,Port Jerryberg,AL,clothing,PROD_1140,Easy Clothing,5,288.01,1440.05
+Safari,405cacec,2026-01-11T03:17:49.163036Z,tablet,ND,Port Jerryberg,AL,beauty,PROD_1054,Since Beauty,2,249.16,498.32
+Firefox,24933b83,2026-01-11T03:17:49.259085Z,tablet,PA,Lake Loriview,CF,beauty,PROD_1049,Factor Beauty,1,191.67,191.67
+Firefox,24933b83,2026-01-11T03:17:49.259085Z,tablet,PA,Lake Loriview,CF,electronics,PROD_1028,Want Electronics,5,35.89,179.45
+Firefox,24933b83,2026-01-11T03:17:49.259085Z,tablet,PA,Lake Loriview,CF,electronics,PROD_1178,Consider Electronics,1,371.58,371.58
+Safari,1d53434b,2026-01-11T03:17:49.400720Z,mobile,MO,Port Matthewview,JO,beauty,PROD_1132,Two Beauty,2,191.34,382.68
+Safari,1d53434b,2026-01-11T03:17:49.400720Z,mobile,MO,Port Matthewview,JO,sports,PROD_1037,Half Sports,5,219.13,1095.65
+Safari,1d53434b,2026-01-11T03:17:49.400720Z,mobile,MO,Port Matthewview,JO,beauty,PROD_1010,Skill Beauty,3,101.32,303.96
+Safari,1d53434b,2026-01-11T03:17:49.400720Z,mobile,MO,Port Matthewview,JO,books,PROD_1123,Because Books,2,40.9,81.80
+Edge,3eabedcb,2026-01-11T03:17:49.507034Z,tablet,WV,Robertburgh,TW,books,PROD_1144,Political Books,5,353.75,1768.75
+Edge,3eabedcb,2026-01-11T03:17:49.507034Z,tablet,WV,Robertburgh,TW,electronics,PROD_1105,Space Electronics,3,497.26,1491.78
+Edge,3eabedcb,2026-01-11T03:17:49.507034Z,tablet,WV,Robertburgh,TW,clothing,PROD_1128,Sea Clothing,5,13.09,65.45
+Edge,3eabedcb,2026-01-11T03:17:49.507034Z,tablet,WV,Robertburgh,TW,beauty,PROD_1067,Bank Beauty,5,116.18,580.90
+Safari,366eb16f,2026-01-11T03:17:49.743359Z,mobile,MP,Thomasbury,GE,beauty,PROD_1030,Why Beauty,5,285.89,1429.45
+Safari,366eb16f,2026-01-11T03:17:49.743359Z,mobile,MP,Thomasbury,GE,books,PROD_1148,Measure Books,1,351.43,351.43
+Safari,366eb16f,2026-01-11T03:17:49.743359Z,mobile,MP,Thomasbury,GE,electronics,PROD_1182,Politics Electronics,3,81.27,243.81
+Safari,366eb16f,2026-01-11T03:17:49.743359Z,mobile,MP,Thomasbury,GE,beauty,PROD_1050,Base Beauty,4,359.08,1436.32
+Safari,366eb16f,2026-01-11T03:17:49.791449Z,tablet,NH,Joelville,PW,sports,PROD_1039,Individual Sports,2,419.6,839.20
+Safari,366eb16f,2026-01-11T03:17:49.791449Z,tablet,NH,Joelville,PW,clothing,PROD_1144,Heart Clothing,2,422.92,845.84
+Safari,366eb16f,2026-01-11T03:17:49.791449Z,tablet,NH,Joelville,PW,food,PROD_1069,Expect Food,4,378.42,1513.68
+Safari,366eb16f,2026-01-11T03:17:49.791449Z,tablet,NH,Joelville,PW,home,PROD_1164,Investment Home,1,126.11,126.11
+Safari,366eb16f,2026-01-11T03:17:49.791449Z,tablet,NH,Joelville,PW,toys,PROD_1184,Quality Toys,5,253.71,1268.55
+Firefox,5f987c71,2026-01-11T03:17:50.016125Z,tablet,WA,Guerrerostad,AZ,beauty,PROD_1097,Remember Beauty,4,300.63,1202.52
+Firefox,5f987c71,2026-01-11T03:17:50.016125Z,tablet,WA,Guerrerostad,AZ,electronics,PROD_1128,So Electronics,3,35.71,107.13
+Firefox,5f987c71,2026-01-11T03:17:50.016125Z,tablet,WA,Guerrerostad,AZ,books,PROD_1114,Realize Books,4,418.31,1673.24
+Safari,5ab33edf,2026-01-11T03:17:50.041026Z,desktop,MD,Westmouth,HR,books,PROD_1166,Teacher Books,5,135.3,676.50
+Safari,5ab33edf,2026-01-11T03:17:50.041026Z,desktop,MD,Westmouth,HR,food,PROD_1176,Spring Food,2,186.48,372.96
+Safari,5ab33edf,2026-01-11T03:17:50.041026Z,desktop,MD,Westmouth,HR,food,PROD_1000,Whose Food,5,357.34,1786.70
+Safari,5ab33edf,2026-01-11T03:17:50.041026Z,desktop,MD,Westmouth,HR,beauty,PROD_1180,Technology Beauty,1,489.1,489.10
+Safari,5ab33edf,2026-01-11T03:17:50.041026Z,desktop,MD,Westmouth,HR,beauty,PROD_1126,History Beauty,1,102.06,102.06
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,mobile,FM,Smithburgh,DJ,beauty,PROD_1014,Hot Beauty,4,170.13,680.52
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,mobile,FM,Smithburgh,DJ,toys,PROD_1111,Growth Toys,1,157.62,157.62
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,mobile,FM,Smithburgh,DJ,electronics,PROD_1006,Voice Electronics,5,309.44,1547.20
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,mobile,FM,Smithburgh,DJ,home,PROD_1192,Wind Home,5,227.08,1135.40
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,mobile,FM,Smithburgh,DJ,beauty,PROD_1086,Room Beauty,1,493.46,493.46
+Edge,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,beauty,PROD_1014,Hot Beauty,4,170.13,680.52
+Edge,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,toys,PROD_1111,Growth Toys,1,157.62,157.62
+Edge,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,electronics,PROD_1006,Voice Electronics,5,309.44,1547.20
+Edge,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,home,PROD_1192,Wind Home,5,227.08,1135.40
+Edge,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,beauty,PROD_1086,Room Beauty,1,493.46,493.46
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,beauty,PROD_1014,Hot Beauty,4,170.13,680.52
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,toys,PROD_1111,Growth Toys,1,157.62,157.62
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,electronics,PROD_1006,Voice Electronics,5,309.44,1547.20
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,home,PROD_1192,Wind Home,5,227.08,1135.40
+Safari,81f76d1c,2026-01-11T03:17:50.115452Z,desktop,FM,Smithburgh,DJ,beauty,PROD_1086,Room Beauty,1,493.46,493.46
+Edge,a9488d99,2026-01-11T03:17:50.185446Z,mobile,GA,Gailstad,KH,electronics,PROD_1155,Material Electronics,1,468.85,468.85
+Edge,a9488d99,2026-01-11T03:17:50.185446Z,mobile,GA,Gailstad,KH,books,PROD_1160,Building Books,4,391.33,1565.32
+Firefox,7c441fe7,2026-01-11T03:17:50.283519Z,mobile,AL,Martinport,AG,toys,PROD_1025,Until Toys,1,455.43,455.43
+Firefox,7c441fe7,2026-01-11T03:17:50.283519Z,mobile,AL,Martinport,AG,toys,PROD_1102,Set Toys,2,411.39,822.78
+Edge,5ab33edf,2026-01-11T03:17:50.450007Z,mobile,OH,West Jenniferport,AU,electronics,PROD_1048,According Electronics,4,146.53,586.12
+Edge,5ab33edf,2026-01-11T03:17:50.450007Z,mobile,OH,West Jenniferport,AU,home,PROD_1119,Standard Home,5,477.32,2386.60
+Edge,5ab33edf,2026-01-11T03:17:50.450007Z,mobile,OH,West Jenniferport,AU,beauty,PROD_1190,Other Beauty,4,21.34,85.36
+Edge,5ab33edf,2026-01-11T03:17:50.450007Z,mobile,OH,West Jenniferport,AU,books,PROD_1178,Sea Books,4,387.67,1550.68
+Safari,5ab33edf,2026-01-11T03:17:50.450007Z,desktop,OH,West Jenniferport,AU,electronics,PROD_1048,According Electronics,4,146.53,586.12
+Safari,5ab33edf,2026-01-11T03:17:50.450007Z,desktop,OH,West Jenniferport,AU,home,PROD_1119,Standard Home,5,477.32,2386.60
+Safari,5ab33edf,2026-01-11T03:17:50.450007Z,desktop,OH,West Jenniferport,AU,beauty,PROD_1190,Other Beauty,4,21.34,85.36
+Safari,5ab33edf,2026-01-11T03:17:50.450007Z,desktop,OH,West Jenniferport,AU,books,PROD_1178,Sea Books,4,387.67,1550.68
+Edge,759cde66,2026-01-11T03:17:50.727712Z,tablet,NH,East Ashleyville,VU,sports,PROD_1010,Crime Sports,5,383.56,1917.80
+Edge,759cde66,2026-01-11T03:17:50.727712Z,tablet,NH,East Ashleyville,VU,sports,PROD_1165,American Sports,5,263.82,1319.10
+Edge,759cde66,2026-01-11T03:17:50.727712Z,tablet,NH,East Ashleyville,VU,home,PROD_1125,There Home,2,333.08,666.16
+Chrome,29a3b2e9,2026-01-11T03:17:50.860445Z,desktop,MP,Christinaville,MU,toys,PROD_1116,Base Toys,1,361.55,361.55
+Firefox,93829b43,2026-01-11T03:17:50.942898Z,mobile,GA,Richton,SB,food,PROD_1144,Than Food,5,66.39,331.95
+Firefox,93829b43,2026-01-11T03:17:50.942898Z,mobile,GA,Richton,SB,food,PROD_1123,Keep Food,3,125.64,376.92
+Firefox,93829b43,2026-01-11T03:17:50.942898Z,mobile,GA,Richton,SB,home,PROD_1088,Movement Home,1,366.41,366.41
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,tablet,MH,Lauraborough,BI,beauty,PROD_1190,Through Beauty,1,415.23,415.23
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,tablet,MH,Lauraborough,BI,books,PROD_1040,Study Books,3,467.1,1401.30
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,tablet,MH,Lauraborough,BI,sports,PROD_1078,Five Sports,5,307.54,1537.70
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,tablet,MH,Lauraborough,BI,home,PROD_1091,Reality Home,3,451.96,1355.88
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,desktop,MH,Lauraborough,BI,beauty,PROD_1190,Through Beauty,1,415.23,415.23
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,desktop,MH,Lauraborough,BI,books,PROD_1040,Study Books,3,467.1,1401.30
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,desktop,MH,Lauraborough,BI,sports,PROD_1078,Five Sports,5,307.54,1537.70
+Firefox,ccf3a171,2026-01-11T03:17:50.992349Z,desktop,MH,Lauraborough,BI,home,PROD_1091,Reality Home,3,451.96,1355.88
+Chrome,287d06ca,2026-01-11T03:17:51.017625Z,tablet,NY,New Shelly,GA,toys,PROD_1178,Board Toys,1,216.14,216.14
+Chrome,287d06ca,2026-01-11T03:17:51.017625Z,tablet,NY,New Shelly,GA,home,PROD_1026,Husband Home,4,103.68,414.72
+Chrome,287d06ca,2026-01-11T03:17:51.017625Z,tablet,NY,New Shelly,GA,food,PROD_1085,Person Food,4,307.66,1230.64
+Chrome,287d06ca,2026-01-11T03:17:51.017625Z,tablet,NY,New Shelly,GA,toys,PROD_1160,Challenge Toys,4,39.26,157.04
+Chrome,287d06ca,2026-01-11T03:17:51.017625Z,tablet,NY,New Shelly,GA,food,PROD_1041,Example Food,5,420.55,2102.75
+Chrome,a28defe3,2026-01-11T03:17:51.029756Z,desktop,GA,South Jacobmouth,PY,toys,PROD_1096,Paper Toys,2,55.87,111.74
+Chrome,f4188f3f,2026-01-11T03:17:51.053981Z,mobile,PW,Jordanmouth,CF,beauty,PROD_1120,Describe Beauty,5,23.51,117.55
+Chrome,f4188f3f,2026-01-11T03:17:51.053981Z,mobile,PW,Jordanmouth,CF,beauty,PROD_1185,Without Beauty,2,326.63,653.26
+Chrome,f4188f3f,2026-01-11T03:17:51.053981Z,mobile,PW,Jordanmouth,CF,clothing,PROD_1163,Magazine Clothing,4,104.35,417.40
+Safari,ce88cb2d,2026-01-11T03:17:51.077038Z,desktop,AR,Estradamouth,BZ,home,PROD_1160,Conference Home,4,262.44,1049.76
+Safari,ce88cb2d,2026-01-11T03:17:51.077038Z,desktop,AR,Estradamouth,BZ,beauty,PROD_1155,Risk Beauty,3,30.48,91.44
+Safari,ce88cb2d,2026-01-11T03:17:51.077038Z,desktop,AR,Estradamouth,BZ,toys,PROD_1151,Account Toys,2,384.54,769.08
+Safari,3eabedcb,2026-01-11T03:17:51.185482Z,desktop,KS,Christensenhaven,CH,electronics,PROD_1134,So Electronics,1,368.76,368.76
+Safari,3eabedcb,2026-01-11T03:17:51.185482Z,desktop,KS,Christensenhaven,CH,food,PROD_1110,Push Food,5,13.53,67.65
+Safari,3eabedcb,2026-01-11T03:17:51.185482Z,desktop,KS,Christensenhaven,CH,clothing,PROD_1139,Ball Clothing,1,334.46,334.46
+Edge,988c24c9,2026-01-11T03:17:51.323075Z,desktop,SD,North Michelleville,KI,beauty,PROD_1195,Nation Beauty,5,124.72,623.60
+Edge,988c24c9,2026-01-11T03:17:51.323075Z,desktop,SD,North Michelleville,KI,electronics,PROD_1044,Generation Electronics,1,95.34,95.34
+Safari,988c24c9,2026-01-11T03:17:51.323075Z,tablet,SD,North Michelleville,KI,beauty,PROD_1195,Nation Beauty,5,124.72,623.60
+Safari,988c24c9,2026-01-11T03:17:51.323075Z,tablet,SD,North Michelleville,KI,electronics,PROD_1044,Generation Electronics,1,95.34,95.34
+Edge,a6f2f7b8,2026-01-11T03:17:51.369993Z,mobile,NJ,East Stephen,CL,beauty,PROD_1034,Number Beauty,3,499.66,1498.98
+Edge,a6f2f7b8,2026-01-11T03:17:51.369993Z,mobile,NJ,East Stephen,CL,electronics,PROD_1101,Service Electronics,2,314.98,629.96
+Edge,a6f2f7b8,2026-01-11T03:17:51.369993Z,mobile,NJ,East Stephen,CL,food,PROD_1072,Event Food,3,468.61,1405.83
+Safari,a6f2f7b8,2026-01-11T03:17:51.369993Z,tablet,NJ,East Stephen,CL,beauty,PROD_1034,Number Beauty,3,499.66,1498.98
+Safari,a6f2f7b8,2026-01-11T03:17:51.369993Z,tablet,NJ,East Stephen,CL,electronics,PROD_1101,Service Electronics,2,314.98,629.96
+Safari,a6f2f7b8,2026-01-11T03:17:51.369993Z,tablet,NJ,East Stephen,CL,food,PROD_1072,Event Food,3,468.61,1405.83
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,food,PROD_1181,Gun Food,1,168.11,168.11
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,toys,PROD_1179,Benefit Toys,2,486.88,973.76
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,electronics,PROD_1099,Catch Electronics,1,339.82,339.82
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,clothing,PROD_1099,Politics Clothing,5,285.45,1427.25
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,books,PROD_1092,School Books,2,25.29,50.58
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,food,PROD_1181,Gun Food,1,168.11,168.11
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,toys,PROD_1179,Benefit Toys,2,486.88,973.76
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,electronics,PROD_1099,Catch Electronics,1,339.82,339.82
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,clothing,PROD_1099,Politics Clothing,5,285.45,1427.25
+Edge,a6f2f7b8,2026-01-11T03:17:51.416937Z,desktop,SD,West Paulamouth,AL,books,PROD_1092,School Books,2,25.29,50.58
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,food,PROD_1088,Enter Food,5,249.76,1248.80
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,toys,PROD_1038,Ask Toys,1,121.07,121.07
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,sports,PROD_1088,Message Sports,4,242.74,970.96
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,toys,PROD_1039,News Toys,3,221.57,664.71
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,tablet,IL,Scottfurt,LB,food,PROD_1088,Enter Food,5,249.76,1248.80
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,tablet,IL,Scottfurt,LB,toys,PROD_1038,Ask Toys,1,121.07,121.07
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,tablet,IL,Scottfurt,LB,sports,PROD_1088,Message Sports,4,242.74,970.96
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,tablet,IL,Scottfurt,LB,toys,PROD_1039,News Toys,3,221.57,664.71
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,food,PROD_1088,Enter Food,5,249.76,1248.80
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,toys,PROD_1038,Ask Toys,1,121.07,121.07
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,sports,PROD_1088,Message Sports,4,242.74,970.96
+Firefox,edcd465e,2026-01-11T03:17:51.441584Z,mobile,IL,Scottfurt,LB,toys,PROD_1039,News Toys,3,221.57,664.71
+Edge,a28defe3,2026-01-11T03:17:51.551589Z,mobile,ID,Atkinsonside,FI,books,PROD_1158,Out Books,4,337.57,1350.28
+Edge,a28defe3,2026-01-11T03:17:51.551589Z,mobile,ID,Atkinsonside,FI,toys,PROD_1081,Interesting Toys,2,373.9,747.80
+Edge,a28defe3,2026-01-11T03:17:51.551589Z,mobile,ID,Atkinsonside,FI,toys,PROD_1000,Firm Toys,2,256.86,513.72
+Edge,a28defe3,2026-01-11T03:17:51.551589Z,mobile,ID,Atkinsonside,FI,clothing,PROD_1159,Believe Clothing,3,72.76,218.28
+Edge,a28defe3,2026-01-11T03:17:51.551589Z,mobile,ID,Atkinsonside,FI,electronics,PROD_1128,Choice Electronics,1,48.61,48.61
+Edge,eb2263dd,2026-01-11T03:17:51.801488Z,tablet,PW,East Kaylaberg,NG,sports,PROD_1163,Drop Sports,4,167.51,670.04
+Edge,eb2263dd,2026-01-11T03:17:51.801488Z,tablet,PW,East Kaylaberg,NG,home,PROD_1150,Sell Home,1,101.0,101.00
+Edge,7c441fe7,2026-01-11T03:17:51.836526Z,tablet,HI,Keithville,DJ,food,PROD_1058,Air Food,3,134.67,404.01
+Edge,7c441fe7,2026-01-11T03:17:51.836526Z,tablet,HI,Keithville,DJ,clothing,PROD_1049,Produce Clothing,2,445.04,890.08
+Edge,7c441fe7,2026-01-11T03:17:51.836526Z,tablet,HI,Keithville,DJ,sports,PROD_1126,Could Sports,2,261.52,523.04
+Chrome,b92da22b,2026-01-11T03:17:51.992974Z,tablet,ND,West Marioview,JO,toys,PROD_1022,Scene Toys,5,115.46,577.30
+Chrome,b92da22b,2026-01-11T03:17:51.992974Z,tablet,ND,West Marioview,JO,sports,PROD_1152,Dream Sports,3,255.1,765.30
+Chrome,1d53434b,2026-01-11T03:17:52.051813Z,mobile,VT,East Cynthia,BW,clothing,PROD_1052,Executive Clothing,2,470.5,941.00
+Chrome,1d53434b,2026-01-11T03:17:52.051813Z,mobile,VT,East Cynthia,BW,beauty,PROD_1103,Stand Beauty,5,89.45,447.25
+Chrome,1d53434b,2026-01-11T03:17:52.051813Z,mobile,VT,East Cynthia,BW,food,PROD_1147,Program Food,2,320.24,640.48
+Chrome,1d53434b,2026-01-11T03:17:52.051813Z,mobile,VT,East Cynthia,BW,food,PROD_1157,Economic Food,2,397.39,794.78
+Chrome,1d53434b,2026-01-11T03:17:52.051813Z,mobile,VT,East Cynthia,BW,sports,PROD_1136,Inside Sports,3,189.58,568.74
+Edge,0f844fef,2026-01-11T03:17:52.181875Z,mobile,MN,Port Jasminemouth,SV,beauty,PROD_1189,Sort Beauty,4,181.36,725.44
+Edge,0f844fef,2026-01-11T03:17:52.181875Z,mobile,MN,Port Jasminemouth,SV,food,PROD_1096,Rest Food,5,355.23,1776.15
+Edge,0f844fef,2026-01-11T03:17:52.181875Z,mobile,MN,Port Jasminemouth,SV,toys,PROD_1145,Before Toys,3,41.14,123.42
+Edge,0f844fef,2026-01-11T03:17:52.181875Z,mobile,MN,Port Jasminemouth,SV,books,PROD_1121,Tend Books,4,124.64,498.56
+Edge,5304317f,2026-01-11T03:17:52.264360Z,tablet,FM,Herringmouth,DM,home,PROD_1092,Shoulder Home,5,172.44,862.20
+Edge,5304317f,2026-01-11T03:17:52.264360Z,tablet,FM,Herringmouth,DM,food,PROD_1173,Pick Food,4,365.47,1461.88
+Edge,b8db0672,2026-01-11T03:17:52.313937Z,mobile,AR,East Tonyland,KG,electronics,PROD_1134,Power Electronics,1,128.06,128.06
+Edge,b8db0672,2026-01-11T03:17:52.313937Z,mobile,AR,East Tonyland,KG,food,PROD_1099,Knowledge Food,1,200.07,200.07
+Edge,b8db0672,2026-01-11T03:17:52.313937Z,mobile,AR,East Tonyland,KG,beauty,PROD_1197,Letter Beauty,1,97.59,97.59
+Firefox,ce88cb2d,2026-01-11T03:17:52.485271Z,desktop,VI,Morrisonhaven,TO,home,PROD_1109,Perhaps Home,3,209.28,627.84
+Firefox,ce88cb2d,2026-01-11T03:17:52.485271Z,desktop,VI,Morrisonhaven,TO,home,PROD_1090,Foot Home,1,437.62,437.62
+Safari,24933b83,2026-01-11T03:17:52.520608Z,tablet,NC,West Dawnbury,PT,sports,PROD_1062,Artist Sports,1,417.71,417.71
+Safari,24933b83,2026-01-11T03:17:52.520608Z,tablet,NC,West Dawnbury,PT,electronics,PROD_1017,Team Electronics,2,227.48,454.96
+Chrome,5f987c71,2026-01-11T03:17:52.579747Z,desktop,FM,New Shaneberg,UG,toys,PROD_1090,Rate Toys,4,393.57,1574.28
+Chrome,5f987c71,2026-01-11T03:17:52.579747Z,desktop,FM,New Shaneberg,UG,books,PROD_1035,Lead Books,1,372.13,372.13
+Chrome,5f987c71,2026-01-11T03:17:52.579747Z,desktop,FM,New Shaneberg,UG,clothing,PROD_1091,Fly Clothing,1,173.98,173.98
+Chrome,5f987c71,2026-01-11T03:17:52.579747Z,desktop,FM,New Shaneberg,UG,books,PROD_1143,Community Books,4,55.12,220.48
+Chrome,5f987c71,2026-01-11T03:17:52.579747Z,desktop,FM,New Shaneberg,UG,sports,PROD_1162,Administration Sports,1,260.54,260.54
+Edge,5ab33edf,2026-01-11T03:17:52.616426Z,mobile,NM,West Tammyside,UG,electronics,PROD_1096,Another Electronics,3,323.92,971.76
+Edge,5ab33edf,2026-01-11T03:17:52.616426Z,mobile,NM,West Tammyside,UG,electronics,PROD_1162,Protect Electronics,3,45.18,135.54
+Safari,d0e6e660,2026-01-11T03:17:52.659165Z,mobile,NM,East Bryan,LI,sports,PROD_1102,Way Sports,1,88.11,88.11
+Safari,d0e6e660,2026-01-11T03:17:52.659165Z,mobile,NM,East Bryan,LI,electronics,PROD_1187,Traditional Electronics,1,290.55,290.55
+Safari,d0e6e660,2026-01-11T03:17:52.659165Z,mobile,NM,East Bryan,LI,books,PROD_1065,Up Books,1,188.67,188.67
+Safari,d0e6e660,2026-01-11T03:17:52.659165Z,mobile,NM,East Bryan,LI,toys,PROD_1039,Actually Toys,4,312.16,1248.64
+Safari,d0e6e660,2026-01-11T03:17:52.659165Z,mobile,NM,East Bryan,LI,food,PROD_1176,War Food,5,180.73,903.65
+Firefox,5ab33edf,2026-01-11T03:17:52.779092Z,tablet,ND,Ibarrachester,SG,toys,PROD_1065,Always Toys,1,356.37,356.37
+Firefox,5ab33edf,2026-01-11T03:17:52.779092Z,tablet,ND,Ibarrachester,SG,electronics,PROD_1165,Worry Electronics,2,346.14,692.28
+Firefox,5ab33edf,2026-01-11T03:17:52.779092Z,tablet,ND,Ibarrachester,SG,beauty,PROD_1187,Industry Beauty,3,471.45,1414.35
+Firefox,5ab33edf,2026-01-11T03:17:52.779092Z,tablet,ND,Ibarrachester,SG,books,PROD_1125,Great Books,5,137.61,688.05
+Firefox,5ab33edf,2026-01-11T03:17:52.779092Z,tablet,ND,Ibarrachester,SG,clothing,PROD_1168,Policy Clothing,1,165.78,165.78
+Safari,a6f2f7b8,2026-01-11T03:17:52.815904Z,mobile,ID,Sharonburgh,PT,books,PROD_1010,Which Books,1,326.59,326.59
+Safari,a6f2f7b8,2026-01-11T03:17:52.815904Z,mobile,ID,Sharonburgh,PT,books,PROD_1115,Perform Books,4,190.13,760.52
+Safari,a6f2f7b8,2026-01-11T03:17:52.815904Z,mobile,ID,Sharonburgh,PT,food,PROD_1158,View Food,4,342.81,1371.24
+Firefox,edcd465e,2026-01-11T03:17:53.212332Z,tablet,ID,New Anthony,ES,food,PROD_1170,Tend Food,3,451.86,1355.58
+Firefox,edcd465e,2026-01-11T03:17:53.212332Z,tablet,ID,New Anthony,ES,home,PROD_1019,Maintain Home,3,480.2,1440.60
+Firefox,edcd465e,2026-01-11T03:17:53.212332Z,tablet,ID,New Anthony,ES,books,PROD_1167,Ability Books,3,386.82,1160.46
+Firefox,edcd465e,2026-01-11T03:17:53.212332Z,tablet,ID,New Anthony,ES,beauty,PROD_1134,Name Beauty,2,32.4,64.80
+Firefox,edcd465e,2026-01-11T03:17:53.212332Z,tablet,ID,New Anthony,ES,electronics,PROD_1038,Let Electronics,4,461.0,1844.00
+Edge,5f987c71,2026-01-11T03:17:53.236016Z,mobile,AS,Dianaburgh,MM,books,PROD_1045,Technology Books,2,127.04,254.08
+Edge,5f987c71,2026-01-11T03:17:53.236016Z,mobile,AS,Dianaburgh,MM,beauty,PROD_1193,By Beauty,1,430.07,430.07
+Edge,5f987c71,2026-01-11T03:17:53.236016Z,mobile,AS,Dianaburgh,MM,books,PROD_1002,Area Books,2,317.01,634.02
+Edge,5f987c71,2026-01-11T03:17:53.236016Z,mobile,AS,Dianaburgh,MM,home,PROD_1057,Box Home,4,88.11,352.44
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,clothing,PROD_1118,Meet Clothing,5,342.03,1710.15
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,food,PROD_1058,Want Food,2,456.23,912.46
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,clothing,PROD_1104,Fund Clothing,1,148.95,148.95
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,food,PROD_1098,Soldier Food,2,167.7,335.40
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,sports,PROD_1163,Above Sports,1,123.93,123.93
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,clothing,PROD_1118,Meet Clothing,5,342.03,1710.15
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,food,PROD_1058,Want Food,2,456.23,912.46
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,clothing,PROD_1104,Fund Clothing,1,148.95,148.95
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,food,PROD_1098,Soldier Food,2,167.7,335.40
+Safari,b8db0672,2026-01-11T03:17:53.284626Z,tablet,MO,Kleinshire,VU,sports,PROD_1163,Above Sports,1,123.93,123.93
+Edge,371ecd7b,2026-01-11T03:17:53.406496Z,desktop,FM,Lake Brian,EC,books,PROD_1147,Fly Books,2,17.85,35.70
+Edge,371ecd7b,2026-01-11T03:17:53.406496Z,desktop,FM,Lake Brian,EC,beauty,PROD_1120,Money Beauty,3,432.58,1297.74
+Edge,371ecd7b,2026-01-11T03:17:53.406496Z,desktop,FM,Lake Brian,EC,sports,PROD_1151,Such Sports,5,151.8,759.00
+Edge,371ecd7b,2026-01-11T03:17:53.406496Z,desktop,FM,Lake Brian,EC,toys,PROD_1149,Agent Toys,4,173.49,693.96
+Chrome,14296c07,2026-01-11T03:17:53.418114Z,desktop,GA,Mullinsland,CU,sports,PROD_1052,Team Sports,1,235.64,235.64
+Chrome,14296c07,2026-01-11T03:17:53.418114Z,desktop,GA,Mullinsland,CU,beauty,PROD_1139,Throughout Beauty,4,147.44,589.76
+Safari,14296c07,2026-01-11T03:17:53.418114Z,desktop,GA,Mullinsland,CU,sports,PROD_1052,Team Sports,1,235.64,235.64
+Safari,14296c07,2026-01-11T03:17:53.418114Z,desktop,GA,Mullinsland,CU,beauty,PROD_1139,Throughout Beauty,4,147.44,589.76
+Safari,3eabedcb,2026-01-11T03:17:53.442198Z,desktop,OK,South James,CF,beauty,PROD_1164,Nice Beauty,3,116.89,350.67
+Safari,3eabedcb,2026-01-11T03:17:53.442198Z,desktop,OK,South James,CF,sports,PROD_1140,Job Sports,4,57.03,228.12
+Safari,3eabedcb,2026-01-11T03:17:53.442198Z,desktop,OK,South James,CF,sports,PROD_1082,Participant Sports,2,227.29,454.58
+Firefox,3eabedcb,2026-01-11T03:17:53.453817Z,desktop,PA,Campbellfurt,CA,food,PROD_1156,Spend Food,4,123.04,492.16
+Firefox,3eabedcb,2026-01-11T03:17:53.453817Z,desktop,PA,Campbellfurt,CA,electronics,PROD_1090,Because Electronics,5,143.45,717.25
+Firefox,3eabedcb,2026-01-11T03:17:53.453817Z,desktop,PA,Campbellfurt,CA,food,PROD_1020,Commercial Food,5,34.02,170.10
+Firefox,3eabedcb,2026-01-11T03:17:53.453817Z,desktop,PA,Campbellfurt,CA,beauty,PROD_1050,Try Beauty,5,425.13,2125.65
+Edge,5ab33edf,2026-01-11T03:17:53.537035Z,mobile,IL,Nixonhaven,TJ,beauty,PROD_1169,Author Beauty,4,378.93,1515.72
+Edge,5ab33edf,2026-01-11T03:17:53.537035Z,mobile,IL,Nixonhaven,TJ,home,PROD_1068,Other Home,1,22.27,22.27
+Edge,5ab33edf,2026-01-11T03:17:53.537035Z,mobile,IL,Nixonhaven,TJ,toys,PROD_1125,Environmental Toys,5,475.2,2376.00
+Firefox,5ab33edf,2026-01-11T03:17:53.537035Z,tablet,IL,Nixonhaven,TJ,beauty,PROD_1169,Author Beauty,4,378.93,1515.72
+Firefox,5ab33edf,2026-01-11T03:17:53.537035Z,tablet,IL,Nixonhaven,TJ,home,PROD_1068,Other Home,1,22.27,22.27
+Firefox,5ab33edf,2026-01-11T03:17:53.537035Z,tablet,IL,Nixonhaven,TJ,toys,PROD_1125,Environmental Toys,5,475.2,2376.00
+Edge,a9488d99,2026-01-11T03:17:53.561857Z,mobile,MN,West Ivan,CL,books,PROD_1128,Group Books,3,326.32,978.96
+Edge,a9488d99,2026-01-11T03:17:53.561857Z,mobile,MN,West Ivan,CL,clothing,PROD_1165,Stay Clothing,2,300.29,600.58
+Edge,a9488d99,2026-01-11T03:17:53.561857Z,mobile,MN,West Ivan,CL,beauty,PROD_1115,Movement Beauty,2,148.73,297.46
+Edge,a9488d99,2026-01-11T03:17:53.561857Z,mobile,MN,West Ivan,CL,sports,PROD_1082,Environmental Sports,4,123.56,494.24
+Edge,a9488d99,2026-01-11T03:17:53.561857Z,mobile,MN,West Ivan,CL,clothing,PROD_1132,Candidate Clothing,4,204.86,819.44
+Chrome,5ab33edf,2026-01-11T03:17:53.725297Z,tablet,WI,New Michael,SZ,home,PROD_1094,First Home,4,68.06,272.24
+Chrome,5ab33edf,2026-01-11T03:17:53.725297Z,tablet,WI,New Michael,SZ,food,PROD_1069,Agreement Food,5,339.65,1698.25
+Chrome,5ab33edf,2026-01-11T03:17:53.725297Z,tablet,WI,New Michael,SZ,electronics,PROD_1110,Major Electronics,5,348.96,1744.80
+Chrome,b74d0fb1,2026-01-11T03:17:53.785135Z,desktop,NE,Annashire,BN,home,PROD_1029,Executive Home,3,315.15,945.45
+Edge,edcd465e,2026-01-11T03:17:53.808287Z,mobile,NJ,Schneiderview,BE,clothing,PROD_1119,Lot Clothing,4,345.1,1380.40
+Edge,edcd465e,2026-01-11T03:17:53.808287Z,mobile,NJ,Schneiderview,BE,electronics,PROD_1133,Behind Electronics,5,228.09,1140.45
+Edge,edcd465e,2026-01-11T03:17:53.808287Z,mobile,NJ,Schneiderview,BE,electronics,PROD_1181,Go Electronics,5,404.96,2024.80
+Edge,edcd465e,2026-01-11T03:17:53.808287Z,mobile,NJ,Schneiderview,BE,electronics,PROD_1012,Too Electronics,1,188.38,188.38
+Safari,edcd465e,2026-01-11T03:17:53.808287Z,tablet,NJ,Schneiderview,BE,clothing,PROD_1119,Lot Clothing,4,345.1,1380.40
+Safari,edcd465e,2026-01-11T03:17:53.808287Z,tablet,NJ,Schneiderview,BE,electronics,PROD_1133,Behind Electronics,5,228.09,1140.45
+Safari,edcd465e,2026-01-11T03:17:53.808287Z,tablet,NJ,Schneiderview,BE,electronics,PROD_1181,Go Electronics,5,404.96,2024.80
+Safari,edcd465e,2026-01-11T03:17:53.808287Z,tablet,NJ,Schneiderview,BE,electronics,PROD_1012,Too Electronics,1,188.38,188.38
+Safari,b74d0fb1,2026-01-11T03:17:53.881098Z,desktop,NY,Fisherborough,CY,beauty,PROD_1141,Certainly Beauty,1,379.66,379.66
+Safari,b74d0fb1,2026-01-11T03:17:53.881098Z,desktop,NY,Fisherborough,CY,books,PROD_1034,Shake Books,5,244.02,1220.10
+Firefox,93829b43,2026-01-11T03:17:53.929921Z,mobile,MD,Lake Heatherview,PL,food,PROD_1088,Picture Food,5,350.2,1751.00
+Firefox,93829b43,2026-01-11T03:17:53.929921Z,mobile,MD,Lake Heatherview,PL,beauty,PROD_1038,Defense Beauty,2,173.2,346.40
+Firefox,93829b43,2026-01-11T03:17:53.929921Z,mobile,MD,Lake Heatherview,PL,toys,PROD_1152,Near Toys,4,59.47,237.88
+Firefox,93829b43,2026-01-11T03:17:53.929921Z,mobile,MD,Lake Heatherview,PL,toys,PROD_1131,A Toys,4,359.94,1439.76
+Safari,a6f2f7b8,2026-01-11T03:17:53.966191Z,mobile,TN,South Rebecca,PE,clothing,PROD_1148,Coach Clothing,5,449.34,2246.70
+Safari,a6f2f7b8,2026-01-11T03:17:53.966191Z,mobile,TN,South Rebecca,PE,clothing,PROD_1042,Not Clothing,5,293.97,1469.85
+Safari,a6f2f7b8,2026-01-11T03:17:53.966191Z,mobile,TN,South Rebecca,PE,beauty,PROD_1012,Anything Beauty,4,168.4,673.60
+Safari,a6f2f7b8,2026-01-11T03:17:53.966191Z,mobile,TN,South Rebecca,PE,books,PROD_1022,Form Books,2,478.11,956.22
+Safari,a6f2f7b8,2026-01-11T03:17:53.966191Z,mobile,TN,South Rebecca,PE,books,PROD_1157,Senior Books,1,310.09,310.09
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,electronics,PROD_1168,Agency Electronics,1,234.88,234.88
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,electronics,PROD_1106,Couple Electronics,4,328.26,1313.04
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,beauty,PROD_1106,Use Beauty,5,144.2,721.00
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,beauty,PROD_1022,Security Beauty,3,428.39,1285.17
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,electronics,PROD_1111,Design Electronics,3,351.89,1055.67
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,electronics,PROD_1168,Agency Electronics,1,234.88,234.88
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,electronics,PROD_1106,Couple Electronics,4,328.26,1313.04
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,beauty,PROD_1106,Use Beauty,5,144.2,721.00
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,beauty,PROD_1022,Security Beauty,3,428.39,1285.17
+Edge,f4188f3f,2026-01-11T03:17:54.218532Z,mobile,LA,Port Rebecca,LA,electronics,PROD_1111,Design Electronics,3,351.89,1055.67
+Safari,a28defe3,2026-01-11T03:17:54.244630Z,mobile,IA,Lake Cindy,KZ,sports,PROD_1008,Moment Sports,5,325.5,1627.50
+Safari,a28defe3,2026-01-11T03:17:54.244630Z,mobile,IA,Lake Cindy,KZ,books,PROD_1176,Amount Books,1,38.44,38.44
+Safari,a28defe3,2026-01-11T03:17:54.244630Z,mobile,IA,Lake Cindy,KZ,food,PROD_1146,Agency Food,5,469.57,2347.85
+Safari,a28defe3,2026-01-11T03:17:54.244630Z,mobile,IA,Lake Cindy,KZ,sports,PROD_1109,Positive Sports,2,214.54,429.08
+Safari,a28defe3,2026-01-11T03:17:54.244630Z,mobile,IA,Lake Cindy,KZ,home,PROD_1018,Challenge Home,4,352.29,1409.16
+Chrome,a28defe3,2026-01-11T03:17:54.244630Z,desktop,IA,Lake Cindy,KZ,sports,PROD_1008,Moment Sports,5,325.5,1627.50
+Chrome,a28defe3,2026-01-11T03:17:54.244630Z,desktop,IA,Lake Cindy,KZ,books,PROD_1176,Amount Books,1,38.44,38.44
+Chrome,a28defe3,2026-01-11T03:17:54.244630Z,desktop,IA,Lake Cindy,KZ,food,PROD_1146,Agency Food,5,469.57,2347.85
+Chrome,a28defe3,2026-01-11T03:17:54.244630Z,desktop,IA,Lake Cindy,KZ,sports,PROD_1109,Positive Sports,2,214.54,429.08
+Chrome,a28defe3,2026-01-11T03:17:54.244630Z,desktop,IA,Lake Cindy,KZ,home,PROD_1018,Challenge Home,4,352.29,1409.16
+Safari,edcd465e,2026-01-11T03:17:54.256946Z,desktop,AR,Port Robertstad,CG,home,PROD_1113,Mind Home,5,490.52,2452.60
+Safari,edcd465e,2026-01-11T03:17:54.256946Z,desktop,AR,Port Robertstad,CG,electronics,PROD_1186,Among Electronics,4,264.23,1056.92
+Safari,edcd465e,2026-01-11T03:17:54.256946Z,desktop,AR,Port Robertstad,CG,food,PROD_1147,Six Food,5,20.36,101.80
+Safari,edcd465e,2026-01-11T03:17:54.256946Z,desktop,AR,Port Robertstad,CG,beauty,PROD_1148,Her Beauty,2,64.55,129.10
+Firefox,b74d0fb1,2026-01-11T03:17:54.268818Z,mobile,MS,New Jeffreyview,MH,books,PROD_1188,Create Books,4,184.39,737.56
+Firefox,b74d0fb1,2026-01-11T03:17:54.268818Z,mobile,MS,New Jeffreyview,MH,toys,PROD_1055,Nation Toys,5,276.56,1382.80
+Firefox,b74d0fb1,2026-01-11T03:17:54.268818Z,mobile,MS,New Jeffreyview,MH,beauty,PROD_1004,Put Beauty,5,185.3,926.50
+Firefox,b74d0fb1,2026-01-11T03:17:54.268818Z,mobile,MS,New Jeffreyview,MH,beauty,PROD_1153,Career Beauty,5,456.31,2281.55
+Firefox,b74d0fb1,2026-01-11T03:17:54.268818Z,mobile,MS,New Jeffreyview,MH,books,PROD_1107,Least Books,4,313.66,1254.64
+Safari,988c24c9,2026-01-11T03:17:54.496750Z,tablet,MO,Kinghaven,GQ,food,PROD_1148,Site Food,1,212.95,212.95
+Safari,edcd465e,2026-01-11T03:17:54.587231Z,tablet,CO,Malonetown,GM,toys,PROD_1046,Toward Toys,2,319.77,639.54
+Safari,edcd465e,2026-01-11T03:17:54.587231Z,tablet,CO,Malonetown,GM,home,PROD_1168,Manager Home,3,44.97,134.91
+Safari,edcd465e,2026-01-11T03:17:54.587231Z,tablet,CO,Malonetown,GM,books,PROD_1135,Use Books,2,330.83,661.66
+Safari,edcd465e,2026-01-11T03:17:54.587231Z,tablet,CO,Malonetown,GM,food,PROD_1049,Expect Food,4,303.85,1215.40
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,tablet,WV,Mccoybury,KH,sports,PROD_1146,Interest Sports,4,236.86,947.44
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,tablet,WV,Mccoybury,KH,home,PROD_1005,Budget Home,4,493.45,1973.80
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,tablet,WV,Mccoybury,KH,food,PROD_1065,Though Food,5,353.32,1766.60
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,tablet,WV,Mccoybury,KH,electronics,PROD_1026,Usually Electronics,1,232.8,232.80
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,tablet,WV,Mccoybury,KH,home,PROD_1100,Police Home,3,159.75,479.25
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,desktop,WV,Mccoybury,KH,sports,PROD_1146,Interest Sports,4,236.86,947.44
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,desktop,WV,Mccoybury,KH,home,PROD_1005,Budget Home,4,493.45,1973.80
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,desktop,WV,Mccoybury,KH,food,PROD_1065,Though Food,5,353.32,1766.60
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,desktop,WV,Mccoybury,KH,electronics,PROD_1026,Usually Electronics,1,232.8,232.80
+Chrome,5f987c71,2026-01-11T03:17:54.651540Z,desktop,WV,Mccoybury,KH,home,PROD_1100,Police Home,3,159.75,479.25
+Firefox,5f987c71,2026-01-11T03:17:54.651540Z,mobile,WV,Mccoybury,KH,sports,PROD_1146,Interest Sports,4,236.86,947.44
+Firefox,5f987c71,2026-01-11T03:17:54.651540Z,mobile,WV,Mccoybury,KH,home,PROD_1005,Budget Home,4,493.45,1973.80
+Firefox,5f987c71,2026-01-11T03:17:54.651540Z,mobile,WV,Mccoybury,KH,food,PROD_1065,Though Food,5,353.32,1766.60
+Firefox,5f987c71,2026-01-11T03:17:54.651540Z,mobile,WV,Mccoybury,KH,electronics,PROD_1026,Usually Electronics,1,232.8,232.80
+Firefox,5f987c71,2026-01-11T03:17:54.651540Z,mobile,WV,Mccoybury,KH,home,PROD_1100,Police Home,3,159.75,479.25
+Edge,a9488d99,2026-01-11T03:17:54.727857Z,desktop,WI,North Barbaratown,DE,sports,PROD_1066,Man Sports,1,53.28,53.28
+Edge,a9488d99,2026-01-11T03:17:54.727857Z,desktop,WI,North Barbaratown,DE,toys,PROD_1036,Attention Toys,5,419.62,2098.10
+Edge,a9488d99,2026-01-11T03:17:54.727857Z,desktop,WI,North Barbaratown,DE,food,PROD_1140,My Food,3,302.7,908.10
+Edge,a9488d99,2026-01-11T03:17:54.727857Z,desktop,WI,North Barbaratown,DE,beauty,PROD_1014,Offer Beauty,1,448.4,448.40
+Edge,a9488d99,2026-01-11T03:17:54.727857Z,desktop,WI,North Barbaratown,DE,clothing,PROD_1053,Allow Clothing,5,309.36,1546.80
+Firefox,366eb16f,2026-01-11T03:17:54.765837Z,desktop,UT,Cooperborough,SB,clothing,PROD_1040,Wall Clothing,3,335.37,1006.11
+Firefox,366eb16f,2026-01-11T03:17:54.765837Z,desktop,UT,Cooperborough,SB,beauty,PROD_1182,Likely Beauty,4,294.08,1176.32
+Firefox,366eb16f,2026-01-11T03:17:54.765837Z,desktop,UT,Cooperborough,SB,home,PROD_1190,Tonight Home,2,293.06,586.12
+Firefox,366eb16f,2026-01-11T03:17:54.765837Z,desktop,UT,Cooperborough,SB,beauty,PROD_1048,Section Beauty,1,52.69,52.69
+Chrome,a9488d99,2026-01-11T03:17:54.924194Z,tablet,ME,West Bryan,MV,toys,PROD_1111,Computer Toys,1,472.58,472.58
+Chrome,a9488d99,2026-01-11T03:17:54.924194Z,tablet,ME,West Bryan,MV,home,PROD_1073,Right Home,4,238.91,955.64
+Chrome,a9488d99,2026-01-11T03:17:54.924194Z,tablet,ME,West Bryan,MV,sports,PROD_1169,Over Sports,5,28.45,142.25
+Chrome,a9488d99,2026-01-11T03:17:54.924194Z,tablet,ME,West Bryan,MV,sports,PROD_1090,Movie Sports,1,499.67,499.67
+Safari,eb2263dd,2026-01-11T03:17:54.947649Z,mobile,WA,North David,PG,beauty,PROD_1098,Huge Beauty,5,123.65,618.25
+Safari,eb2263dd,2026-01-11T03:17:54.947649Z,mobile,WA,North David,PG,sports,PROD_1085,Sell Sports,5,350.45,1752.25
+Safari,eb2263dd,2026-01-11T03:17:54.947649Z,mobile,WA,North David,PG,food,PROD_1101,Trade Food,1,477.37,477.37
+Safari,eb2263dd,2026-01-11T03:17:54.947649Z,mobile,WA,North David,PG,electronics,PROD_1051,Likely Electronics,5,418.86,2094.30
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,books,PROD_1126,Two Books,3,363.71,1091.13
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,sports,PROD_1126,Late Sports,3,213.25,639.75
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,food,PROD_1185,Toward Food,3,368.21,1104.63
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,electronics,PROD_1103,Toward Electronics,4,269.92,1079.68
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,books,PROD_1126,Two Books,3,363.71,1091.13
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,sports,PROD_1126,Late Sports,3,213.25,639.75
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,food,PROD_1185,Toward Food,3,368.21,1104.63
+Safari,5ab33edf,2026-01-11T03:17:55.106764Z,desktop,KY,Bryantfort,BE,electronics,PROD_1103,Toward Electronics,4,269.92,1079.68
+Chrome,5ab33edf,2026-01-11T03:17:55.106764Z,tablet,KY,Bryantfort,BE,books,PROD_1126,Two Books,3,363.71,1091.13
+Chrome,5ab33edf,2026-01-11T03:17:55.106764Z,tablet,KY,Bryantfort,BE,sports,PROD_1126,Late Sports,3,213.25,639.75
+Chrome,5ab33edf,2026-01-11T03:17:55.106764Z,tablet,KY,Bryantfort,BE,food,PROD_1185,Toward Food,3,368.21,1104.63
+Chrome,5ab33edf,2026-01-11T03:17:55.106764Z,tablet,KY,Bryantfort,BE,electronics,PROD_1103,Toward Electronics,4,269.92,1079.68
+Safari,24933b83,2026-01-11T03:17:55.317556Z,mobile,PA,New Ruben,MT,food,PROD_1082,Teacher Food,4,94.2,376.80
+Safari,24933b83,2026-01-11T03:17:55.317556Z,mobile,PA,New Ruben,MT,food,PROD_1066,Travel Food,3,156.88,470.64
+Safari,24933b83,2026-01-11T03:17:55.317556Z,mobile,PA,New Ruben,MT,electronics,PROD_1000,Six Electronics,4,91.2,364.80
+Safari,14296c07,2026-01-11T03:17:55.781962Z,tablet,NJ,North Alexandrafurt,PK,beauty,PROD_1194,Could Beauty,4,130.93,523.72
+Safari,14296c07,2026-01-11T03:17:55.781962Z,tablet,NJ,North Alexandrafurt,PK,beauty,PROD_1192,Beat Beauty,4,28.4,113.60
+Edge,2a45c2ab,2026-01-11T03:17:55.908515Z,tablet,NJ,New Chris,YE,books,PROD_1046,Talk Books,1,144.89,144.89
+Edge,2a45c2ab,2026-01-11T03:17:55.908515Z,tablet,NJ,New Chris,YE,books,PROD_1076,Than Books,5,275.96,1379.80
+Edge,2a45c2ab,2026-01-11T03:17:55.908515Z,tablet,NJ,New Chris,YE,electronics,PROD_1143,Act Electronics,4,133.47,533.88
+Safari,2a45c2ab,2026-01-11T03:17:55.908515Z,tablet,NJ,New Chris,YE,books,PROD_1046,Talk Books,1,144.89,144.89
+Safari,2a45c2ab,2026-01-11T03:17:55.908515Z,tablet,NJ,New Chris,YE,books,PROD_1076,Than Books,5,275.96,1379.80
+Safari,2a45c2ab,2026-01-11T03:17:55.908515Z,tablet,NJ,New Chris,YE,electronics,PROD_1143,Act Electronics,4,133.47,533.88
+Chrome,5f987c71,2026-01-11T03:17:55.933403Z,tablet,RI,Karenshire,GQ,electronics,PROD_1005,As Electronics,3,66.54,199.62
+Chrome,5f987c71,2026-01-11T03:17:55.933403Z,tablet,RI,Karenshire,GQ,food,PROD_1088,Manager Food,1,292.04,292.04
+Chrome,5f987c71,2026-01-11T03:17:55.933403Z,tablet,RI,Karenshire,GQ,clothing,PROD_1101,Near Clothing,1,397.22,397.22
+Chrome,5f987c71,2026-01-11T03:17:55.933403Z,tablet,RI,Karenshire,GQ,beauty,PROD_1169,Base Beauty,5,132.63,663.15
+Firefox,f4188f3f,2026-01-11T03:17:56.006066Z,tablet,UT,Fitzgeraldmouth,KZ,clothing,PROD_1031,Shake Clothing,1,225.42,225.42
+Firefox,f4188f3f,2026-01-11T03:17:56.006066Z,tablet,UT,Fitzgeraldmouth,KZ,books,PROD_1118,Dream Books,2,68.33,136.66
+Firefox,f4188f3f,2026-01-11T03:17:56.006066Z,tablet,UT,Fitzgeraldmouth,KZ,clothing,PROD_1141,Item Clothing,1,498.52,498.52
+Firefox,f4188f3f,2026-01-11T03:17:56.006066Z,tablet,UT,Fitzgeraldmouth,KZ,sports,PROD_1002,Safe Sports,2,394.72,789.44
+Firefox,f4188f3f,2026-01-11T03:17:56.006066Z,tablet,UT,Fitzgeraldmouth,KZ,electronics,PROD_1129,Order Electronics,5,69.23,346.15
+Chrome,5fb8d16c,2026-01-11T03:17:56.103672Z,desktop,NM,Maxwellfurt,IL,home,PROD_1056,Analysis Home,3,187.41,562.23
+Chrome,5fb8d16c,2026-01-11T03:17:56.103672Z,desktop,NM,Maxwellfurt,IL,electronics,PROD_1052,Nor Electronics,4,187.57,750.28
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,toys,PROD_1002,Laugh Toys,4,359.72,1438.88
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,electronics,PROD_1091,Garden Electronics,4,472.55,1890.20
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,food,PROD_1087,Large Food,3,418.54,1255.62
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,sports,PROD_1164,Ask Sports,1,142.88,142.88
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,toys,PROD_1002,Laugh Toys,4,359.72,1438.88
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,electronics,PROD_1091,Garden Electronics,4,472.55,1890.20
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,food,PROD_1087,Large Food,3,418.54,1255.62
+Firefox,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,sports,PROD_1164,Ask Sports,1,142.88,142.88
+Safari,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,toys,PROD_1002,Laugh Toys,4,359.72,1438.88
+Safari,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,electronics,PROD_1091,Garden Electronics,4,472.55,1890.20
+Safari,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,food,PROD_1087,Large Food,3,418.54,1255.62
+Safari,287d06ca,2026-01-11T03:17:56.293646Z,mobile,OR,Matthewshire,SE,sports,PROD_1164,Ask Sports,1,142.88,142.88
+Firefox,a9488d99,2026-01-11T03:17:56.305170Z,desktop,MD,Yeseniaport,BJ,toys,PROD_1082,Third Toys,4,426.87,1707.48
+Firefox,a9488d99,2026-01-11T03:17:56.305170Z,desktop,MD,Yeseniaport,BJ,books,PROD_1051,Morning Books,4,130.76,523.04
+Firefox,a9488d99,2026-01-11T03:17:56.305170Z,desktop,MD,Yeseniaport,BJ,clothing,PROD_1068,Herself Clothing,5,405.76,2028.80
+Firefox,a9488d99,2026-01-11T03:17:56.305170Z,desktop,MD,Yeseniaport,BJ,beauty,PROD_1098,Ready Beauty,1,59.74,59.74
+Firefox,5f987c71,2026-01-11T03:17:56.352555Z,mobile,MI,Rodriguezmouth,ID,beauty,PROD_1028,Get Beauty,2,387.52,775.04
+Firefox,5f987c71,2026-01-11T03:17:56.352555Z,mobile,MI,Rodriguezmouth,ID,food,PROD_1051,Most Food,3,376.4,1129.20
+Firefox,5f987c71,2026-01-11T03:17:56.352555Z,mobile,MI,Rodriguezmouth,ID,food,PROD_1147,Article Food,4,86.42,345.68
+Firefox,5f987c71,2026-01-11T03:17:56.352555Z,mobile,MI,Rodriguezmouth,ID,home,PROD_1187,Perform Home,1,329.05,329.05
+Firefox,5f987c71,2026-01-11T03:17:56.352555Z,mobile,MI,Rodriguezmouth,ID,books,PROD_1146,Despite Books,1,352.26,352.26
+Firefox,b02b61c4,2026-01-11T03:17:56.363796Z,tablet,DC,West Stefanieton,LT,clothing,PROD_1000,Expert Clothing,1,274.99,274.99
+Firefox,b02b61c4,2026-01-11T03:17:56.363796Z,tablet,DC,West Stefanieton,LT,home,PROD_1171,Out Home,4,238.5,954.00
+Firefox,b02b61c4,2026-01-11T03:17:56.363796Z,tablet,DC,West Stefanieton,LT,toys,PROD_1126,Money Toys,1,278.46,278.46
+Firefox,b02b61c4,2026-01-11T03:17:56.363796Z,tablet,DC,West Stefanieton,LT,toys,PROD_1166,Yourself Toys,4,104.74,418.96
+Firefox,b02b61c4,2026-01-11T03:17:56.363796Z,tablet,DC,West Stefanieton,LT,books,PROD_1169,Become Books,5,100.61,503.05
+Safari,b02b61c4,2026-01-11T03:17:56.363796Z,mobile,DC,West Stefanieton,LT,clothing,PROD_1000,Expert Clothing,1,274.99,274.99
+Safari,b02b61c4,2026-01-11T03:17:56.363796Z,mobile,DC,West Stefanieton,LT,home,PROD_1171,Out Home,4,238.5,954.00
+Safari,b02b61c4,2026-01-11T03:17:56.363796Z,mobile,DC,West Stefanieton,LT,toys,PROD_1126,Money Toys,1,278.46,278.46
+Safari,b02b61c4,2026-01-11T03:17:56.363796Z,mobile,DC,West Stefanieton,LT,toys,PROD_1166,Yourself Toys,4,104.74,418.96
+Safari,b02b61c4,2026-01-11T03:17:56.363796Z,mobile,DC,West Stefanieton,LT,books,PROD_1169,Become Books,5,100.61,503.05
+Edge,7c441fe7,2026-01-11T03:17:56.627001Z,tablet,IN,Claytonberg,LA,electronics,PROD_1047,Rise Electronics,4,117.53,470.12
+Edge,7c441fe7,2026-01-11T03:17:56.627001Z,tablet,IN,Claytonberg,LA,beauty,PROD_1012,Health Beauty,3,16.5,49.50
+Edge,7c441fe7,2026-01-11T03:17:56.627001Z,tablet,IN,Claytonberg,LA,books,PROD_1056,Start Books,3,86.9,260.70
+Edge,7c441fe7,2026-01-11T03:17:56.627001Z,tablet,IN,Claytonberg,LA,food,PROD_1148,Itself Food,1,113.38,113.38
+Edge,7c441fe7,2026-01-11T03:17:56.627001Z,tablet,IN,Claytonberg,LA,toys,PROD_1197,Race Toys,3,391.78,1175.34
+Firefox,edcd465e,2026-01-11T03:17:56.743276Z,mobile,FL,South Theresamouth,FR,food,PROD_1181,Process Food,4,60.0,240.00
+Firefox,edcd465e,2026-01-11T03:17:56.743276Z,mobile,FL,South Theresamouth,FR,food,PROD_1088,Feeling Food,2,429.1,858.20
+Edge,b74d0fb1,2026-01-11T03:17:57.232751Z,tablet,MA,Owensburgh,HN,books,PROD_1057,Who Books,2,415.62,831.24
+Edge,b74d0fb1,2026-01-11T03:17:57.232751Z,tablet,MA,Owensburgh,HN,clothing,PROD_1133,From Clothing,1,392.02,392.02
+Edge,7c441fe7,2026-01-11T03:17:57.345601Z,tablet,MT,Lawsonshire,FR,clothing,PROD_1080,Let Clothing,5,402.38,2011.90
+Edge,7c441fe7,2026-01-11T03:17:57.345601Z,tablet,MT,Lawsonshire,FR,clothing,PROD_1144,Determine Clothing,5,470.79,2353.95
+Safari,5fb8d16c,2026-01-11T03:17:57.470290Z,tablet,GA,Hamptonport,WS,beauty,PROD_1001,Always Beauty,5,427.99,2139.95
+Safari,5fb8d16c,2026-01-11T03:17:57.470290Z,tablet,GA,Hamptonport,WS,food,PROD_1159,Tend Food,5,499.52,2497.60
+Edge,14296c07,2026-01-11T03:17:57.494005Z,desktop,LA,Lake Joe,UG,beauty,PROD_1108,Say Beauty,5,169.68,848.40
+Edge,14296c07,2026-01-11T03:17:57.494005Z,desktop,LA,Lake Joe,UG,beauty,PROD_1071,Perform Beauty,1,14.73,14.73
+Edge,14296c07,2026-01-11T03:17:57.494005Z,desktop,LA,Lake Joe,UG,home,PROD_1050,Reason Home,1,83.11,83.11
+Chrome,5304317f,2026-01-11T03:17:57.554872Z,desktop,HI,Mariamouth,DO,toys,PROD_1122,Series Toys,2,269.7,539.40
+Chrome,5304317f,2026-01-11T03:17:57.554872Z,desktop,HI,Mariamouth,DO,electronics,PROD_1104,Fund Electronics,3,359.23,1077.69
+Chrome,5304317f,2026-01-11T03:17:57.554872Z,desktop,HI,Mariamouth,DO,electronics,PROD_1004,Source Electronics,3,148.71,446.13
+Chrome,5304317f,2026-01-11T03:17:57.554872Z,desktop,HI,Mariamouth,DO,home,PROD_1142,Address Home,5,448.36,2241.80
+Chrome,5304317f,2026-01-11T03:17:57.554872Z,desktop,HI,Mariamouth,DO,home,PROD_1139,Effect Home,5,266.9,1334.50
+Firefox,371ecd7b,2026-01-11T03:17:57.589536Z,tablet,OK,New Susanview,BI,sports,PROD_1016,Leader Sports,2,78.02,156.04
+Firefox,371ecd7b,2026-01-11T03:17:57.589536Z,tablet,OK,New Susanview,BI,electronics,PROD_1161,Option Electronics,4,216.84,867.36
+Firefox,371ecd7b,2026-01-11T03:17:57.589536Z,tablet,OK,New Susanview,BI,books,PROD_1003,General Books,4,221.5,886.00
+Firefox,371ecd7b,2026-01-11T03:17:57.589536Z,tablet,OK,New Susanview,BI,sports,PROD_1175,Stand Sports,2,139.91,279.82
+Safari,371ecd7b,2026-01-11T03:17:57.589536Z,mobile,OK,New Susanview,BI,sports,PROD_1016,Leader Sports,2,78.02,156.04
+Safari,371ecd7b,2026-01-11T03:17:57.589536Z,mobile,OK,New Susanview,BI,electronics,PROD_1161,Option Electronics,4,216.84,867.36
+Safari,371ecd7b,2026-01-11T03:17:57.589536Z,mobile,OK,New Susanview,BI,books,PROD_1003,General Books,4,221.5,886.00
+Safari,371ecd7b,2026-01-11T03:17:57.589536Z,mobile,OK,New Susanview,BI,sports,PROD_1175,Stand Sports,2,139.91,279.82
+Firefox,edcd465e,2026-01-11T03:17:57.662286Z,desktop,ME,South Jason,IN,home,PROD_1150,Catch Home,4,429.02,1716.08
+Firefox,edcd465e,2026-01-11T03:17:57.662286Z,desktop,ME,South Jason,IN,electronics,PROD_1158,To Electronics,4,97.0,388.00
+Firefox,edcd465e,2026-01-11T03:17:57.662286Z,desktop,ME,South Jason,IN,beauty,PROD_1174,Myself Beauty,2,365.8,731.60
+Firefox,edcd465e,2026-01-11T03:17:57.662286Z,desktop,ME,South Jason,IN,sports,PROD_1188,Wall Sports,5,306.69,1533.45
+Firefox,edcd465e,2026-01-11T03:17:57.662286Z,desktop,ME,South Jason,IN,books,PROD_1009,Total Books,5,183.6,918.00
+Edge,edcd465e,2026-01-11T03:17:57.662286Z,mobile,ME,South Jason,IN,home,PROD_1150,Catch Home,4,429.02,1716.08
+Edge,edcd465e,2026-01-11T03:17:57.662286Z,mobile,ME,South Jason,IN,electronics,PROD_1158,To Electronics,4,97.0,388.00
+Edge,edcd465e,2026-01-11T03:17:57.662286Z,mobile,ME,South Jason,IN,beauty,PROD_1174,Myself Beauty,2,365.8,731.60
+Edge,edcd465e,2026-01-11T03:17:57.662286Z,mobile,ME,South Jason,IN,sports,PROD_1188,Wall Sports,5,306.69,1533.45
+Edge,edcd465e,2026-01-11T03:17:57.662286Z,mobile,ME,South Jason,IN,books,PROD_1009,Total Books,5,183.6,918.00
+Safari,b8db0672,2026-01-11T03:17:57.830662Z,tablet,VI,South Timothy,PH,books,PROD_1004,Six Books,1,294.03,294.03
+Safari,b8db0672,2026-01-11T03:17:57.830662Z,tablet,VI,South Timothy,PH,food,PROD_1149,Class Food,2,460.87,921.74
+Safari,b8db0672,2026-01-11T03:17:57.830662Z,tablet,VI,South Timothy,PH,books,PROD_1118,Interest Books,2,283.3,566.60
+Safari,b8db0672,2026-01-11T03:17:57.830662Z,tablet,VI,South Timothy,PH,home,PROD_1136,Magazine Home,1,342.68,342.68
+Safari,b02b61c4,2026-01-11T03:17:57.928256Z,tablet,MD,New Michelleberg,PG,toys,PROD_1140,Dream Toys,2,166.47,332.94
+Safari,b02b61c4,2026-01-11T03:17:57.928256Z,tablet,MD,New Michelleberg,PG,beauty,PROD_1176,Mission Beauty,1,168.39,168.39
+Safari,b02b61c4,2026-01-11T03:17:57.928256Z,tablet,MD,New Michelleberg,PG,books,PROD_1069,Night Books,3,79.22,237.66
+Safari,b02b61c4,2026-01-11T03:17:57.928256Z,tablet,MD,New Michelleberg,PG,toys,PROD_1140,Dream Toys,2,166.47,332.94
+Safari,b02b61c4,2026-01-11T03:17:57.928256Z,tablet,MD,New Michelleberg,PG,beauty,PROD_1176,Mission Beauty,1,168.39,168.39
+Safari,b02b61c4,2026-01-11T03:17:57.928256Z,tablet,MD,New Michelleberg,PG,books,PROD_1069,Night Books,3,79.22,237.66
+Safari,9b49bd26,2026-01-11T03:17:58.001438Z,tablet,MO,Hayeston,IE,books,PROD_1019,Check Books,5,486.12,2430.60
+Safari,9b49bd26,2026-01-11T03:17:58.001438Z,tablet,MO,Hayeston,IE,clothing,PROD_1032,Less Clothing,1,315.33,315.33
+Safari,9b49bd26,2026-01-11T03:17:58.001438Z,tablet,MO,Hayeston,IE,sports,PROD_1192,Board Sports,3,179.59,538.77
+Edge,d0e6e660,2026-01-11T03:17:58.073483Z,tablet,MA,North Dianaport,GT,books,PROD_1141,Change Books,4,379.79,1519.16
+Edge,d0e6e660,2026-01-11T03:17:58.073483Z,tablet,MA,North Dianaport,GT,electronics,PROD_1021,Left Electronics,1,387.47,387.47
+Edge,d0e6e660,2026-01-11T03:17:58.073483Z,tablet,MA,North Dianaport,GT,electronics,PROD_1073,Civil Electronics,3,489.26,1467.78
+Edge,d0e6e660,2026-01-11T03:17:58.073483Z,tablet,MA,North Dianaport,GT,food,PROD_1078,Character Food,5,125.37,626.85
+Chrome,759cde66,2026-01-11T03:17:58.156931Z,desktop,GA,West Michele,KR,books,PROD_1134,Event Books,1,209.83,209.83
+Chrome,759cde66,2026-01-11T03:17:58.156931Z,desktop,GA,West Michele,KR,electronics,PROD_1136,West Electronics,3,286.95,860.85
+Chrome,759cde66,2026-01-11T03:17:58.156931Z,desktop,GA,West Michele,KR,clothing,PROD_1124,Discussion Clothing,5,436.65,2183.25
+Chrome,759cde66,2026-01-11T03:17:58.156931Z,desktop,GA,West Michele,KR,books,PROD_1047,Real Books,5,362.45,1812.25
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,mobile,DC,Lake Troy,IL,toys,PROD_1087,Wrong Toys,4,132.8,531.20
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,mobile,DC,Lake Troy,IL,beauty,PROD_1097,Employee Beauty,1,32.26,32.26
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,mobile,DC,Lake Troy,IL,home,PROD_1094,Also Home,4,429.35,1717.40
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,mobile,DC,Lake Troy,IL,beauty,PROD_1015,Fight Beauty,4,181.37,725.48
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,mobile,DC,Lake Troy,IL,books,PROD_1005,Remain Books,4,30.03,120.12
+Firefox,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,toys,PROD_1087,Wrong Toys,4,132.8,531.20
+Firefox,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,beauty,PROD_1097,Employee Beauty,1,32.26,32.26
+Firefox,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,home,PROD_1094,Also Home,4,429.35,1717.40
+Firefox,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,beauty,PROD_1015,Fight Beauty,4,181.37,725.48
+Firefox,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,books,PROD_1005,Remain Books,4,30.03,120.12
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,toys,PROD_1087,Wrong Toys,4,132.8,531.20
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,beauty,PROD_1097,Employee Beauty,1,32.26,32.26
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,home,PROD_1094,Also Home,4,429.35,1717.40
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,beauty,PROD_1015,Fight Beauty,4,181.37,725.48
+Chrome,5f987c71,2026-01-11T03:17:58.192789Z,tablet,DC,Lake Troy,IL,books,PROD_1005,Remain Books,4,30.03,120.12
+Safari,839fbc50,2026-01-11T03:17:58.311775Z,mobile,NC,Michaelhaven,KW,beauty,PROD_1160,Movement Beauty,3,213.33,639.99
+Safari,839fbc50,2026-01-11T03:17:58.311775Z,mobile,NC,Michaelhaven,KW,sports,PROD_1140,He Sports,5,278.03,1390.15
+Safari,839fbc50,2026-01-11T03:17:58.311775Z,mobile,NC,Michaelhaven,KW,clothing,PROD_1182,Popular Clothing,5,185.43,927.15
+Firefox,839fbc50,2026-01-11T03:17:58.351593Z,mobile,WY,Lake Samantha,JO,electronics,PROD_1134,Rich Electronics,1,134.04,134.04
+Firefox,839fbc50,2026-01-11T03:17:58.351593Z,mobile,WY,Lake Samantha,JO,home,PROD_1086,Over Home,2,120.65,241.30
+Firefox,839fbc50,2026-01-11T03:17:58.351593Z,mobile,WY,Lake Samantha,JO,books,PROD_1034,Base Books,2,189.18,378.36
+Firefox,839fbc50,2026-01-11T03:17:58.351593Z,tablet,WY,Lake Samantha,JO,electronics,PROD_1134,Rich Electronics,1,134.04,134.04
+Firefox,839fbc50,2026-01-11T03:17:58.351593Z,tablet,WY,Lake Samantha,JO,home,PROD_1086,Over Home,2,120.65,241.30
+Firefox,839fbc50,2026-01-11T03:17:58.351593Z,tablet,WY,Lake Samantha,JO,books,PROD_1034,Base Books,2,189.18,378.36
+Chrome,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,books,PROD_1128,Marriage Books,5,409.92,2049.60
+Chrome,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,sports,PROD_1064,Purpose Sports,3,56.36,169.08
+Chrome,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,beauty,PROD_1150,Guy Beauty,4,447.63,1790.52
+Chrome,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,beauty,PROD_1057,Then Beauty,5,282.34,1411.70
+Edge,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,books,PROD_1128,Marriage Books,5,409.92,2049.60
+Edge,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,sports,PROD_1064,Purpose Sports,3,56.36,169.08
+Edge,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,beauty,PROD_1150,Guy Beauty,4,447.63,1790.52
+Edge,b74d0fb1,2026-01-11T03:17:58.538572Z,mobile,TX,New David,SM,beauty,PROD_1057,Then Beauty,5,282.34,1411.70
+Edge,a6f2f7b8,2026-01-11T03:17:58.628145Z,desktop,MT,Simpsonborough,CI,beauty,PROD_1021,Performance Beauty,4,488.34,1953.36
+Edge,a6f2f7b8,2026-01-11T03:17:58.628145Z,desktop,MT,Simpsonborough,CI,beauty,PROD_1013,Specific Beauty,5,487.38,2436.90
+Edge,a6f2f7b8,2026-01-11T03:17:58.628145Z,desktop,MT,Simpsonborough,CI,electronics,PROD_1075,Green Electronics,1,63.33,63.33
+Edge,a6f2f7b8,2026-01-11T03:17:58.628145Z,desktop,MT,Simpsonborough,CI,beauty,PROD_1029,Either Beauty,2,419.84,839.68
+Edge,a6f2f7b8,2026-01-11T03:17:58.628145Z,desktop,MT,Simpsonborough,CI,home,PROD_1142,Collection Home,1,455.07,455.07
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,beauty,PROD_1074,Full Beauty,1,235.96,235.96
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,food,PROD_1044,Environment Food,5,186.71,933.55
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,food,PROD_1134,Early Food,1,378.0,378.00
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,sports,PROD_1097,Place Sports,2,23.47,46.94
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,clothing,PROD_1096,Develop Clothing,1,264.67,264.67
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,beauty,PROD_1074,Full Beauty,1,235.96,235.96
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,food,PROD_1044,Environment Food,5,186.71,933.55
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,food,PROD_1134,Early Food,1,378.0,378.00
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,sports,PROD_1097,Place Sports,2,23.47,46.94
+Safari,3eabedcb,2026-01-11T03:17:58.848320Z,desktop,NJ,Melissaborough,MC,clothing,PROD_1096,Develop Clothing,1,264.67,264.67
+Firefox,24933b83,2026-01-11T03:17:58.861820Z,tablet,MH,Lake Jennifer,CO,sports,PROD_1043,Some Sports,3,343.84,1031.52
+Firefox,24933b83,2026-01-11T03:17:58.861820Z,tablet,MH,Lake Jennifer,CO,electronics,PROD_1046,Model Electronics,1,111.83,111.83
+Firefox,24933b83,2026-01-11T03:17:58.861820Z,tablet,MH,Lake Jennifer,CO,sports,PROD_1163,Course Sports,5,175.28,876.40
+Firefox,24933b83,2026-01-11T03:17:58.861820Z,tablet,MH,Lake Jennifer,CO,home,PROD_1048,Result Home,3,460.54,1381.62
+Firefox,b92da22b,2026-01-11T03:17:58.914097Z,desktop,IN,Navarroshire,ET,toys,PROD_1033,Exactly Toys,5,340.23,1701.15
+Firefox,b92da22b,2026-01-11T03:17:58.914097Z,desktop,IN,Navarroshire,ET,beauty,PROD_1005,Expect Beauty,4,311.99,1247.96
+Firefox,b92da22b,2026-01-11T03:17:58.914097Z,desktop,IN,Navarroshire,ET,clothing,PROD_1090,Walk Clothing,3,324.28,972.84
+Safari,edcd465e,2026-01-11T03:17:59.191609Z,tablet,VA,Gillmouth,LC,toys,PROD_1191,Assume Toys,5,460.97,2304.85
+Safari,edcd465e,2026-01-11T03:17:59.191609Z,tablet,VA,Gillmouth,LC,clothing,PROD_1118,Want Clothing,5,324.77,1623.85
+Safari,edcd465e,2026-01-11T03:17:59.191609Z,tablet,VA,Gillmouth,LC,beauty,PROD_1081,Nice Beauty,4,488.76,1955.04
+Safari,edcd465e,2026-01-11T03:17:59.191609Z,tablet,VA,Gillmouth,LC,electronics,PROD_1170,Owner Electronics,3,156.45,469.35
+Safari,edcd465e,2026-01-11T03:17:59.209195Z,desktop,NC,Sharonmouth,CL,sports,PROD_1103,Will Sports,3,498.43,1495.29
+Safari,edcd465e,2026-01-11T03:17:59.209195Z,desktop,NC,Sharonmouth,CL,toys,PROD_1062,Itself Toys,4,368.36,1473.44
+Safari,edcd465e,2026-01-11T03:17:59.209195Z,desktop,NC,Sharonmouth,CL,sports,PROD_1060,Organization Sports,2,378.72,757.44
+Safari,edcd465e,2026-01-11T03:17:59.209195Z,desktop,NC,Sharonmouth,CL,home,PROD_1144,Article Home,3,141.45,424.35
+Safari,edcd465e,2026-01-11T03:17:59.209195Z,desktop,NC,Sharonmouth,CL,clothing,PROD_1011,Understand Clothing,4,231.66,926.64
+Chrome,5fb8d16c,2026-01-11T03:17:59.312339Z,tablet,GU,North Davidport,LU,beauty,PROD_1002,Local Beauty,2,182.69,365.38
+Chrome,5fb8d16c,2026-01-11T03:17:59.312339Z,tablet,GU,North Davidport,LU,electronics,PROD_1128,Fine Electronics,3,147.41,442.23
+Chrome,5fb8d16c,2026-01-11T03:17:59.312339Z,tablet,GU,North Davidport,LU,toys,PROD_1080,Exist Toys,4,286.1,1144.40
+Chrome,5fb8d16c,2026-01-11T03:17:59.312339Z,tablet,GU,North Davidport,LU,food,PROD_1100,Service Food,4,23.79,95.16
+Chrome,5fb8d16c,2026-01-11T03:17:59.312339Z,tablet,GU,North Davidport,LU,electronics,PROD_1097,Address Electronics,2,312.6,625.20
+Firefox,5fb8d16c,2026-01-11T03:17:59.312339Z,desktop,GU,North Davidport,LU,beauty,PROD_1002,Local Beauty,2,182.69,365.38
+Firefox,5fb8d16c,2026-01-11T03:17:59.312339Z,desktop,GU,North Davidport,LU,electronics,PROD_1128,Fine Electronics,3,147.41,442.23
+Firefox,5fb8d16c,2026-01-11T03:17:59.312339Z,desktop,GU,North Davidport,LU,toys,PROD_1080,Exist Toys,4,286.1,1144.40
+Firefox,5fb8d16c,2026-01-11T03:17:59.312339Z,desktop,GU,North Davidport,LU,food,PROD_1100,Service Food,4,23.79,95.16
+Firefox,5fb8d16c,2026-01-11T03:17:59.312339Z,desktop,GU,North Davidport,LU,electronics,PROD_1097,Address Electronics,2,312.6,625.20
+Safari,d0e6e660,2026-01-11T03:17:59.498030Z,tablet,AL,South Troy,MV,books,PROD_1088,Give Books,5,310.07,1550.35
+Safari,d0e6e660,2026-01-11T03:17:59.498030Z,tablet,AL,South Troy,MV,books,PROD_1175,Protect Books,3,297.56,892.68
+Safari,d0e6e660,2026-01-11T03:17:59.498030Z,tablet,AL,South Troy,MV,beauty,PROD_1086,Social Beauty,5,26.14,130.70
+Safari,d0e6e660,2026-01-11T03:17:59.498030Z,tablet,AL,South Troy,MV,electronics,PROD_1118,Low Electronics,2,151.75,303.50
+Firefox,d0e6e660,2026-01-11T03:17:59.498030Z,desktop,AL,South Troy,MV,books,PROD_1088,Give Books,5,310.07,1550.35
+Firefox,d0e6e660,2026-01-11T03:17:59.498030Z,desktop,AL,South Troy,MV,books,PROD_1175,Protect Books,3,297.56,892.68
+Firefox,d0e6e660,2026-01-11T03:17:59.498030Z,desktop,AL,South Troy,MV,beauty,PROD_1086,Social Beauty,5,26.14,130.70
+Firefox,d0e6e660,2026-01-11T03:17:59.498030Z,desktop,AL,South Troy,MV,electronics,PROD_1118,Low Electronics,2,151.75,303.50
+Firefox,5f987c71,2026-01-11T03:17:59.632471Z,mobile,NM,Port Claireville,CR,beauty,PROD_1083,Result Beauty,1,144.92,144.92
+Firefox,5f987c71,2026-01-11T03:17:59.632471Z,mobile,NM,Port Claireville,CR,clothing,PROD_1034,Impact Clothing,1,244.6,244.60
+Firefox,5f987c71,2026-01-11T03:17:59.632471Z,mobile,NM,Port Claireville,CR,clothing,PROD_1085,Smile Clothing,1,366.48,366.48
+Edge,5fb8d16c,2026-01-11T03:17:59.658053Z,desktop,MA,New Davidmouth,KZ,books,PROD_1000,Local Books,3,63.25,189.75
+Edge,5fb8d16c,2026-01-11T03:17:59.658053Z,desktop,MA,New Davidmouth,KZ,books,PROD_1174,Without Books,1,121.16,121.16
+Edge,5fb8d16c,2026-01-11T03:17:59.658053Z,desktop,MA,New Davidmouth,KZ,books,PROD_1041,End Books,3,28.94,86.82
+Edge,5fb8d16c,2026-01-11T03:17:59.658053Z,desktop,MA,New Davidmouth,KZ,home,PROD_1083,Deal Home,5,246.13,1230.65
+Chrome,edcd465e,2026-01-11T03:17:59.710689Z,mobile,OH,Thomastown,MY,sports,PROD_1134,Give Sports,2,110.63,221.26
+Chrome,edcd465e,2026-01-11T03:17:59.710689Z,mobile,OH,Thomastown,MY,sports,PROD_1152,End Sports,1,219.81,219.81
+Chrome,edcd465e,2026-01-11T03:17:59.710689Z,mobile,OH,Thomastown,MY,food,PROD_1114,So Food,5,264.92,1324.60
+Chrome,edcd465e,2026-01-11T03:17:59.710689Z,mobile,OH,Thomastown,MY,electronics,PROD_1006,Production Electronics,3,498.46,1495.38
+Chrome,edcd465e,2026-01-11T03:17:59.710689Z,mobile,OH,Thomastown,MY,toys,PROD_1014,Important Toys,2,124.63,249.26
+Firefox,1d53434b,2026-01-11T03:18:00.029875Z,desktop,NH,Patrickfurt,GW,toys,PROD_1068,Thank Toys,2,360.31,720.62
+Firefox,1d53434b,2026-01-11T03:18:00.029875Z,desktop,NH,Patrickfurt,GW,home,PROD_1183,Doctor Home,1,21.99,21.99
+Edge,7d154385,2026-01-11T03:18:00.091129Z,mobile,FL,Brianstad,TN,beauty,PROD_1020,Six Beauty,4,302.4,1209.60
+Edge,7d154385,2026-01-11T03:18:00.091129Z,mobile,FL,Brianstad,TN,beauty,PROD_1108,Eat Beauty,3,248.57,745.71
+Edge,7d154385,2026-01-11T03:18:00.091129Z,mobile,FL,Brianstad,TN,home,PROD_1019,Home Home,5,280.21,1401.05
+Edge,7d154385,2026-01-11T03:18:00.091129Z,mobile,FL,Brianstad,TN,electronics,PROD_1087,Recent Electronics,2,267.12,534.24
+Edge,7d154385,2026-01-11T03:18:00.091129Z,mobile,FL,Brianstad,TN,electronics,PROD_1186,Surface Electronics,5,231.4,1157.00
+Safari,7d154385,2026-01-11T03:18:00.091129Z,desktop,FL,Brianstad,TN,beauty,PROD_1020,Six Beauty,4,302.4,1209.60
+Safari,7d154385,2026-01-11T03:18:00.091129Z,desktop,FL,Brianstad,TN,beauty,PROD_1108,Eat Beauty,3,248.57,745.71
+Safari,7d154385,2026-01-11T03:18:00.091129Z,desktop,FL,Brianstad,TN,home,PROD_1019,Home Home,5,280.21,1401.05
+Safari,7d154385,2026-01-11T03:18:00.091129Z,desktop,FL,Brianstad,TN,electronics,PROD_1087,Recent Electronics,2,267.12,534.24
+Safari,7d154385,2026-01-11T03:18:00.091129Z,desktop,FL,Brianstad,TN,electronics,PROD_1186,Surface Electronics,5,231.4,1157.00
+Safari,7d154385,2026-01-11T03:18:00.091129Z,tablet,FL,Brianstad,TN,beauty,PROD_1020,Six Beauty,4,302.4,1209.60
+Safari,7d154385,2026-01-11T03:18:00.091129Z,tablet,FL,Brianstad,TN,beauty,PROD_1108,Eat Beauty,3,248.57,745.71
+Safari,7d154385,2026-01-11T03:18:00.091129Z,tablet,FL,Brianstad,TN,home,PROD_1019,Home Home,5,280.21,1401.05
+Safari,7d154385,2026-01-11T03:18:00.091129Z,tablet,FL,Brianstad,TN,electronics,PROD_1087,Recent Electronics,2,267.12,534.24
+Safari,7d154385,2026-01-11T03:18:00.091129Z,tablet,FL,Brianstad,TN,electronics,PROD_1186,Surface Electronics,5,231.4,1157.00
+Safari,988c24c9,2026-01-11T03:18:00.164029Z,desktop,AS,Morrisfort,BA,beauty,PROD_1017,Agency Beauty,1,322.81,322.81
+Safari,988c24c9,2026-01-11T03:18:00.164029Z,desktop,AS,Morrisfort,BA,electronics,PROD_1164,Cold Electronics,1,465.59,465.59
+Safari,988c24c9,2026-01-11T03:18:00.164029Z,desktop,AS,Morrisfort,BA,toys,PROD_1013,Food Toys,2,112.9,225.80
+Safari,988c24c9,2026-01-11T03:18:00.164029Z,desktop,AS,Morrisfort,BA,electronics,PROD_1189,First Electronics,5,271.49,1357.45
+Safari,988c24c9,2026-01-11T03:18:00.164029Z,desktop,AS,Morrisfort,BA,clothing,PROD_1088,Animal Clothing,4,30.17,120.68
+Safari,9132b63e,2026-01-11T03:18:00.203072Z,desktop,AR,Cynthialand,TD,toys,PROD_1117,Any Toys,4,51.33,205.32
+Safari,9132b63e,2026-01-11T03:18:00.203072Z,desktop,AR,Cynthialand,TD,beauty,PROD_1184,Thing Beauty,2,298.94,597.88
+Edge,5ab33edf,2026-01-11T03:18:00.293516Z,mobile,NH,East Victoria,MU,home,PROD_1190,His Home,3,398.94,1196.82
+Edge,5ab33edf,2026-01-11T03:18:00.293516Z,mobile,NH,East Victoria,MU,books,PROD_1140,State Books,4,165.13,660.52
+Edge,5ab33edf,2026-01-11T03:18:00.293516Z,mobile,NH,East Victoria,MU,toys,PROD_1123,Forward Toys,1,216.71,216.71
+Firefox,2a45c2ab,2026-01-11T03:18:00.305399Z,desktop,MA,Gonzalezfurt,TJ,beauty,PROD_1074,Many Beauty,1,28.83,28.83
+Edge,9b49bd26,2026-01-11T03:18:00.371600Z,desktop,AZ,Joshuaport,ZA,clothing,PROD_1130,Name Clothing,4,322.63,1290.52
+Edge,9b49bd26,2026-01-11T03:18:00.371600Z,desktop,AZ,Joshuaport,ZA,clothing,PROD_1152,Want Clothing,5,423.75,2118.75
+Firefox,b92da22b,2026-01-11T03:18:00.484447Z,desktop,VA,Stephaniestad,MH,electronics,PROD_1089,Identify Electronics,2,160.29,320.58
+Firefox,b92da22b,2026-01-11T03:18:00.484447Z,desktop,VA,Stephaniestad,MH,home,PROD_1033,Adult Home,4,177.48,709.92
+Firefox,b92da22b,2026-01-11T03:18:00.484447Z,desktop,VA,Stephaniestad,MH,clothing,PROD_1064,Including Clothing,5,421.92,2109.60
+Firefox,b92da22b,2026-01-11T03:18:00.484447Z,desktop,VA,Stephaniestad,MH,clothing,PROD_1134,History Clothing,4,229.17,916.68
+Firefox,b92da22b,2026-01-11T03:18:00.484447Z,desktop,VA,Stephaniestad,MH,food,PROD_1130,What Food,5,274.98,1374.90
+Safari,5be6128e,2026-01-11T03:18:00.943511Z,mobile,DC,Curtisstad,SE,food,PROD_1123,Read Food,1,188.03,188.03
+Safari,5be6128e,2026-01-11T03:18:00.943511Z,mobile,DC,Curtisstad,SE,beauty,PROD_1097,Everybody Beauty,3,317.77,953.31
+Edge,b92da22b,2026-01-11T03:18:01.005060Z,tablet,WV,Tyroneburgh,BA,toys,PROD_1157,Chance Toys,1,256.05,256.05
+Edge,b92da22b,2026-01-11T03:18:01.005060Z,tablet,WV,Tyroneburgh,BA,sports,PROD_1159,Recent Sports,3,194.95,584.85
+Edge,b92da22b,2026-01-11T03:18:01.005060Z,tablet,WV,Tyroneburgh,BA,sports,PROD_1160,Anyone Sports,5,166.16,830.80
+Safari,7d154385,2026-01-11T03:18:01.207174Z,mobile,NE,West Savannahchester,PL,electronics,PROD_1133,Next Electronics,2,73.86,147.72
+Safari,7d154385,2026-01-11T03:18:01.207174Z,mobile,NE,West Savannahchester,PL,books,PROD_1095,Call Books,1,195.88,195.88
+Safari,988c24c9,2026-01-11T03:18:01.359545Z,tablet,NC,Holmesstad,PE,beauty,PROD_1141,Set Beauty,4,148.8,595.20
+Safari,988c24c9,2026-01-11T03:18:01.359545Z,tablet,NC,Holmesstad,PE,toys,PROD_1125,Hand Toys,2,45.73,91.46
+Safari,988c24c9,2026-01-11T03:18:01.359545Z,tablet,NC,Holmesstad,PE,electronics,PROD_1147,Scene Electronics,3,102.55,307.65
+Safari,988c24c9,2026-01-11T03:18:01.359545Z,tablet,NC,Holmesstad,PE,toys,PROD_1087,A Toys,4,388.36,1553.44
+Safari,b8db0672,2026-01-11T03:18:01.371630Z,tablet,MT,Stephenmouth,BA,electronics,PROD_1145,Sort Electronics,3,327.53,982.59
+Edge,5ab33edf,2026-01-11T03:18:01.588746Z,mobile,KS,Port Jeffrey,SO,electronics,PROD_1054,Seem Electronics,2,350.16,700.32
+Edge,5ab33edf,2026-01-11T03:18:01.588746Z,mobile,KS,Port Jeffrey,SO,toys,PROD_1044,Daughter Toys,3,497.72,1493.16
+Edge,5ab33edf,2026-01-11T03:18:01.588746Z,mobile,KS,Port Jeffrey,SO,sports,PROD_1076,Idea Sports,1,299.53,299.53
+Edge,5ab33edf,2026-01-11T03:18:01.588746Z,mobile,KS,Port Jeffrey,SO,sports,PROD_1169,Many Sports,3,41.01,123.03
+Edge,5ab33edf,2026-01-11T03:18:01.588746Z,mobile,KS,Port Jeffrey,SO,toys,PROD_1055,Pattern Toys,5,475.07,2375.35
+Safari,1d53434b,2026-01-11T03:18:01.733661Z,desktop,SC,East Joshua,DO,home,PROD_1188,Politics Home,1,153.01,153.01
+Safari,1d53434b,2026-01-11T03:18:01.733661Z,desktop,SC,East Joshua,DO,toys,PROD_1115,How Toys,5,168.88,844.40
+Safari,1d53434b,2026-01-11T03:18:01.733661Z,desktop,SC,East Joshua,DO,clothing,PROD_1075,Former Clothing,5,144.19,720.95
+Safari,1d53434b,2026-01-11T03:18:01.733661Z,desktop,SC,East Joshua,DO,food,PROD_1095,Adult Food,2,386.48,772.96
+Safari,1d53434b,2026-01-11T03:18:01.733661Z,desktop,SC,East Joshua,DO,clothing,PROD_1184,Worry Clothing,3,226.73,680.19
+Chrome,a6f2f7b8,2026-01-11T03:18:01.758961Z,desktop,SD,Wrightfort,CY,books,PROD_1031,Heavy Books,1,363.27,363.27
+Chrome,a6f2f7b8,2026-01-11T03:18:01.758961Z,desktop,SD,Wrightfort,CY,books,PROD_1025,Military Books,3,332.31,996.93
+Chrome,a6f2f7b8,2026-01-11T03:18:01.758961Z,desktop,SD,Wrightfort,CY,clothing,PROD_1089,High Clothing,5,43.82,219.10
+Chrome,a6f2f7b8,2026-01-11T03:18:01.758961Z,desktop,SD,Wrightfort,CY,toys,PROD_1138,Sure Toys,1,387.3,387.30
+Firefox,29a3b2e9,2026-01-11T03:18:01.884331Z,tablet,UT,Nicholasstad,SD,food,PROD_1184,Some Food,5,189.05,945.25
+Firefox,29a3b2e9,2026-01-11T03:18:01.884331Z,tablet,UT,Nicholasstad,SD,food,PROD_1154,Participant Food,4,467.16,1868.64
+Firefox,29a3b2e9,2026-01-11T03:18:01.884331Z,tablet,UT,Nicholasstad,SD,electronics,PROD_1118,Ready Electronics,2,77.37,154.74
+Edge,b92da22b,2026-01-11T03:18:01.936116Z,desktop,WI,West Marybury,CU,beauty,PROD_1166,Right Beauty,4,29.04,116.16
+Edge,b92da22b,2026-01-11T03:18:01.936116Z,desktop,WI,West Marybury,CU,books,PROD_1065,Its Books,4,431.8,1727.20
+Edge,b92da22b,2026-01-11T03:18:01.936116Z,desktop,WI,West Marybury,CU,clothing,PROD_1185,Likely Clothing,1,232.72,232.72
+Chrome,287d06ca,2026-01-11T03:18:01.961967Z,desktop,FL,Bennetttown,TO,beauty,PROD_1170,Remember Beauty,5,123.91,619.55
+Chrome,287d06ca,2026-01-11T03:18:01.961967Z,desktop,FL,Bennetttown,TO,electronics,PROD_1037,Away Electronics,1,55.87,55.87
+Chrome,287d06ca,2026-01-11T03:18:01.961967Z,desktop,FL,Bennetttown,TO,sports,PROD_1142,Most Sports,4,31.67,126.68
+Chrome,287d06ca,2026-01-11T03:18:01.961967Z,desktop,FL,Bennetttown,TO,clothing,PROD_1107,Attention Clothing,5,257.83,1289.15
+Chrome,287d06ca,2026-01-11T03:18:01.961967Z,desktop,FL,Bennetttown,TO,toys,PROD_1115,Common Toys,2,414.61,829.22
+Safari,5be6128e,2026-01-11T03:18:02.026018Z,tablet,NH,Lawsontown,MR,home,PROD_1007,A Home,5,293.88,1469.40
+Safari,5be6128e,2026-01-11T03:18:02.026018Z,tablet,NH,Lawsontown,MR,toys,PROD_1076,Item Toys,4,161.54,646.16
+Safari,5be6128e,2026-01-11T03:18:02.026018Z,tablet,NH,Lawsontown,MR,food,PROD_1183,Far Food,2,358.1,716.20
+Safari,5be6128e,2026-01-11T03:18:02.026018Z,tablet,NH,Lawsontown,MR,toys,PROD_1082,Heart Toys,1,359.34,359.34
+Safari,5be6128e,2026-01-11T03:18:02.026018Z,tablet,NH,Lawsontown,MR,home,PROD_1153,Ability Home,3,433.96,1301.88
+Edge,f4188f3f,2026-01-11T03:18:02.126900Z,mobile,WY,Rodgersbury,GT,electronics,PROD_1036,Participant Electronics,1,299.58,299.58
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,beauty,PROD_1090,Condition Beauty,2,394.1,788.20
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,food,PROD_1031,Director Food,5,445.48,2227.40
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,electronics,PROD_1083,Environmental Electronics,1,24.0,24.00
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,sports,PROD_1096,Floor Sports,4,494.41,1977.64
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,books,PROD_1081,Actually Books,1,77.82,77.82
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,beauty,PROD_1090,Condition Beauty,2,394.1,788.20
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,food,PROD_1031,Director Food,5,445.48,2227.40
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,electronics,PROD_1083,Environmental Electronics,1,24.0,24.00
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,sports,PROD_1096,Floor Sports,4,494.41,1977.64
+Chrome,759cde66,2026-01-11T03:18:02.138906Z,desktop,OR,Dianetown,SY,books,PROD_1081,Actually Books,1,77.82,77.82
+Safari,839fbc50,2026-01-11T03:18:02.164159Z,desktop,NM,Alexandertown,GH,electronics,PROD_1188,Minute Electronics,2,319.86,639.72
+Safari,839fbc50,2026-01-11T03:18:02.164159Z,desktop,NM,Alexandertown,GH,food,PROD_1167,Religious Food,1,41.36,41.36
+Safari,839fbc50,2026-01-11T03:18:02.164159Z,desktop,NM,Alexandertown,GH,books,PROD_1164,Day Books,3,21.87,65.61
+Safari,839fbc50,2026-01-11T03:18:02.164159Z,desktop,NM,Alexandertown,GH,sports,PROD_1143,Great Sports,1,194.74,194.74
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,sports,PROD_1190,Town Sports,1,260.68,260.68
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,home,PROD_1092,Old Home,4,348.09,1392.36
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,food,PROD_1118,Type Food,1,217.41,217.41
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,home,PROD_1011,Drive Home,4,81.49,325.96
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,beauty,PROD_1002,Day Beauty,2,153.42,306.84
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,sports,PROD_1190,Town Sports,1,260.68,260.68
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,home,PROD_1092,Old Home,4,348.09,1392.36
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,food,PROD_1118,Type Food,1,217.41,217.41
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,home,PROD_1011,Drive Home,4,81.49,325.96
+Edge,5304317f,2026-01-11T03:18:02.176555Z,tablet,PW,Johnfurt,UG,beauty,PROD_1002,Day Beauty,2,153.42,306.84
+Firefox,839fbc50,2026-01-11T03:18:02.214490Z,tablet,RI,West Melissahaven,NR,books,PROD_1170,Ball Books,4,471.27,1885.08
+Firefox,7c441fe7,2026-01-11T03:18:02.360804Z,tablet,MP,Isabellaville,NO,books,PROD_1183,Before Books,2,93.26,186.52
+Firefox,7c441fe7,2026-01-11T03:18:02.360804Z,tablet,MP,Isabellaville,NO,beauty,PROD_1126,Financial Beauty,5,181.36,906.80
+Firefox,7c441fe7,2026-01-11T03:18:02.360804Z,tablet,MP,Isabellaville,NO,electronics,PROD_1043,Either Electronics,3,429.3,1287.90
+Firefox,7c441fe7,2026-01-11T03:18:02.360804Z,tablet,MP,Isabellaville,NO,food,PROD_1083,Crime Food,3,44.17,132.51
+Safari,7d154385,2026-01-11T03:18:02.517954Z,mobile,OR,South Zacharychester,GN,home,PROD_1133,Idea Home,3,169.41,508.23
+Safari,7d154385,2026-01-11T03:18:02.517954Z,mobile,OR,South Zacharychester,GN,food,PROD_1017,Audience Food,5,400.08,2000.40
+Safari,7d154385,2026-01-11T03:18:02.517954Z,mobile,OR,South Zacharychester,GN,food,PROD_1037,Training Food,2,389.97,779.94
+Safari,7d154385,2026-01-11T03:18:02.517954Z,mobile,OR,South Zacharychester,GN,sports,PROD_1128,Physical Sports,4,302.99,1211.96
+Safari,7d154385,2026-01-11T03:18:02.517954Z,mobile,OR,South Zacharychester,GN,food,PROD_1006,Information Food,1,140.06,140.06
+Firefox,7d154385,2026-01-11T03:18:02.517954Z,tablet,OR,South Zacharychester,GN,home,PROD_1133,Idea Home,3,169.41,508.23
+Firefox,7d154385,2026-01-11T03:18:02.517954Z,tablet,OR,South Zacharychester,GN,food,PROD_1017,Audience Food,5,400.08,2000.40
+Firefox,7d154385,2026-01-11T03:18:02.517954Z,tablet,OR,South Zacharychester,GN,food,PROD_1037,Training Food,2,389.97,779.94
+Firefox,7d154385,2026-01-11T03:18:02.517954Z,tablet,OR,South Zacharychester,GN,sports,PROD_1128,Physical Sports,4,302.99,1211.96
+Firefox,7d154385,2026-01-11T03:18:02.517954Z,tablet,OR,South Zacharychester,GN,food,PROD_1006,Information Food,1,140.06,140.06
+Safari,9b49bd26,2026-01-11T03:18:02.553027Z,desktop,MP,North William,FJ,sports,PROD_1128,Sea Sports,3,438.42,1315.26
+Safari,9b49bd26,2026-01-11T03:18:02.553027Z,desktop,MP,North William,FJ,books,PROD_1059,A Books,2,234.85,469.70
+Safari,9b49bd26,2026-01-11T03:18:02.553027Z,desktop,MP,North William,FJ,sports,PROD_1156,He Sports,5,430.84,2154.20
+Safari,9b49bd26,2026-01-11T03:18:02.553027Z,desktop,MP,North William,FJ,electronics,PROD_1161,Order Electronics,5,482.24,2411.20
+Chrome,b92da22b,2026-01-11T03:18:02.601387Z,tablet,MA,Port Marystad,RO,toys,PROD_1014,Long Toys,4,72.03,288.12
+Chrome,b92da22b,2026-01-11T03:18:02.601387Z,tablet,MA,Port Marystad,RO,food,PROD_1111,Time Food,4,375.75,1503.00
+Chrome,b92da22b,2026-01-11T03:18:02.601387Z,tablet,MA,Port Marystad,RO,food,PROD_1152,Plant Food,2,371.44,742.88
+Chrome,2a45c2ab,2026-01-11T03:18:02.649788Z,mobile,ID,Westton,DE,electronics,PROD_1109,Cell Electronics,4,480.66,1922.64
+Chrome,2a45c2ab,2026-01-11T03:18:02.649788Z,mobile,ID,Westton,DE,food,PROD_1021,Strong Food,5,441.95,2209.75
+Edge,1d53434b,2026-01-11T03:18:02.690346Z,desktop,IL,Donaldmouth,RO,electronics,PROD_1091,History Electronics,5,383.22,1916.10
+Edge,1d53434b,2026-01-11T03:18:02.690346Z,desktop,IL,Donaldmouth,RO,home,PROD_1098,Across Home,4,187.74,750.96
+Edge,1d53434b,2026-01-11T03:18:02.690346Z,desktop,IL,Donaldmouth,RO,food,PROD_1148,Politics Food,1,121.41,121.41
+Edge,1d53434b,2026-01-11T03:18:02.690346Z,desktop,IL,Donaldmouth,RO,clothing,PROD_1141,Page Clothing,5,72.31,361.55
+Safari,14296c07,2026-01-11T03:18:02.740148Z,tablet,WV,Whiteview,ER,electronics,PROD_1186,Blood Electronics,3,466.25,1398.75
+Safari,14296c07,2026-01-11T03:18:02.740148Z,tablet,WV,Whiteview,ER,home,PROD_1194,Phone Home,5,326.52,1632.60
+Safari,14296c07,2026-01-11T03:18:02.740148Z,tablet,WV,Whiteview,ER,sports,PROD_1026,Body Sports,5,188.57,942.85
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,home,PROD_1102,Time Home,5,102.01,510.05
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,clothing,PROD_1100,Entire Clothing,2,408.62,817.24
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,beauty,PROD_1065,Stand Beauty,5,314.68,1573.40
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,beauty,PROD_1169,Part Beauty,4,75.47,301.88
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,sports,PROD_1151,New Sports,5,203.2,1016.00
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,home,PROD_1102,Time Home,5,102.01,510.05
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,clothing,PROD_1100,Entire Clothing,2,408.62,817.24
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,beauty,PROD_1065,Stand Beauty,5,314.68,1573.40
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,beauty,PROD_1169,Part Beauty,4,75.47,301.88
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,mobile,NY,Bakerborough,PH,sports,PROD_1151,New Sports,5,203.2,1016.00
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,tablet,NY,Bakerborough,PH,home,PROD_1102,Time Home,5,102.01,510.05
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,tablet,NY,Bakerborough,PH,clothing,PROD_1100,Entire Clothing,2,408.62,817.24
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,tablet,NY,Bakerborough,PH,beauty,PROD_1065,Stand Beauty,5,314.68,1573.40
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,tablet,NY,Bakerborough,PH,beauty,PROD_1169,Part Beauty,4,75.47,301.88
+Safari,371ecd7b,2026-01-11T03:18:02.752476Z,tablet,NY,Bakerborough,PH,sports,PROD_1151,New Sports,5,203.2,1016.00
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,desktop,NY,Bakerborough,PH,home,PROD_1102,Time Home,5,102.01,510.05
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,desktop,NY,Bakerborough,PH,clothing,PROD_1100,Entire Clothing,2,408.62,817.24
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,desktop,NY,Bakerborough,PH,beauty,PROD_1065,Stand Beauty,5,314.68,1573.40
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,desktop,NY,Bakerborough,PH,beauty,PROD_1169,Part Beauty,4,75.47,301.88
+Edge,371ecd7b,2026-01-11T03:18:02.752476Z,desktop,NY,Bakerborough,PH,sports,PROD_1151,New Sports,5,203.2,1016.00
+Firefox,b8db0672,2026-01-11T03:18:02.801385Z,tablet,WY,New Jill,PH,food,PROD_1108,Sport Food,5,189.02,945.10
+Firefox,b8db0672,2026-01-11T03:18:02.801385Z,tablet,WY,New Jill,PH,clothing,PROD_1091,Rate Clothing,2,138.4,276.80
+Firefox,b8db0672,2026-01-11T03:18:02.801385Z,tablet,WY,New Jill,PH,clothing,PROD_1106,While Clothing,5,460.83,2304.15
+Edge,5304317f,2026-01-11T03:18:02.983849Z,desktop,DE,West Carolynbury,MW,home,PROD_1056,Marriage Home,2,53.45,106.90
+Edge,5304317f,2026-01-11T03:18:02.983849Z,desktop,DE,West Carolynbury,MW,food,PROD_1135,Mention Food,2,67.37,134.74
+Edge,5304317f,2026-01-11T03:18:02.983849Z,desktop,DE,West Carolynbury,MW,electronics,PROD_1052,Young Electronics,3,445.7,1337.10
+Edge,5304317f,2026-01-11T03:18:02.983849Z,desktop,DE,West Carolynbury,MW,toys,PROD_1009,President Toys,5,236.41,1182.05
+Edge,5304317f,2026-01-11T03:18:02.983849Z,desktop,DE,West Carolynbury,MW,food,PROD_1161,Peace Food,5,89.11,445.55
+Chrome,5ab33edf,2026-01-11T03:18:03.131892Z,tablet,TN,Rodriguezland,AF,electronics,PROD_1110,Simple Electronics,5,100.18,500.90
+Chrome,5ab33edf,2026-01-11T03:18:03.131892Z,tablet,TN,Rodriguezland,AF,food,PROD_1160,Practice Food,5,419.28,2096.40
+Chrome,5ab33edf,2026-01-11T03:18:03.131892Z,tablet,TN,Rodriguezland,AF,toys,PROD_1038,Model Toys,2,351.2,702.40
+Chrome,5ab33edf,2026-01-11T03:18:03.131892Z,tablet,TN,Rodriguezland,AF,food,PROD_1011,First Food,2,118.04,236.08
+Chrome,5ab33edf,2026-01-11T03:18:03.131892Z,tablet,TN,Rodriguezland,AF,toys,PROD_1099,Amount Toys,4,185.53,742.12
+Chrome,f4188f3f,2026-01-11T03:18:03.208160Z,mobile,UT,Lake Jessicaton,PY,home,PROD_1025,Board Home,5,221.09,1105.45
+Chrome,f4188f3f,2026-01-11T03:18:03.208160Z,mobile,UT,Lake Jessicaton,PY,electronics,PROD_1086,City Electronics,3,115.51,346.53
+Chrome,f4188f3f,2026-01-11T03:18:03.208160Z,mobile,UT,Lake Jessicaton,PY,toys,PROD_1081,Drop Toys,4,245.55,982.20
+Chrome,f4188f3f,2026-01-11T03:18:03.208160Z,mobile,UT,Lake Jessicaton,PY,toys,PROD_1120,Local Toys,5,476.62,2383.10
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,toys,PROD_1188,Serve Toys,5,86.49,432.45
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,clothing,PROD_1059,True Clothing,3,19.73,59.19
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,home,PROD_1005,Leg Home,1,363.56,363.56
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,home,PROD_1054,Technology Home,4,354.35,1417.40
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,books,PROD_1112,Political Books,2,369.1,738.20
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,toys,PROD_1188,Serve Toys,5,86.49,432.45
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,clothing,PROD_1059,True Clothing,3,19.73,59.19
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,home,PROD_1005,Leg Home,1,363.56,363.56
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,home,PROD_1054,Technology Home,4,354.35,1417.40
+Edge,5be6128e,2026-01-11T03:18:03.258505Z,mobile,IA,Rosebury,VN,books,PROD_1112,Political Books,2,369.1,738.20
+Firefox,9132b63e,2026-01-11T03:18:03.358503Z,mobile,MD,Port Melissaland,NR,beauty,PROD_1127,Prevent Beauty,1,112.87,112.87
+Firefox,9132b63e,2026-01-11T03:18:03.358503Z,mobile,MD,Port Melissaland,NR,electronics,PROD_1183,Teacher Electronics,3,56.82,170.46
+Firefox,9132b63e,2026-01-11T03:18:03.358503Z,mobile,MD,Port Melissaland,NR,electronics,PROD_1093,Able Electronics,5,67.64,338.20
+Firefox,9132b63e,2026-01-11T03:18:03.358503Z,mobile,MD,Port Melissaland,NR,food,PROD_1021,Road Food,5,43.1,215.50
+Firefox,5304317f,2026-01-11T03:18:03.521289Z,mobile,PR,West Ricardo,CO,beauty,PROD_1149,Later Beauty,3,50.29,150.87
+Firefox,5304317f,2026-01-11T03:18:03.521289Z,mobile,PR,West Ricardo,CO,sports,PROD_1152,Themselves Sports,1,94.03,94.03
+Edge,b02b61c4,2026-01-11T03:18:03.544884Z,mobile,IA,Port Zacharyfurt,PW,clothing,PROD_1178,Base Clothing,2,81.51,163.02
+Edge,b02b61c4,2026-01-11T03:18:03.544884Z,mobile,IA,Port Zacharyfurt,PW,books,PROD_1001,During Books,3,428.25,1284.75
+Edge,b02b61c4,2026-01-11T03:18:03.544884Z,mobile,IA,Port Zacharyfurt,PW,home,PROD_1000,Step Home,5,151.47,757.35
+Edge,b02b61c4,2026-01-11T03:18:03.544884Z,mobile,IA,Port Zacharyfurt,PW,home,PROD_1199,Throw Home,1,110.95,110.95
+Edge,b02b61c4,2026-01-11T03:18:03.544884Z,mobile,IA,Port Zacharyfurt,PW,beauty,PROD_1052,Yet Beauty,3,89.36,268.08
+Edge,14296c07,2026-01-11T03:18:03.615147Z,tablet,PR,Lake Victoriastad,TT,food,PROD_1193,Community Food,1,109.97,109.97
+Edge,14296c07,2026-01-11T03:18:03.615147Z,tablet,PR,Lake Victoriastad,TT,home,PROD_1068,Last Home,2,357.97,715.94
+Edge,14296c07,2026-01-11T03:18:03.615147Z,tablet,PR,Lake Victoriastad,TT,books,PROD_1071,Entire Books,2,480.78,961.56
+Edge,14296c07,2026-01-11T03:18:03.615147Z,tablet,PR,Lake Victoriastad,TT,books,PROD_1035,Inside Books,3,35.27,105.81
+Safari,24933b83,2026-01-11T03:18:03.697624Z,mobile,MO,Port Jeremiahberg,MX,home,PROD_1185,Movie Home,3,312.9,938.70
+Safari,24933b83,2026-01-11T03:18:03.697624Z,mobile,MO,Port Jeremiahberg,MX,beauty,PROD_1031,Positive Beauty,4,292.55,1170.20
+Safari,24933b83,2026-01-11T03:18:03.697624Z,mobile,MO,Port Jeremiahberg,MX,food,PROD_1152,Break Food,4,59.48,237.92
+Safari,24933b83,2026-01-11T03:18:03.697624Z,mobile,MO,Port Jeremiahberg,MX,electronics,PROD_1078,Mission Electronics,5,485.5,2427.50
+Safari,24933b83,2026-01-11T03:18:03.697624Z,mobile,MO,Port Jeremiahberg,MX,books,PROD_1184,Across Books,3,237.44,712.32
+Firefox,371ecd7b,2026-01-11T03:18:03.815561Z,tablet,WY,West Danielview,IS,sports,PROD_1196,Floor Sports,1,397.72,397.72
+Firefox,371ecd7b,2026-01-11T03:18:03.815561Z,tablet,WY,West Danielview,IS,clothing,PROD_1134,Bed Clothing,2,169.77,339.54
+Firefox,371ecd7b,2026-01-11T03:18:03.815561Z,tablet,WY,West Danielview,IS,beauty,PROD_1078,Family Beauty,4,492.25,1969.00
+Safari,5be6128e,2026-01-11T03:18:03.928290Z,tablet,VT,Hodgeburgh,LC,electronics,PROD_1159,Us Electronics,1,28.8,28.80
+Safari,5be6128e,2026-01-11T03:18:03.928290Z,tablet,VT,Hodgeburgh,LC,sports,PROD_1107,Realize Sports,1,261.02,261.02
+Safari,5be6128e,2026-01-11T03:18:03.928290Z,tablet,VT,Hodgeburgh,LC,food,PROD_1124,Easy Food,3,82.88,248.64
+Safari,5be6128e,2026-01-11T03:18:03.928290Z,tablet,VT,Hodgeburgh,LC,home,PROD_1161,Bad Home,5,243.48,1217.40
+Firefox,5ab33edf,2026-01-11T03:18:03.966457Z,mobile,CO,Mikeberg,FI,books,PROD_1003,Understand Books,2,65.16,130.32
+Firefox,5ab33edf,2026-01-11T03:18:03.966457Z,mobile,CO,Mikeberg,FI,clothing,PROD_1023,Natural Clothing,5,16.85,84.25
+Firefox,5ab33edf,2026-01-11T03:18:03.966457Z,mobile,CO,Mikeberg,FI,sports,PROD_1166,Media Sports,1,256.23,256.23
+Firefox,5ab33edf,2026-01-11T03:18:03.966457Z,mobile,CO,Mikeberg,FI,home,PROD_1042,Physical Home,4,173.86,695.44
+Firefox,5ab33edf,2026-01-11T03:18:03.966457Z,mobile,CO,Mikeberg,FI,electronics,PROD_1064,South Electronics,3,467.57,1402.71
+Edge,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,beauty,PROD_1100,Quite Beauty,5,444.57,2222.85
+Edge,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,clothing,PROD_1132,Grow Clothing,4,65.93,263.72
+Edge,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,toys,PROD_1067,Once Toys,3,367.22,1101.66
+Edge,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,food,PROD_1133,Hospital Food,4,223.32,893.28
+Edge,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,beauty,PROD_1083,Number Beauty,3,448.51,1345.53
+Firefox,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,beauty,PROD_1100,Quite Beauty,5,444.57,2222.85
+Firefox,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,clothing,PROD_1132,Grow Clothing,4,65.93,263.72
+Firefox,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,toys,PROD_1067,Once Toys,3,367.22,1101.66
+Firefox,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,food,PROD_1133,Hospital Food,4,223.32,893.28
+Firefox,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,beauty,PROD_1083,Number Beauty,3,448.51,1345.53
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,beauty,PROD_1100,Quite Beauty,5,444.57,2222.85
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,clothing,PROD_1132,Grow Clothing,4,65.93,263.72
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,toys,PROD_1067,Once Toys,3,367.22,1101.66
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,food,PROD_1133,Hospital Food,4,223.32,893.28
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,mobile,NY,Marcusmouth,DZ,beauty,PROD_1083,Number Beauty,3,448.51,1345.53
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,desktop,NY,Marcusmouth,DZ,beauty,PROD_1100,Quite Beauty,5,444.57,2222.85
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,desktop,NY,Marcusmouth,DZ,clothing,PROD_1132,Grow Clothing,4,65.93,263.72
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,desktop,NY,Marcusmouth,DZ,toys,PROD_1067,Once Toys,3,367.22,1101.66
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,desktop,NY,Marcusmouth,DZ,food,PROD_1133,Hospital Food,4,223.32,893.28
+Chrome,759cde66,2026-01-11T03:18:03.994477Z,desktop,NY,Marcusmouth,DZ,beauty,PROD_1083,Number Beauty,3,448.51,1345.53
+Firefox,839fbc50,2026-01-11T03:18:04.019242Z,mobile,WI,Dayview,ZW,beauty,PROD_1127,Machine Beauty,4,271.44,1085.76
+Firefox,839fbc50,2026-01-11T03:18:04.019242Z,mobile,WI,Dayview,ZW,electronics,PROD_1052,American Electronics,4,415.79,1663.16
+Firefox,839fbc50,2026-01-11T03:18:04.019242Z,mobile,WI,Dayview,ZW,clothing,PROD_1047,Plant Clothing,5,51.61,258.05
+Edge,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,beauty,PROD_1063,Hope Beauty,4,237.41,949.64
+Edge,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,books,PROD_1154,Do Books,2,489.16,978.32
+Edge,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,electronics,PROD_1023,Himself Electronics,5,128.68,643.40
+Edge,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,food,PROD_1146,Only Food,5,16.79,83.95
+Edge,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,clothing,PROD_1134,Become Clothing,5,115.11,575.55
+Firefox,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,beauty,PROD_1063,Hope Beauty,4,237.41,949.64
+Firefox,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,books,PROD_1154,Do Books,2,489.16,978.32
+Firefox,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,electronics,PROD_1023,Himself Electronics,5,128.68,643.40
+Firefox,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,food,PROD_1146,Only Food,5,16.79,83.95
+Firefox,287d06ca,2026-01-11T03:18:04.112341Z,tablet,PW,Port Stevenside,KM,clothing,PROD_1134,Become Clothing,5,115.11,575.55
+Edge,b8db0672,2026-01-11T03:18:04.368270Z,desktop,OR,South Rachelville,SN,sports,PROD_1043,Purpose Sports,3,16.31,48.93
+Edge,b8db0672,2026-01-11T03:18:04.368270Z,desktop,OR,South Rachelville,SN,home,PROD_1112,Second Home,4,490.53,1962.12
+Edge,b8db0672,2026-01-11T03:18:04.368270Z,desktop,OR,South Rachelville,SN,toys,PROD_1033,Leg Toys,3,295.98,887.94
+Edge,b8db0672,2026-01-11T03:18:04.368270Z,desktop,OR,South Rachelville,SN,electronics,PROD_1049,Responsibility Electronics,1,127.67,127.67
+Edge,b8db0672,2026-01-11T03:18:04.368270Z,desktop,OR,South Rachelville,SN,clothing,PROD_1192,Rich Clothing,2,186.09,372.18
+Safari,db20a56e,2026-01-11T03:18:04.545758Z,tablet,NE,Ruizburgh,MZ,sports,PROD_1090,Choose Sports,2,291.26,582.52
+Safari,db20a56e,2026-01-11T03:18:04.545758Z,tablet,NE,Ruizburgh,MZ,beauty,PROD_1146,Area Beauty,3,417.65,1252.95
+Safari,db20a56e,2026-01-11T03:18:04.545758Z,tablet,NE,Ruizburgh,MZ,clothing,PROD_1090,Suddenly Clothing,5,137.01,685.05
+Safari,db20a56e,2026-01-11T03:18:04.545758Z,tablet,NE,Ruizburgh,MZ,sports,PROD_1090,Choose Sports,2,291.26,582.52
+Safari,db20a56e,2026-01-11T03:18:04.545758Z,tablet,NE,Ruizburgh,MZ,beauty,PROD_1146,Area Beauty,3,417.65,1252.95
+Safari,db20a56e,2026-01-11T03:18:04.545758Z,tablet,NE,Ruizburgh,MZ,clothing,PROD_1090,Suddenly Clothing,5,137.01,685.05
+Edge,b02b61c4,2026-01-11T03:18:04.582481Z,mobile,CA,New Christopher,PE,toys,PROD_1092,Run Toys,5,27.01,135.05
+Edge,b02b61c4,2026-01-11T03:18:04.582481Z,mobile,CA,New Christopher,PE,electronics,PROD_1184,Blue Electronics,2,23.62,47.24
+Edge,b02b61c4,2026-01-11T03:18:04.582481Z,mobile,CA,New Christopher,PE,home,PROD_1073,Run Home,1,182.17,182.17
+Edge,b02b61c4,2026-01-11T03:18:04.582481Z,mobile,CA,New Christopher,PE,electronics,PROD_1156,National Electronics,5,351.4,1757.00
+Edge,b02b61c4,2026-01-11T03:18:04.582481Z,mobile,CA,New Christopher,PE,clothing,PROD_1192,Official Clothing,1,114.9,114.90
+Firefox,a9488d99,2026-01-11T03:18:04.658441Z,mobile,CT,East Jacobmouth,IN,clothing,PROD_1031,Look Clothing,1,169.65,169.65
+Firefox,366eb16f,2026-01-11T03:18:04.866798Z,desktop,AZ,Pamelahaven,EG,electronics,PROD_1190,Themselves Electronics,5,345.6,1728.00
+Firefox,366eb16f,2026-01-11T03:18:04.866798Z,desktop,AZ,Pamelahaven,EG,food,PROD_1001,Yourself Food,3,377.92,1133.76
+Firefox,366eb16f,2026-01-11T03:18:04.866798Z,desktop,AZ,Pamelahaven,EG,home,PROD_1002,Nation Home,2,234.91,469.82
+Firefox,366eb16f,2026-01-11T03:18:04.866798Z,desktop,AZ,Pamelahaven,EG,food,PROD_1088,Well Food,2,171.39,342.78
+Firefox,366eb16f,2026-01-11T03:18:04.866798Z,desktop,AZ,Pamelahaven,EG,electronics,PROD_1086,Cover Electronics,2,123.26,246.52
+Chrome,ccf3a171,2026-01-11T03:18:05.078950Z,mobile,SC,Lake Jay,MK,sports,PROD_1094,Church Sports,3,424.59,1273.77
+Chrome,ccf3a171,2026-01-11T03:18:05.078950Z,mobile,SC,Lake Jay,MK,toys,PROD_1150,Else Toys,4,53.26,213.04
+Chrome,ccf3a171,2026-01-11T03:18:05.078950Z,mobile,SC,Lake Jay,MK,home,PROD_1022,Event Home,4,393.83,1575.32
+Chrome,ccf3a171,2026-01-11T03:18:05.078950Z,mobile,SC,Lake Jay,MK,beauty,PROD_1077,West Beauty,5,489.72,2448.60
+Firefox,b02b61c4,2026-01-11T03:18:05.171296Z,desktop,KY,Davidton,BY,books,PROD_1127,Tough Books,2,302.66,605.32
+Firefox,b02b61c4,2026-01-11T03:18:05.171296Z,desktop,KY,Davidton,BY,toys,PROD_1110,Institution Toys,1,439.42,439.42
+Firefox,b02b61c4,2026-01-11T03:18:05.171296Z,desktop,KY,Davidton,BY,clothing,PROD_1072,Take Clothing,3,173.22,519.66
+Safari,b8db0672,2026-01-11T03:18:05.196793Z,mobile,MT,South Scott,EG,beauty,PROD_1040,Foreign Beauty,2,448.59,897.18
+Edge,5304317f,2026-01-11T03:18:05.223953Z,tablet,PA,Port Jonathan,CR,beauty,PROD_1076,Reduce Beauty,5,50.16,250.80
+Edge,5304317f,2026-01-11T03:18:05.223953Z,tablet,PA,Port Jonathan,CR,clothing,PROD_1055,Where Clothing,4,366.33,1465.32
+Edge,5304317f,2026-01-11T03:18:05.223953Z,tablet,PA,Port Jonathan,CR,toys,PROD_1003,Southern Toys,5,176.93,884.65
+Firefox,93829b43,2026-01-11T03:18:05.418337Z,desktop,AS,Johnville,IT,sports,PROD_1095,Land Sports,3,261.95,785.85
+Firefox,93829b43,2026-01-11T03:18:05.418337Z,desktop,AS,Johnville,IT,electronics,PROD_1091,Trial Electronics,3,462.12,1386.36
+Firefox,93829b43,2026-01-11T03:18:05.418337Z,desktop,AS,Johnville,IT,home,PROD_1019,Method Home,1,498.43,498.43
+Firefox,edcd465e,2026-01-11T03:18:05.522236Z,mobile,MI,Port Lisa,TH,toys,PROD_1123,Science Toys,5,274.66,1373.30
+Firefox,edcd465e,2026-01-11T03:18:05.522236Z,mobile,MI,Port Lisa,TH,food,PROD_1078,Compare Food,4,54.67,218.68
+Firefox,edcd465e,2026-01-11T03:18:05.522236Z,mobile,MI,Port Lisa,TH,food,PROD_1178,Raise Food,3,448.27,1344.81
+Firefox,edcd465e,2026-01-11T03:18:05.522236Z,mobile,MI,Port Lisa,TH,books,PROD_1074,Night Books,1,394.23,394.23
+Chrome,b8db0672,2026-01-11T03:18:05.618738Z,desktop,FM,Port Gregoryville,MK,clothing,PROD_1168,Citizen Clothing,2,52.44,104.88
+Chrome,b8db0672,2026-01-11T03:18:05.618738Z,desktop,FM,Port Gregoryville,MK,sports,PROD_1035,Significant Sports,5,496.12,2480.60
+Chrome,b8db0672,2026-01-11T03:18:05.618738Z,desktop,FM,Port Gregoryville,MK,clothing,PROD_1052,Peace Clothing,3,121.63,364.89
+Chrome,b8db0672,2026-01-11T03:18:05.618738Z,desktop,FM,Port Gregoryville,MK,toys,PROD_1029,Sort Toys,1,207.29,207.29
+Chrome,b8db0672,2026-01-11T03:18:05.618738Z,desktop,FM,Port Gregoryville,MK,beauty,PROD_1012,Author Beauty,1,262.86,262.86
+Edge,5fb8d16c,2026-01-11T03:18:05.824977Z,mobile,IA,New Daniel,SN,food,PROD_1192,Place Food,1,140.55,140.55
+Safari,b8db0672,2026-01-11T03:18:05.920029Z,tablet,MH,East Alexander,CM,sports,PROD_1025,Speak Sports,4,139.54,558.16
+Safari,b8db0672,2026-01-11T03:18:05.920029Z,tablet,MH,East Alexander,CM,beauty,PROD_1067,Region Beauty,2,411.04,822.08
+Safari,b8db0672,2026-01-11T03:18:05.920029Z,tablet,MH,East Alexander,CM,toys,PROD_1048,War Toys,1,489.42,489.42
+Safari,b8db0672,2026-01-11T03:18:05.920029Z,tablet,MH,East Alexander,CM,sports,PROD_1192,Main Sports,5,489.36,2446.80
+Edge,b8db0672,2026-01-11T03:18:05.920029Z,desktop,MH,East Alexander,CM,sports,PROD_1025,Speak Sports,4,139.54,558.16
+Edge,b8db0672,2026-01-11T03:18:05.920029Z,desktop,MH,East Alexander,CM,beauty,PROD_1067,Region Beauty,2,411.04,822.08
+Edge,b8db0672,2026-01-11T03:18:05.920029Z,desktop,MH,East Alexander,CM,toys,PROD_1048,War Toys,1,489.42,489.42
+Edge,b8db0672,2026-01-11T03:18:05.920029Z,desktop,MH,East Alexander,CM,sports,PROD_1192,Main Sports,5,489.36,2446.80
+Firefox,759cde66,2026-01-11T03:18:05.993281Z,mobile,WY,North Christina,GQ,books,PROD_1042,Goal Books,1,299.32,299.32
+Firefox,759cde66,2026-01-11T03:18:05.993281Z,mobile,WY,North Christina,GQ,clothing,PROD_1000,Federal Clothing,2,289.89,579.78
+Firefox,759cde66,2026-01-11T03:18:05.993281Z,mobile,WY,North Christina,GQ,food,PROD_1169,Note Food,5,128.01,640.05
+Firefox,759cde66,2026-01-11T03:18:05.993281Z,mobile,WY,North Christina,GQ,sports,PROD_1188,Situation Sports,5,219.93,1099.65
+Safari,b8db0672,2026-01-11T03:18:06.017222Z,tablet,DE,Hernandezhaven,BF,food,PROD_1145,Suffer Food,5,83.5,417.50
+Safari,b8db0672,2026-01-11T03:18:06.017222Z,tablet,DE,Hernandezhaven,BF,toys,PROD_1199,Region Toys,5,30.25,151.25
+Firefox,5f987c71,2026-01-11T03:18:06.042057Z,desktop,OK,Jenniferview,RW,beauty,PROD_1057,Describe Beauty,1,416.19,416.19
+Firefox,5f987c71,2026-01-11T03:18:06.042057Z,desktop,OK,Jenniferview,RW,sports,PROD_1072,Create Sports,4,100.58,402.32
+Firefox,5f987c71,2026-01-11T03:18:06.042057Z,desktop,OK,Jenniferview,RW,toys,PROD_1178,Eye Toys,5,278.0,1390.00
+Firefox,5f987c71,2026-01-11T03:18:06.042057Z,desktop,OK,Jenniferview,RW,home,PROD_1077,Sell Home,1,277.32,277.32
+Firefox,5f987c71,2026-01-11T03:18:06.042057Z,desktop,OK,Jenniferview,RW,electronics,PROD_1019,Person Electronics,2,234.14,468.28
+Firefox,371ecd7b,2026-01-11T03:18:06.200691Z,tablet,KS,Feliciaburgh,CV,home,PROD_1092,Behind Home,1,190.47,190.47
+Firefox,371ecd7b,2026-01-11T03:18:06.200691Z,tablet,KS,Feliciaburgh,CV,books,PROD_1187,Set Books,2,400.89,801.78
+Edge,3eabedcb,2026-01-11T03:18:06.356419Z,desktop,PW,East Gabrielle,JM,beauty,PROD_1023,Mouth Beauty,1,78.14,78.14
+Edge,3eabedcb,2026-01-11T03:18:06.356419Z,desktop,PW,East Gabrielle,JM,electronics,PROD_1135,Begin Electronics,4,92.07,368.28
+Chrome,1d53434b,2026-01-11T03:18:06.406646Z,mobile,NJ,North Vincenthaven,BJ,books,PROD_1001,South Books,1,456.62,456.62
+Chrome,1d53434b,2026-01-11T03:18:06.406646Z,mobile,NJ,North Vincenthaven,BJ,toys,PROD_1178,Understand Toys,1,244.37,244.37
+Chrome,1d53434b,2026-01-11T03:18:06.406646Z,mobile,NJ,North Vincenthaven,BJ,beauty,PROD_1136,Player Beauty,1,284.9,284.90
+Safari,5304317f,2026-01-11T03:18:06.531578Z,tablet,NY,Espinozamouth,KG,beauty,PROD_1041,During Beauty,4,153.55,614.20
+Safari,5304317f,2026-01-11T03:18:06.531578Z,tablet,NY,Espinozamouth,KG,food,PROD_1164,For Food,4,375.67,1502.68
+Safari,5304317f,2026-01-11T03:18:06.531578Z,tablet,NY,Espinozamouth,KG,toys,PROD_1072,Prepare Toys,3,92.52,277.56
+Edge,93829b43,2026-01-11T03:18:06.580263Z,mobile,PR,Port Heatherview,VC,clothing,PROD_1150,Run Clothing,1,405.79,405.79
+Edge,93829b43,2026-01-11T03:18:06.580263Z,mobile,PR,Port Heatherview,VC,home,PROD_1068,Be Home,4,93.1,372.40
+Edge,93829b43,2026-01-11T03:18:06.580263Z,mobile,PR,Port Heatherview,VC,clothing,PROD_1093,Last Clothing,1,384.15,384.15
+Edge,93829b43,2026-01-11T03:18:06.580263Z,mobile,PR,Port Heatherview,VC,books,PROD_1173,Speak Books,4,402.34,1609.36
+Safari,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,clothing,PROD_1150,Run Clothing,1,405.79,405.79
+Safari,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,home,PROD_1068,Be Home,4,93.1,372.40
+Safari,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,clothing,PROD_1093,Last Clothing,1,384.15,384.15
+Safari,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,books,PROD_1173,Speak Books,4,402.34,1609.36
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,desktop,PR,Port Heatherview,VC,clothing,PROD_1150,Run Clothing,1,405.79,405.79
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,desktop,PR,Port Heatherview,VC,home,PROD_1068,Be Home,4,93.1,372.40
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,desktop,PR,Port Heatherview,VC,clothing,PROD_1093,Last Clothing,1,384.15,384.15
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,desktop,PR,Port Heatherview,VC,books,PROD_1173,Speak Books,4,402.34,1609.36
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,clothing,PROD_1150,Run Clothing,1,405.79,405.79
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,home,PROD_1068,Be Home,4,93.1,372.40
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,clothing,PROD_1093,Last Clothing,1,384.15,384.15
+Chrome,93829b43,2026-01-11T03:18:06.580263Z,tablet,PR,Port Heatherview,VC,books,PROD_1173,Speak Books,4,402.34,1609.36
+Chrome,a9488d99,2026-01-11T03:18:06.688499Z,mobile,MN,South Dawn,MM,sports,PROD_1018,Future Sports,2,241.28,482.56
+Chrome,a9488d99,2026-01-11T03:18:06.688499Z,mobile,MN,South Dawn,MM,sports,PROD_1182,Do Sports,5,108.05,540.25
+Chrome,a9488d99,2026-01-11T03:18:06.688499Z,mobile,MN,South Dawn,MM,toys,PROD_1197,Explain Toys,3,138.81,416.43
+Firefox,839fbc50,2026-01-11T03:18:06.748255Z,tablet,DE,North Kaylahaven,TM,clothing,PROD_1109,Ball Clothing,1,344.68,344.68
+Firefox,839fbc50,2026-01-11T03:18:06.748255Z,tablet,DE,North Kaylahaven,TM,electronics,PROD_1069,Reflect Electronics,4,78.04,312.16
+Firefox,839fbc50,2026-01-11T03:18:06.748255Z,tablet,DE,North Kaylahaven,TM,toys,PROD_1169,Head Toys,3,493.05,1479.15
+Firefox,839fbc50,2026-01-11T03:18:06.748255Z,tablet,DE,North Kaylahaven,TM,sports,PROD_1027,Technology Sports,3,280.45,841.35
+Firefox,839fbc50,2026-01-11T03:18:06.748255Z,tablet,DE,North Kaylahaven,TM,clothing,PROD_1037,Until Clothing,5,112.08,560.40
+Edge,839fbc50,2026-01-11T03:18:06.748255Z,mobile,DE,North Kaylahaven,TM,clothing,PROD_1109,Ball Clothing,1,344.68,344.68
+Edge,839fbc50,2026-01-11T03:18:06.748255Z,mobile,DE,North Kaylahaven,TM,electronics,PROD_1069,Reflect Electronics,4,78.04,312.16
+Edge,839fbc50,2026-01-11T03:18:06.748255Z,mobile,DE,North Kaylahaven,TM,toys,PROD_1169,Head Toys,3,493.05,1479.15
+Edge,839fbc50,2026-01-11T03:18:06.748255Z,mobile,DE,North Kaylahaven,TM,sports,PROD_1027,Technology Sports,3,280.45,841.35
+Edge,839fbc50,2026-01-11T03:18:06.748255Z,mobile,DE,North Kaylahaven,TM,clothing,PROD_1037,Until Clothing,5,112.08,560.40
+Safari,f4188f3f,2026-01-11T03:18:06.821868Z,mobile,NJ,East Henry,TG,clothing,PROD_1091,Country Clothing,3,166.76,500.28
+Safari,f4188f3f,2026-01-11T03:18:06.821868Z,mobile,NJ,East Henry,TG,books,PROD_1102,Prepare Books,5,233.63,1168.15
+Safari,f4188f3f,2026-01-11T03:18:06.821868Z,mobile,NJ,East Henry,TG,food,PROD_1159,Both Food,1,133.44,133.44
+Safari,f4188f3f,2026-01-11T03:18:06.821868Z,mobile,NJ,East Henry,TG,electronics,PROD_1073,Able Electronics,4,321.62,1286.48
+Safari,f4188f3f,2026-01-11T03:18:06.821868Z,mobile,NJ,East Henry,TG,toys,PROD_1179,Century Toys,5,22.48,112.40
+Firefox,5fb8d16c,2026-01-11T03:18:06.834167Z,desktop,RI,Carmenburgh,GQ,clothing,PROD_1000,We Clothing,4,429.89,1719.56
+Firefox,5fb8d16c,2026-01-11T03:18:06.834167Z,desktop,RI,Carmenburgh,GQ,home,PROD_1107,Man Home,5,133.57,667.85
+Firefox,5fb8d16c,2026-01-11T03:18:06.834167Z,desktop,RI,Carmenburgh,GQ,clothing,PROD_1070,Evidence Clothing,1,146.32,146.32
+Firefox,5fb8d16c,2026-01-11T03:18:06.834167Z,desktop,RI,Carmenburgh,GQ,food,PROD_1062,With Food,4,414.3,1657.20
+Firefox,5fb8d16c,2026-01-11T03:18:06.834167Z,desktop,RI,Carmenburgh,GQ,books,PROD_1056,Whether Books,3,215.52,646.56
+Firefox,edcd465e,2026-01-11T03:18:06.906049Z,mobile,MN,Erikaport,NL,clothing,PROD_1097,Truth Clothing,3,339.8,1019.40
+Firefox,edcd465e,2026-01-11T03:18:06.906049Z,mobile,MN,Erikaport,NL,clothing,PROD_1105,Quite Clothing,4,81.11,324.44
+Firefox,edcd465e,2026-01-11T03:18:06.906049Z,mobile,MN,Erikaport,NL,beauty,PROD_1024,News Beauty,1,337.33,337.33
+Firefox,edcd465e,2026-01-11T03:18:06.906049Z,mobile,MN,Erikaport,NL,beauty,PROD_1083,Clearly Beauty,5,181.49,907.45
+Firefox,edcd465e,2026-01-11T03:18:06.906049Z,mobile,MN,Erikaport,NL,electronics,PROD_1174,Meeting Electronics,2,75.09,150.18
+Edge,edcd465e,2026-01-11T03:18:06.906049Z,tablet,MN,Erikaport,NL,clothing,PROD_1097,Truth Clothing,3,339.8,1019.40
+Edge,edcd465e,2026-01-11T03:18:06.906049Z,tablet,MN,Erikaport,NL,clothing,PROD_1105,Quite Clothing,4,81.11,324.44
+Edge,edcd465e,2026-01-11T03:18:06.906049Z,tablet,MN,Erikaport,NL,beauty,PROD_1024,News Beauty,1,337.33,337.33
+Edge,edcd465e,2026-01-11T03:18:06.906049Z,tablet,MN,Erikaport,NL,beauty,PROD_1083,Clearly Beauty,5,181.49,907.45
+Edge,edcd465e,2026-01-11T03:18:06.906049Z,tablet,MN,Erikaport,NL,electronics,PROD_1174,Meeting Electronics,2,75.09,150.18
+Edge,839fbc50,2026-01-11T03:18:07.079327Z,desktop,SD,Port Jacquelineview,LK,clothing,PROD_1095,Will Clothing,3,27.33,81.99
+Edge,839fbc50,2026-01-11T03:18:07.079327Z,desktop,SD,Port Jacquelineview,LK,books,PROD_1176,Candidate Books,3,242.46,727.38
+Edge,839fbc50,2026-01-11T03:18:07.079327Z,desktop,SD,Port Jacquelineview,LK,electronics,PROD_1018,Right Electronics,3,314.04,942.12
+Edge,839fbc50,2026-01-11T03:18:07.079327Z,desktop,SD,Port Jacquelineview,LK,toys,PROD_1080,Bag Toys,3,338.87,1016.61
+Safari,839fbc50,2026-01-11T03:18:07.079327Z,mobile,SD,Port Jacquelineview,LK,clothing,PROD_1095,Will Clothing,3,27.33,81.99
+Safari,839fbc50,2026-01-11T03:18:07.079327Z,mobile,SD,Port Jacquelineview,LK,books,PROD_1176,Candidate Books,3,242.46,727.38
+Safari,839fbc50,2026-01-11T03:18:07.079327Z,mobile,SD,Port Jacquelineview,LK,electronics,PROD_1018,Right Electronics,3,314.04,942.12
+Safari,839fbc50,2026-01-11T03:18:07.079327Z,mobile,SD,Port Jacquelineview,LK,toys,PROD_1080,Bag Toys,3,338.87,1016.61
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,sports,PROD_1177,Else Sports,3,277.52,832.56
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,toys,PROD_1085,Everyone Toys,1,361.87,361.87
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,beauty,PROD_1188,Television Beauty,1,391.55,391.55
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,electronics,PROD_1171,Hospital Electronics,3,356.31,1068.93
+Firefox,366eb16f,2026-01-11T03:18:07.092211Z,mobile,MH,Youngshire,BH,sports,PROD_1177,Else Sports,3,277.52,832.56
+Firefox,366eb16f,2026-01-11T03:18:07.092211Z,mobile,MH,Youngshire,BH,toys,PROD_1085,Everyone Toys,1,361.87,361.87
+Firefox,366eb16f,2026-01-11T03:18:07.092211Z,mobile,MH,Youngshire,BH,beauty,PROD_1188,Television Beauty,1,391.55,391.55
+Firefox,366eb16f,2026-01-11T03:18:07.092211Z,mobile,MH,Youngshire,BH,electronics,PROD_1171,Hospital Electronics,3,356.31,1068.93
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,sports,PROD_1177,Else Sports,3,277.52,832.56
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,toys,PROD_1085,Everyone Toys,1,361.87,361.87
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,beauty,PROD_1188,Television Beauty,1,391.55,391.55
+Safari,366eb16f,2026-01-11T03:18:07.092211Z,tablet,MH,Youngshire,BH,electronics,PROD_1171,Hospital Electronics,3,356.31,1068.93
+Safari,5be6128e,2026-01-11T03:18:07.156011Z,mobile,MD,Swansonshire,CV,beauty,PROD_1023,Green Beauty,2,146.15,292.30
+Safari,5be6128e,2026-01-11T03:18:07.156011Z,mobile,MD,Swansonshire,CV,food,PROD_1028,Bit Food,4,331.87,1327.48
+Safari,5be6128e,2026-01-11T03:18:07.156011Z,mobile,MD,Swansonshire,CV,food,PROD_1144,Interview Food,2,350.98,701.96
+Chrome,5ab33edf,2026-01-11T03:18:07.181380Z,tablet,VA,Port Kristenside,CR,books,PROD_1103,Society Books,3,248.36,745.08
+Chrome,5ab33edf,2026-01-11T03:18:07.181380Z,tablet,VA,Port Kristenside,CR,electronics,PROD_1181,Ever Electronics,5,408.15,2040.75
+Chrome,5ab33edf,2026-01-11T03:18:07.181380Z,tablet,VA,Port Kristenside,CR,sports,PROD_1114,Cell Sports,2,385.56,771.12
+Chrome,5ab33edf,2026-01-11T03:18:07.181380Z,tablet,VA,Port Kristenside,CR,toys,PROD_1028,Central Toys,3,331.7,995.10
+Firefox,9132b63e,2026-01-11T03:18:07.241968Z,mobile,OH,Saraside,TR,toys,PROD_1006,Particularly Toys,4,440.75,1763.00
+Firefox,9132b63e,2026-01-11T03:18:07.241968Z,mobile,OH,Saraside,TR,books,PROD_1067,Between Books,3,150.35,451.05
+Firefox,9132b63e,2026-01-11T03:18:07.241968Z,mobile,OH,Saraside,TR,home,PROD_1140,Carry Home,5,363.22,1816.10
+Firefox,9132b63e,2026-01-11T03:18:07.241968Z,mobile,OH,Saraside,TR,sports,PROD_1029,They Sports,5,369.2,1846.00
+Edge,24933b83,2026-01-11T03:18:07.254902Z,tablet,VT,Lake Zachary,AE,electronics,PROD_1165,Mouth Electronics,5,346.39,1731.95
+Edge,24933b83,2026-01-11T03:18:07.254902Z,tablet,VT,Lake Zachary,AE,toys,PROD_1140,Couple Toys,3,67.57,202.71
+Edge,24933b83,2026-01-11T03:18:07.254902Z,tablet,VT,Lake Zachary,AE,electronics,PROD_1078,Appear Electronics,3,94.5,283.50
+Edge,24933b83,2026-01-11T03:18:07.254902Z,tablet,VT,Lake Zachary,AE,sports,PROD_1113,Range Sports,5,136.33,681.65
+Chrome,287d06ca,2026-01-11T03:18:07.369038Z,mobile,NM,Port Coreyberg,SY,electronics,PROD_1129,Over Electronics,1,429.48,429.48
+Chrome,287d06ca,2026-01-11T03:18:07.369038Z,mobile,NM,Port Coreyberg,SY,clothing,PROD_1162,More Clothing,5,279.63,1398.15
+Chrome,287d06ca,2026-01-11T03:18:07.369038Z,mobile,NM,Port Coreyberg,SY,toys,PROD_1120,Affect Toys,3,336.58,1009.74
+Chrome,287d06ca,2026-01-11T03:18:07.369038Z,mobile,NM,Port Coreyberg,SY,beauty,PROD_1006,Artist Beauty,4,288.32,1153.28
+Chrome,287d06ca,2026-01-11T03:18:07.369038Z,mobile,NM,Port Coreyberg,SY,toys,PROD_1146,Measure Toys,3,57.84,173.52
+Edge,5be6128e,2026-01-11T03:18:07.408077Z,tablet,OH,Mahoneyview,DM,food,PROD_1049,Card Food,2,412.54,825.08
+Edge,5be6128e,2026-01-11T03:18:07.408077Z,tablet,OH,Mahoneyview,DM,sports,PROD_1112,Cell Sports,3,393.53,1180.59
+Edge,5be6128e,2026-01-11T03:18:07.408077Z,tablet,OH,Mahoneyview,DM,sports,PROD_1166,Strategy Sports,5,386.99,1934.95
+Safari,9b49bd26,2026-01-11T03:18:07.446444Z,desktop,KS,Alexanderfort,KP,toys,PROD_1156,Wall Toys,1,456.44,456.44
+Firefox,371ecd7b,2026-01-11T03:18:07.521875Z,tablet,OR,Edwardland,VU,electronics,PROD_1016,Environment Electronics,1,186.08,186.08
+Chrome,988c24c9,2026-01-11T03:18:07.547069Z,desktop,TN,New Morganhaven,JO,sports,PROD_1053,While Sports,3,99.97,299.91
+Chrome,988c24c9,2026-01-11T03:18:07.547069Z,desktop,TN,New Morganhaven,JO,electronics,PROD_1155,Level Electronics,2,91.75,183.50
+Chrome,988c24c9,2026-01-11T03:18:07.547069Z,desktop,TN,New Morganhaven,JO,beauty,PROD_1010,Fall Beauty,3,263.44,790.32
+Chrome,988c24c9,2026-01-11T03:18:07.547069Z,desktop,TN,New Morganhaven,JO,beauty,PROD_1116,Never Beauty,5,416.72,2083.60
+Chrome,988c24c9,2026-01-11T03:18:07.547069Z,desktop,TN,New Morganhaven,JO,electronics,PROD_1102,Relationship Electronics,4,148.27,593.08
+Safari,f4188f3f,2026-01-11T03:18:07.684811Z,mobile,CT,Sandershaven,JM,electronics,PROD_1073,Beyond Electronics,5,419.47,2097.35
+Safari,f4188f3f,2026-01-11T03:18:07.684811Z,mobile,CT,Sandershaven,JM,books,PROD_1011,And Books,4,121.81,487.24
+Safari,f4188f3f,2026-01-11T03:18:07.684811Z,mobile,CT,Sandershaven,JM,toys,PROD_1071,Today Toys,1,100.97,100.97
+Safari,f4188f3f,2026-01-11T03:18:07.684811Z,mobile,CT,Sandershaven,JM,sports,PROD_1179,Final Sports,1,94.74,94.74
+Chrome,9b49bd26,2026-01-11T03:18:07.722371Z,tablet,CT,Watkinsside,MW,home,PROD_1095,Better Home,5,406.58,2032.90
+Chrome,9b49bd26,2026-01-11T03:18:07.722371Z,tablet,CT,Watkinsside,MW,books,PROD_1148,Security Books,5,174.47,872.35
+Chrome,9b49bd26,2026-01-11T03:18:07.722371Z,tablet,CT,Watkinsside,MW,food,PROD_1122,Least Food,1,33.56,33.56
+Chrome,5fb8d16c,2026-01-11T03:18:07.734435Z,tablet,IL,North Kevin,EE,toys,PROD_1127,Usually Toys,2,344.76,689.52
+Chrome,5fb8d16c,2026-01-11T03:18:07.734435Z,tablet,IL,North Kevin,EE,electronics,PROD_1037,Three Electronics,1,58.61,58.61
+Chrome,5fb8d16c,2026-01-11T03:18:07.734435Z,tablet,IL,North Kevin,EE,food,PROD_1100,Fear Food,2,498.47,996.94
+Chrome,5fb8d16c,2026-01-11T03:18:07.734435Z,tablet,IL,North Kevin,EE,home,PROD_1031,Score Home,1,166.11,166.11
+Chrome,5fb8d16c,2026-01-11T03:18:07.734435Z,tablet,IL,North Kevin,EE,food,PROD_1022,Would Food,1,346.31,346.31
+Edge,5f987c71,2026-01-11T03:18:07.746521Z,mobile,NV,South Cameronhaven,CU,food,PROD_1002,Lot Food,2,86.49,172.98
+Edge,5f987c71,2026-01-11T03:18:07.746521Z,mobile,NV,South Cameronhaven,CU,electronics,PROD_1149,Understand Electronics,1,117.04,117.04
+Edge,5f987c71,2026-01-11T03:18:07.746521Z,mobile,NV,South Cameronhaven,CU,books,PROD_1005,Audience Books,5,411.02,2055.10
+Edge,5f987c71,2026-01-11T03:18:07.746521Z,mobile,NV,South Cameronhaven,CU,beauty,PROD_1143,Position Beauty,5,31.19,155.95
+Chrome,5f987c71,2026-01-11T03:18:07.746521Z,tablet,NV,South Cameronhaven,CU,food,PROD_1002,Lot Food,2,86.49,172.98
+Chrome,5f987c71,2026-01-11T03:18:07.746521Z,tablet,NV,South Cameronhaven,CU,electronics,PROD_1149,Understand Electronics,1,117.04,117.04
+Chrome,5f987c71,2026-01-11T03:18:07.746521Z,tablet,NV,South Cameronhaven,CU,books,PROD_1005,Audience Books,5,411.02,2055.10
+Chrome,5f987c71,2026-01-11T03:18:07.746521Z,tablet,NV,South Cameronhaven,CU,beauty,PROD_1143,Position Beauty,5,31.19,155.95
+Safari,d0e6e660,2026-01-11T03:18:07.783392Z,mobile,WY,Port Sarah,TN,food,PROD_1075,Great Food,4,77.04,308.16
+Safari,d0e6e660,2026-01-11T03:18:07.783392Z,mobile,WY,Port Sarah,TN,books,PROD_1012,Parent Books,3,27.04,81.12
+Safari,d0e6e660,2026-01-11T03:18:07.783392Z,mobile,WY,Port Sarah,TN,toys,PROD_1084,Pay Toys,3,14.82,44.46
+Safari,d0e6e660,2026-01-11T03:18:07.783392Z,mobile,WY,Port Sarah,TN,clothing,PROD_1102,Part Clothing,1,47.78,47.78
+Edge,405cacec,2026-01-11T03:18:07.831027Z,tablet,VT,West Andrea,CU,food,PROD_1080,Ten Food,3,476.8,1430.40
+Edge,405cacec,2026-01-11T03:18:07.831027Z,tablet,VT,West Andrea,CU,sports,PROD_1118,Fast Sports,3,36.73,110.19
+Edge,405cacec,2026-01-11T03:18:07.831027Z,tablet,VT,West Andrea,CU,books,PROD_1197,Old Books,5,276.7,1383.50
+Edge,405cacec,2026-01-11T03:18:07.831027Z,tablet,VT,West Andrea,CU,beauty,PROD_1171,Sense Beauty,1,315.52,315.52
+Edge,405cacec,2026-01-11T03:18:07.831027Z,tablet,VT,West Andrea,CU,home,PROD_1138,Prevent Home,4,47.91,191.64
+Safari,edcd465e,2026-01-11T03:18:07.977712Z,desktop,VT,Jillianhaven,SM,beauty,PROD_1035,Not Beauty,3,69.04,207.12
+Safari,edcd465e,2026-01-11T03:18:07.977712Z,desktop,VT,Jillianhaven,SM,clothing,PROD_1144,Care Clothing,3,199.33,597.99
+Safari,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,toys,PROD_1049,Evening Toys,3,274.88,824.64
+Safari,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,home,PROD_1114,Identify Home,5,350.58,1752.90
+Safari,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,clothing,PROD_1036,Until Clothing,5,13.37,66.85
+Safari,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,toys,PROD_1104,Economy Toys,4,118.51,474.04
+Safari,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,beauty,PROD_1116,Beat Beauty,2,230.93,461.86
+Chrome,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,toys,PROD_1049,Evening Toys,3,274.88,824.64
+Chrome,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,home,PROD_1114,Identify Home,5,350.58,1752.90
+Chrome,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,clothing,PROD_1036,Until Clothing,5,13.37,66.85
+Chrome,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,toys,PROD_1104,Economy Toys,4,118.51,474.04
+Chrome,839fbc50,2026-01-11T03:18:08.264767Z,tablet,RI,Williamsside,SZ,beauty,PROD_1116,Beat Beauty,2,230.93,461.86
+Edge,366eb16f,2026-01-11T03:18:08.633847Z,mobile,MT,South Jacobville,CN,home,PROD_1008,Road Home,1,221.13,221.13
+Edge,366eb16f,2026-01-11T03:18:08.633847Z,mobile,MT,South Jacobville,CN,food,PROD_1029,Project Food,2,355.85,711.70
+Edge,366eb16f,2026-01-11T03:18:08.633847Z,mobile,MT,South Jacobville,CN,sports,PROD_1191,Return Sports,1,144.29,144.29
+Edge,db20a56e,2026-01-11T03:18:08.696640Z,mobile,IN,Donaldstad,FI,sports,PROD_1142,Form Sports,3,231.93,695.79
+Edge,db20a56e,2026-01-11T03:18:08.696640Z,mobile,IN,Donaldstad,FI,beauty,PROD_1042,Pick Beauty,1,499.71,499.71
+Edge,db20a56e,2026-01-11T03:18:08.696640Z,mobile,IN,Donaldstad,FI,books,PROD_1086,West Books,5,252.44,1262.20
+Edge,db20a56e,2026-01-11T03:18:08.696640Z,mobile,IN,Donaldstad,FI,electronics,PROD_1120,Force Electronics,1,114.31,114.31
+Safari,a6f2f7b8,2026-01-11T03:18:08.708811Z,tablet,IN,Port Robert,MV,clothing,PROD_1155,Position Clothing,3,212.74,638.22
+Safari,a6f2f7b8,2026-01-11T03:18:08.708811Z,tablet,IN,Port Robert,MV,sports,PROD_1035,News Sports,4,64.73,258.92
+Safari,a6f2f7b8,2026-01-11T03:18:08.708811Z,tablet,IN,Port Robert,MV,beauty,PROD_1101,Industry Beauty,5,391.24,1956.20
+Safari,a6f2f7b8,2026-01-11T03:18:08.708811Z,tablet,IN,Port Robert,MV,food,PROD_1029,Cell Food,5,155.97,779.85
+Edge,edcd465e,2026-01-11T03:18:08.776255Z,tablet,VT,Campbellton,IT,electronics,PROD_1034,Another Electronics,1,100.34,100.34
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,food,PROD_1069,Never Food,5,125.23,626.15
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,food,PROD_1086,Benefit Food,2,282.23,564.46
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,beauty,PROD_1028,Special Beauty,1,77.98,77.98
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,clothing,PROD_1190,Professional Clothing,5,188.28,941.40
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,books,PROD_1168,Look Books,3,174.44,523.32
+Firefox,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,food,PROD_1069,Never Food,5,125.23,626.15
+Firefox,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,food,PROD_1086,Benefit Food,2,282.23,564.46
+Firefox,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,beauty,PROD_1028,Special Beauty,1,77.98,77.98
+Firefox,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,clothing,PROD_1190,Professional Clothing,5,188.28,941.40
+Firefox,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,books,PROD_1168,Look Books,3,174.44,523.32
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,food,PROD_1069,Never Food,5,125.23,626.15
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,food,PROD_1086,Benefit Food,2,282.23,564.46
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,beauty,PROD_1028,Special Beauty,1,77.98,77.98
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,clothing,PROD_1190,Professional Clothing,5,188.28,941.40
+Safari,29a3b2e9,2026-01-11T03:18:08.864211Z,tablet,LA,Lopezport,OM,books,PROD_1168,Look Books,3,174.44,523.32
+Edge,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,food,PROD_1069,Never Food,5,125.23,626.15
+Edge,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,food,PROD_1086,Benefit Food,2,282.23,564.46
+Edge,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,beauty,PROD_1028,Special Beauty,1,77.98,77.98
+Edge,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,clothing,PROD_1190,Professional Clothing,5,188.28,941.40
+Edge,29a3b2e9,2026-01-11T03:18:08.864211Z,mobile,LA,Lopezport,OM,books,PROD_1168,Look Books,3,174.44,523.32
+Firefox,371ecd7b,2026-01-11T03:18:08.876151Z,mobile,AL,Jamesview,MV,electronics,PROD_1053,House Electronics,1,172.01,172.01
+Chrome,29a3b2e9,2026-01-11T03:18:08.972382Z,desktop,WA,North John,KM,food,PROD_1149,Strategy Food,3,311.35,934.05
+Firefox,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,clothing,PROD_1107,Care Clothing,5,222.84,1114.20
+Firefox,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,beauty,PROD_1143,Partner Beauty,3,113.8,341.40
+Firefox,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,electronics,PROD_1172,Suffer Electronics,5,345.66,1728.30
+Firefox,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,food,PROD_1063,Contain Food,2,137.79,275.58
+Firefox,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,books,PROD_1181,Quite Books,3,315.57,946.71
+Safari,5304317f,2026-01-11T03:18:09.104327Z,mobile,OR,New Stevenshire,TZ,clothing,PROD_1107,Care Clothing,5,222.84,1114.20
+Safari,5304317f,2026-01-11T03:18:09.104327Z,mobile,OR,New Stevenshire,TZ,beauty,PROD_1143,Partner Beauty,3,113.8,341.40
+Safari,5304317f,2026-01-11T03:18:09.104327Z,mobile,OR,New Stevenshire,TZ,electronics,PROD_1172,Suffer Electronics,5,345.66,1728.30
+Safari,5304317f,2026-01-11T03:18:09.104327Z,mobile,OR,New Stevenshire,TZ,food,PROD_1063,Contain Food,2,137.79,275.58
+Safari,5304317f,2026-01-11T03:18:09.104327Z,mobile,OR,New Stevenshire,TZ,books,PROD_1181,Quite Books,3,315.57,946.71
+Safari,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,clothing,PROD_1107,Care Clothing,5,222.84,1114.20
+Safari,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,beauty,PROD_1143,Partner Beauty,3,113.8,341.40
+Safari,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,electronics,PROD_1172,Suffer Electronics,5,345.66,1728.30
+Safari,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,food,PROD_1063,Contain Food,2,137.79,275.58
+Safari,5304317f,2026-01-11T03:18:09.104327Z,desktop,OR,New Stevenshire,TZ,books,PROD_1181,Quite Books,3,315.57,946.71
+Edge,1d53434b,2026-01-11T03:18:09.162921Z,desktop,AZ,South Ray,KI,books,PROD_1161,These Books,4,375.72,1502.88
+Edge,1d53434b,2026-01-11T03:18:09.162921Z,desktop,AZ,South Ray,KI,home,PROD_1078,Treatment Home,2,336.34,672.68
+Chrome,d0e6e660,2026-01-11T03:18:09.533771Z,desktop,NE,Port Sophia,SV,beauty,PROD_1096,Indicate Beauty,5,309.88,1549.40
+Chrome,d0e6e660,2026-01-11T03:18:09.533771Z,desktop,NE,Port Sophia,SV,toys,PROD_1101,East Toys,2,186.29,372.58
+Chrome,d0e6e660,2026-01-11T03:18:09.533771Z,desktop,NE,Port Sophia,SV,sports,PROD_1108,Situation Sports,3,76.67,230.01
+Chrome,d0e6e660,2026-01-11T03:18:09.533771Z,desktop,NE,Port Sophia,SV,clothing,PROD_1106,Just Clothing,4,491.99,1967.96
+Safari,14296c07,2026-01-11T03:18:09.641827Z,mobile,AK,Robertborough,VN,clothing,PROD_1051,Go Clothing,5,28.65,143.25
+Safari,14296c07,2026-01-11T03:18:09.641827Z,mobile,AK,Robertborough,VN,beauty,PROD_1186,Difference Beauty,4,478.6,1914.40
+Safari,14296c07,2026-01-11T03:18:09.641827Z,mobile,AK,Robertborough,VN,sports,PROD_1104,Before Sports,1,83.65,83.65
+Safari,14296c07,2026-01-11T03:18:09.641827Z,mobile,AK,Robertborough,VN,clothing,PROD_1106,Arm Clothing,5,138.5,692.50
+Safari,14296c07,2026-01-11T03:18:09.641827Z,mobile,AK,Robertborough,VN,toys,PROD_1045,Relationship Toys,5,78.74,393.70
+Chrome,2a45c2ab,2026-01-11T03:18:09.679157Z,mobile,SD,Joeltown,LB,food,PROD_1072,Only Food,5,145.83,729.15
+Chrome,2a45c2ab,2026-01-11T03:18:09.679157Z,mobile,SD,Joeltown,LB,beauty,PROD_1049,From Beauty,4,129.28,517.12
+Chrome,2a45c2ab,2026-01-11T03:18:09.679157Z,mobile,SD,Joeltown,LB,beauty,PROD_1092,Seem Beauty,5,346.85,1734.25
+Firefox,29a3b2e9,2026-01-11T03:18:09.778686Z,tablet,WV,Catherineberg,GQ,sports,PROD_1114,Enough Sports,4,95.21,380.84
+Edge,0f844fef,2026-01-11T03:18:09.863336Z,mobile,VI,North Amyside,EG,toys,PROD_1067,Structure Toys,4,475.84,1903.36
+Edge,0f844fef,2026-01-11T03:18:09.863336Z,mobile,VI,North Amyside,EG,home,PROD_1093,Modern Home,2,295.01,590.02
+Edge,0f844fef,2026-01-11T03:18:09.863336Z,mobile,VI,North Amyside,EG,food,PROD_1096,Benefit Food,1,99.16,99.16
+Edge,0f844fef,2026-01-11T03:18:09.863336Z,mobile,VI,North Amyside,EG,food,PROD_1140,Way Food,1,134.43,134.43
+Edge,0f844fef,2026-01-11T03:18:09.863336Z,mobile,VI,North Amyside,EG,beauty,PROD_1017,Level Beauty,3,223.27,669.81
+Edge,edcd465e,2026-01-11T03:18:09.971652Z,mobile,HI,Clarkport,SV,home,PROD_1149,Concern Home,5,35.7,178.50
+Edge,edcd465e,2026-01-11T03:18:09.971652Z,mobile,HI,Clarkport,SV,sports,PROD_1068,Rich Sports,2,391.12,782.24
+Edge,edcd465e,2026-01-11T03:18:09.971652Z,mobile,HI,Clarkport,SV,beauty,PROD_1061,Value Beauty,3,182.89,548.67
+Edge,edcd465e,2026-01-11T03:18:09.971652Z,mobile,HI,Clarkport,SV,home,PROD_1009,Big Home,2,418.44,836.88
+Chrome,9b49bd26,2026-01-11T03:18:10.187363Z,desktop,OR,Pattersonport,PG,clothing,PROD_1038,Training Clothing,5,184.02,920.10
+Chrome,9b49bd26,2026-01-11T03:18:10.187363Z,desktop,OR,Pattersonport,PG,sports,PROD_1144,Tax Sports,1,414.24,414.24
+Chrome,9b49bd26,2026-01-11T03:18:10.187363Z,desktop,OR,Pattersonport,PG,home,PROD_1179,No Home,1,153.17,153.17
+Chrome,9b49bd26,2026-01-11T03:18:10.187363Z,desktop,OR,Pattersonport,PG,electronics,PROD_1099,Attack Electronics,2,242.33,484.66
+Chrome,9b49bd26,2026-01-11T03:18:10.187363Z,desktop,OR,Pattersonport,PG,books,PROD_1089,Population Books,1,215.86,215.86
+Safari,9132b63e,2026-01-11T03:18:10.211897Z,tablet,TN,Andersonview,GH,food,PROD_1064,Clearly Food,2,27.61,55.22
+Safari,9132b63e,2026-01-11T03:18:10.211897Z,tablet,TN,Andersonview,GH,beauty,PROD_1106,Same Beauty,3,128.46,385.38
+Firefox,759cde66,2026-01-11T03:18:10.271274Z,mobile,FM,New Timothyfort,CA,toys,PROD_1198,Decide Toys,5,82.49,412.45
+Firefox,759cde66,2026-01-11T03:18:10.271274Z,mobile,FM,New Timothyfort,CA,food,PROD_1169,Interview Food,3,238.71,716.13
+Firefox,759cde66,2026-01-11T03:18:10.271274Z,mobile,FM,New Timothyfort,CA,clothing,PROD_1194,Find Clothing,4,238.51,954.04
+Chrome,5ab33edf,2026-01-11T03:18:10.439112Z,tablet,NC,Ramseytown,FI,clothing,PROD_1108,Single Clothing,5,311.99,1559.95
+Chrome,5ab33edf,2026-01-11T03:18:10.439112Z,tablet,NC,Ramseytown,FI,toys,PROD_1019,Their Toys,1,189.45,189.45
+Chrome,5ab33edf,2026-01-11T03:18:10.439112Z,tablet,NC,Ramseytown,FI,home,PROD_1118,Nation Home,1,22.48,22.48
+Chrome,5ab33edf,2026-01-11T03:18:10.439112Z,tablet,NC,Ramseytown,FI,food,PROD_1103,Simply Food,4,344.63,1378.52
+Chrome,5ab33edf,2026-01-11T03:18:10.439112Z,tablet,NC,Ramseytown,FI,electronics,PROD_1090,Seem Electronics,3,376.41,1129.23
+Firefox,5ab33edf,2026-01-11T03:18:10.439112Z,desktop,NC,Ramseytown,FI,clothing,PROD_1108,Single Clothing,5,311.99,1559.95
+Firefox,5ab33edf,2026-01-11T03:18:10.439112Z,desktop,NC,Ramseytown,FI,toys,PROD_1019,Their Toys,1,189.45,189.45
+Firefox,5ab33edf,2026-01-11T03:18:10.439112Z,desktop,NC,Ramseytown,FI,home,PROD_1118,Nation Home,1,22.48,22.48
+Firefox,5ab33edf,2026-01-11T03:18:10.439112Z,desktop,NC,Ramseytown,FI,food,PROD_1103,Simply Food,4,344.63,1378.52
+Firefox,5ab33edf,2026-01-11T03:18:10.439112Z,desktop,NC,Ramseytown,FI,electronics,PROD_1090,Seem Electronics,3,376.41,1129.23
+Chrome,a9488d99,2026-01-11T03:18:10.582123Z,tablet,IA,North Arthur,BJ,clothing,PROD_1147,Nearly Clothing,4,341.0,1364.00
+Chrome,a9488d99,2026-01-11T03:18:10.582123Z,tablet,IA,North Arthur,BJ,books,PROD_1096,Natural Books,5,344.54,1722.70
+Chrome,a9488d99,2026-01-11T03:18:10.582123Z,tablet,IA,North Arthur,BJ,books,PROD_1117,Two Books,4,319.91,1279.64
+Chrome,a9488d99,2026-01-11T03:18:10.582123Z,tablet,IA,North Arthur,BJ,food,PROD_1020,Short Food,5,476.32,2381.60
+Firefox,287d06ca,2026-01-11T03:18:10.725994Z,desktop,UT,Matthewview,OM,food,PROD_1076,West Food,1,281.62,281.62
+Firefox,287d06ca,2026-01-11T03:18:10.725994Z,desktop,UT,Matthewview,OM,electronics,PROD_1194,Them Electronics,2,229.3,458.60
+Firefox,287d06ca,2026-01-11T03:18:10.725994Z,desktop,UT,Matthewview,OM,home,PROD_1190,Baby Home,1,43.37,43.37
+Firefox,287d06ca,2026-01-11T03:18:10.725994Z,desktop,UT,Matthewview,OM,clothing,PROD_1163,Resource Clothing,4,489.01,1956.04
+Chrome,5f987c71,2026-01-11T03:18:10.749835Z,desktop,CT,New Tammymouth,GH,food,PROD_1179,Drug Food,3,362.83,1088.49
+Chrome,5f987c71,2026-01-11T03:18:10.749835Z,desktop,CT,New Tammymouth,GH,books,PROD_1124,Police Books,3,263.43,790.29
+Chrome,5f987c71,2026-01-11T03:18:10.749835Z,desktop,CT,New Tammymouth,GH,home,PROD_1107,Possible Home,2,397.19,794.38
+Chrome,5f987c71,2026-01-11T03:18:10.749835Z,desktop,CT,New Tammymouth,GH,food,PROD_1071,Subject Food,2,314.68,629.36
+Chrome,5f987c71,2026-01-11T03:18:10.749835Z,desktop,CT,New Tammymouth,GH,books,PROD_1130,Low Books,4,162.76,651.04
+Chrome,2a45c2ab,2026-01-11T03:18:10.762136Z,tablet,OR,Fuentesland,TH,books,PROD_1034,Congress Books,4,207.71,830.84
+Chrome,2a45c2ab,2026-01-11T03:18:10.762136Z,tablet,OR,Fuentesland,TH,beauty,PROD_1170,Season Beauty,1,176.51,176.51
+Chrome,2a45c2ab,2026-01-11T03:18:10.762136Z,tablet,OR,Fuentesland,TH,beauty,PROD_1066,Least Beauty,4,475.36,1901.44
+Chrome,2a45c2ab,2026-01-11T03:18:10.762136Z,tablet,OR,Fuentesland,TH,toys,PROD_1145,Him Toys,2,462.38,924.76
+Chrome,2a45c2ab,2026-01-11T03:18:10.762136Z,tablet,OR,Fuentesland,TH,books,PROD_1152,Grow Books,2,414.84,829.68
+Firefox,2a45c2ab,2026-01-11T03:18:10.762136Z,desktop,OR,Fuentesland,TH,books,PROD_1034,Congress Books,4,207.71,830.84
+Firefox,2a45c2ab,2026-01-11T03:18:10.762136Z,desktop,OR,Fuentesland,TH,beauty,PROD_1170,Season Beauty,1,176.51,176.51
+Firefox,2a45c2ab,2026-01-11T03:18:10.762136Z,desktop,OR,Fuentesland,TH,beauty,PROD_1066,Least Beauty,4,475.36,1901.44
+Firefox,2a45c2ab,2026-01-11T03:18:10.762136Z,desktop,OR,Fuentesland,TH,toys,PROD_1145,Him Toys,2,462.38,924.76
+Firefox,2a45c2ab,2026-01-11T03:18:10.762136Z,desktop,OR,Fuentesland,TH,books,PROD_1152,Grow Books,2,414.84,829.68
+Firefox,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,books,PROD_1122,Ask Books,1,376.46,376.46
+Firefox,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,food,PROD_1126,Weight Food,2,160.81,321.62
+Firefox,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,beauty,PROD_1188,Seek Beauty,2,324.24,648.48
+Firefox,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,books,PROD_1149,Memory Books,1,167.73,167.73
+Firefox,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,beauty,PROD_1153,Hard Beauty,3,77.23,231.69
+Safari,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,books,PROD_1122,Ask Books,1,376.46,376.46
+Safari,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,food,PROD_1126,Weight Food,2,160.81,321.62
+Safari,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,beauty,PROD_1188,Seek Beauty,2,324.24,648.48
+Safari,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,books,PROD_1149,Memory Books,1,167.73,167.73
+Safari,b92da22b,2026-01-11T03:18:10.785900Z,desktop,MS,Lake Sherry,HN,beauty,PROD_1153,Hard Beauty,3,77.23,231.69
+Safari,5304317f,2026-01-11T03:18:10.822048Z,mobile,VI,New Tracyton,AF,clothing,PROD_1143,Break Clothing,4,393.72,1574.88
+Safari,5304317f,2026-01-11T03:18:10.822048Z,mobile,VI,New Tracyton,AF,electronics,PROD_1127,Response Electronics,1,461.9,461.90
+Safari,5304317f,2026-01-11T03:18:10.822048Z,mobile,VI,New Tracyton,AF,books,PROD_1066,Rock Books,4,341.14,1364.56
+Safari,5304317f,2026-01-11T03:18:10.822048Z,mobile,VI,New Tracyton,AF,food,PROD_1047,Involve Food,2,471.34,942.68
+Safari,5ab33edf,2026-01-11T03:18:10.844823Z,tablet,AS,West Charles,KG,sports,PROD_1113,Might Sports,3,497.85,1493.55
+Safari,5ab33edf,2026-01-11T03:18:10.844823Z,tablet,AS,West Charles,KG,home,PROD_1015,Himself Home,5,439.83,2199.15
+Safari,5ab33edf,2026-01-11T03:18:10.844823Z,tablet,AS,West Charles,KG,books,PROD_1028,Idea Books,1,40.49,40.49
+Safari,5ab33edf,2026-01-11T03:18:10.844823Z,tablet,AS,West Charles,KG,clothing,PROD_1121,Market Clothing,2,414.3,828.60
+Firefox,b8db0672,2026-01-11T03:18:10.903533Z,tablet,TN,Christopherland,CA,home,PROD_1108,Capital Home,1,308.23,308.23
+Firefox,b8db0672,2026-01-11T03:18:10.903533Z,tablet,TN,Christopherland,CA,food,PROD_1183,Hand Food,2,354.1,708.20
+Firefox,b8db0672,2026-01-11T03:18:10.903533Z,tablet,TN,Christopherland,CA,electronics,PROD_1041,Collection Electronics,4,458.09,1832.36
+Firefox,b8db0672,2026-01-11T03:18:10.903533Z,tablet,TN,Christopherland,CA,books,PROD_1030,Loss Books,4,430.89,1723.56
+Firefox,7c441fe7,2026-01-11T03:18:11.043475Z,mobile,RI,Martinezshire,JO,books,PROD_1155,Never Books,1,73.24,73.24
+Firefox,7c441fe7,2026-01-11T03:18:11.043475Z,mobile,RI,Martinezshire,JO,clothing,PROD_1180,Miss Clothing,5,339.95,1699.75
+Firefox,7c441fe7,2026-01-11T03:18:11.043475Z,mobile,RI,Martinezshire,JO,beauty,PROD_1184,Region Beauty,3,78.91,236.73
+Chrome,a9488d99,2026-01-11T03:18:11.115863Z,tablet,WV,Donaldside,NO,sports,PROD_1049,Shake Sports,1,262.83,262.83
+Chrome,a9488d99,2026-01-11T03:18:11.115863Z,tablet,WV,Donaldside,NO,beauty,PROD_1071,Occur Beauty,3,421.7,1265.10
+Chrome,a9488d99,2026-01-11T03:18:11.115863Z,tablet,WV,Donaldside,NO,electronics,PROD_1073,Year Electronics,4,351.9,1407.60
+Chrome,a9488d99,2026-01-11T03:18:11.115863Z,tablet,WV,Donaldside,NO,home,PROD_1171,Consider Home,2,492.63,985.26
+Chrome,a9488d99,2026-01-11T03:18:11.115863Z,tablet,WV,Donaldside,NO,sports,PROD_1097,Operation Sports,5,218.82,1094.10
+Edge,5f987c71,2026-01-11T03:18:11.140007Z,desktop,GU,New Anthony,BJ,sports,PROD_1125,Only Sports,2,150.26,300.52
+Edge,5f987c71,2026-01-11T03:18:11.140007Z,desktop,GU,New Anthony,BJ,books,PROD_1177,Group Books,5,126.54,632.70
+Edge,5f987c71,2026-01-11T03:18:11.140007Z,desktop,GU,New Anthony,BJ,clothing,PROD_1024,Federal Clothing,2,452.51,905.02
+Edge,5f987c71,2026-01-11T03:18:11.140007Z,desktop,GU,New Anthony,BJ,toys,PROD_1032,Report Toys,3,126.35,379.05
+Edge,5f987c71,2026-01-11T03:18:11.140007Z,desktop,GU,New Anthony,BJ,books,PROD_1197,Young Books,1,387.93,387.93
+Edge,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,sports,PROD_1003,Certainly Sports,2,220.79,441.58
+Edge,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,home,PROD_1114,Him Home,2,330.78,661.56
+Edge,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,books,PROD_1110,International Books,1,200.11,200.11
+Edge,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,toys,PROD_1051,Art Toys,5,51.87,259.35
+Edge,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,toys,PROD_1068,Listen Toys,2,117.63,235.26
+Safari,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,sports,PROD_1003,Certainly Sports,2,220.79,441.58
+Safari,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,home,PROD_1114,Him Home,2,330.78,661.56
+Safari,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,books,PROD_1110,International Books,1,200.11,200.11
+Safari,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,toys,PROD_1051,Art Toys,5,51.87,259.35
+Safari,5304317f,2026-01-11T03:18:11.213005Z,tablet,MO,Martinland,SV,toys,PROD_1068,Listen Toys,2,117.63,235.26
+Safari,24933b83,2026-01-11T03:18:11.261456Z,mobile,TX,Lake Felicia,TH,electronics,PROD_1184,Industry Electronics,3,200.45,601.35
+Safari,24933b83,2026-01-11T03:18:11.261456Z,mobile,TX,Lake Felicia,TH,beauty,PROD_1055,Send Beauty,3,66.85,200.55
+Safari,24933b83,2026-01-11T03:18:11.261456Z,mobile,TX,Lake Felicia,TH,home,PROD_1158,Sound Home,2,150.07,300.14
+Safari,24933b83,2026-01-11T03:18:11.261456Z,mobile,TX,Lake Felicia,TH,electronics,PROD_1064,Attorney Electronics,2,175.11,350.22
+Safari,24933b83,2026-01-11T03:18:11.261456Z,mobile,TX,Lake Felicia,TH,sports,PROD_1022,Grow Sports,5,300.7,1503.50
+Firefox,24933b83,2026-01-11T03:18:11.261456Z,tablet,TX,Lake Felicia,TH,electronics,PROD_1184,Industry Electronics,3,200.45,601.35
+Firefox,24933b83,2026-01-11T03:18:11.261456Z,tablet,TX,Lake Felicia,TH,beauty,PROD_1055,Send Beauty,3,66.85,200.55
+Firefox,24933b83,2026-01-11T03:18:11.261456Z,tablet,TX,Lake Felicia,TH,home,PROD_1158,Sound Home,2,150.07,300.14
+Firefox,24933b83,2026-01-11T03:18:11.261456Z,tablet,TX,Lake Felicia,TH,electronics,PROD_1064,Attorney Electronics,2,175.11,350.22
+Firefox,24933b83,2026-01-11T03:18:11.261456Z,tablet,TX,Lake Felicia,TH,sports,PROD_1022,Grow Sports,5,300.7,1503.50
+Safari,9b49bd26,2026-01-11T03:18:11.323938Z,tablet,DE,New Heatherfort,TJ,beauty,PROD_1017,Quite Beauty,4,270.18,1080.72
+Safari,9b49bd26,2026-01-11T03:18:11.323938Z,tablet,DE,New Heatherfort,TJ,beauty,PROD_1067,Again Beauty,5,382.93,1914.65
+Safari,9b49bd26,2026-01-11T03:18:11.323938Z,tablet,DE,New Heatherfort,TJ,electronics,PROD_1163,Skill Electronics,2,478.85,957.70
+Safari,9b49bd26,2026-01-11T03:18:11.323938Z,tablet,DE,New Heatherfort,TJ,toys,PROD_1191,Impact Toys,2,48.86,97.72
+Edge,366eb16f,2026-01-11T03:18:11.442338Z,mobile,VI,East Phillip,BG,home,PROD_1144,Huge Home,2,384.93,769.86
+Edge,366eb16f,2026-01-11T03:18:11.442338Z,mobile,VI,East Phillip,BG,electronics,PROD_1018,Two Electronics,3,451.72,1355.16
+Edge,366eb16f,2026-01-11T03:18:11.442338Z,mobile,VI,East Phillip,BG,beauty,PROD_1152,Per Beauty,1,90.02,90.02
+Edge,366eb16f,2026-01-11T03:18:11.442338Z,mobile,VI,East Phillip,BG,books,PROD_1191,Cost Books,3,297.7,893.10
+Edge,366eb16f,2026-01-11T03:18:11.442338Z,mobile,VI,East Phillip,BG,toys,PROD_1131,Whom Toys,4,330.88,1323.52
+Safari,405cacec,2026-01-11T03:18:11.563374Z,mobile,CA,East Dustin,BO,books,PROD_1158,News Books,4,262.74,1050.96
+Safari,405cacec,2026-01-11T03:18:11.563374Z,mobile,CA,East Dustin,BO,toys,PROD_1175,None Toys,5,161.08,805.40
+Safari,366eb16f,2026-01-11T03:18:11.705065Z,mobile,RI,Hoganfort,AR,home,PROD_1187,Style Home,5,363.24,1816.20
+Safari,366eb16f,2026-01-11T03:18:11.705065Z,mobile,RI,Hoganfort,AR,toys,PROD_1036,Coach Toys,1,406.66,406.66
+Edge,366eb16f,2026-01-11T03:18:11.705065Z,tablet,RI,Hoganfort,AR,home,PROD_1187,Style Home,5,363.24,1816.20
+Edge,366eb16f,2026-01-11T03:18:11.705065Z,tablet,RI,Hoganfort,AR,toys,PROD_1036,Coach Toys,1,406.66,406.66
+Safari,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,electronics,PROD_1156,Suffer Electronics,2,187.01,374.02
+Safari,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,food,PROD_1040,Size Food,1,174.3,174.30
+Safari,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,toys,PROD_1048,She Toys,3,241.86,725.58
+Safari,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,books,PROD_1137,Treatment Books,2,268.92,537.84
+Safari,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,home,PROD_1156,Financial Home,5,191.52,957.60
+Chrome,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,electronics,PROD_1156,Suffer Electronics,2,187.01,374.02
+Chrome,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,food,PROD_1040,Size Food,1,174.3,174.30
+Chrome,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,toys,PROD_1048,She Toys,3,241.86,725.58
+Chrome,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,books,PROD_1137,Treatment Books,2,268.92,537.84
+Chrome,a28defe3,2026-01-11T03:18:11.728374Z,tablet,CO,Burgessland,GH,home,PROD_1156,Financial Home,5,191.52,957.60
+Chrome,f4188f3f,2026-01-11T03:18:11.740887Z,tablet,NJ,Austinborough,US,books,PROD_1053,Maintain Books,3,258.03,774.09
+Chrome,f4188f3f,2026-01-11T03:18:11.740887Z,tablet,NJ,Austinborough,US,clothing,PROD_1125,Leg Clothing,4,371.54,1486.16
+Chrome,f4188f3f,2026-01-11T03:18:11.740887Z,tablet,NJ,Austinborough,US,electronics,PROD_1130,Benefit Electronics,3,272.72,818.16
+Chrome,f4188f3f,2026-01-11T03:18:11.740887Z,tablet,NJ,Austinborough,US,food,PROD_1122,Hot Food,5,407.97,2039.85
+Chrome,f4188f3f,2026-01-11T03:18:11.740887Z,tablet,NJ,Austinborough,US,sports,PROD_1033,Develop Sports,3,294.94,884.82
+Edge,3eabedcb,2026-01-11T03:18:11.788757Z,tablet,NH,New Tara,EE,clothing,PROD_1178,Tonight Clothing,3,138.98,416.94
+Edge,3eabedcb,2026-01-11T03:18:11.788757Z,tablet,NH,New Tara,EE,books,PROD_1061,Mind Books,1,19.49,19.49
+Edge,3eabedcb,2026-01-11T03:18:11.788757Z,tablet,NH,New Tara,EE,beauty,PROD_1123,Parent Beauty,2,335.86,671.72
+Edge,3eabedcb,2026-01-11T03:18:11.788757Z,tablet,NH,New Tara,EE,beauty,PROD_1169,Project Beauty,1,366.5,366.50
+Edge,3eabedcb,2026-01-11T03:18:11.788757Z,tablet,NH,New Tara,EE,electronics,PROD_1139,Who Electronics,5,294.14,1470.70
+Safari,14296c07,2026-01-11T03:18:11.847044Z,mobile,WA,North Deniseville,LI,beauty,PROD_1195,Some Beauty,4,90.88,363.52
+Safari,14296c07,2026-01-11T03:18:11.847044Z,mobile,WA,North Deniseville,LI,beauty,PROD_1054,State Beauty,1,140.94,140.94
+Safari,14296c07,2026-01-11T03:18:11.847044Z,mobile,WA,North Deniseville,LI,beauty,PROD_1115,In Beauty,2,119.61,239.22
+Safari,14296c07,2026-01-11T03:18:11.847044Z,mobile,WA,North Deniseville,LI,books,PROD_1198,Natural Books,2,191.36,382.72
+Firefox,5ab33edf,2026-01-11T03:18:11.919216Z,mobile,GU,Port Sharon,DO,beauty,PROD_1009,Song Beauty,5,453.16,2265.80
+Firefox,5ab33edf,2026-01-11T03:18:11.919216Z,mobile,GU,Port Sharon,DO,electronics,PROD_1021,Star Electronics,2,396.41,792.82
+Firefox,5ab33edf,2026-01-11T03:18:11.919216Z,mobile,GU,Port Sharon,DO,sports,PROD_1023,News Sports,4,245.2,980.80
+Firefox,5ab33edf,2026-01-11T03:18:11.919216Z,mobile,GU,Port Sharon,DO,home,PROD_1140,Stage Home,2,314.89,629.78
+Safari,366eb16f,2026-01-11T03:18:12.099438Z,tablet,MH,East Phillipfurt,LI,home,PROD_1039,Another Home,2,306.4,612.80
+Safari,366eb16f,2026-01-11T03:18:12.099438Z,tablet,MH,East Phillipfurt,LI,food,PROD_1086,Give Food,5,138.22,691.10
+Safari,366eb16f,2026-01-11T03:18:12.099438Z,tablet,MH,East Phillipfurt,LI,electronics,PROD_1168,Owner Electronics,2,256.93,513.86
+Safari,366eb16f,2026-01-11T03:18:12.099438Z,tablet,MH,East Phillipfurt,LI,clothing,PROD_1188,Explain Clothing,3,16.45,49.35
+Safari,366eb16f,2026-01-11T03:18:12.099438Z,tablet,MH,East Phillipfurt,LI,sports,PROD_1080,Machine Sports,1,428.04,428.04
+Firefox,366eb16f,2026-01-11T03:18:12.099438Z,mobile,MH,East Phillipfurt,LI,home,PROD_1039,Another Home,2,306.4,612.80
+Firefox,366eb16f,2026-01-11T03:18:12.099438Z,mobile,MH,East Phillipfurt,LI,food,PROD_1086,Give Food,5,138.22,691.10
+Firefox,366eb16f,2026-01-11T03:18:12.099438Z,mobile,MH,East Phillipfurt,LI,electronics,PROD_1168,Owner Electronics,2,256.93,513.86
+Firefox,366eb16f,2026-01-11T03:18:12.099438Z,mobile,MH,East Phillipfurt,LI,clothing,PROD_1188,Explain Clothing,3,16.45,49.35
+Firefox,366eb16f,2026-01-11T03:18:12.099438Z,mobile,MH,East Phillipfurt,LI,sports,PROD_1080,Machine Sports,1,428.04,428.04
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,tablet,LA,Danielberg,CO,sports,PROD_1072,Also Sports,5,84.37,421.85
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,tablet,LA,Danielberg,CO,home,PROD_1076,Somebody Home,3,229.28,687.84
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,tablet,LA,Danielberg,CO,home,PROD_1185,Early Home,2,65.51,131.02
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,tablet,LA,Danielberg,CO,beauty,PROD_1178,Yet Beauty,1,92.41,92.41
+Chrome,a9488d99,2026-01-11T03:18:12.252928Z,mobile,LA,Danielberg,CO,sports,PROD_1072,Also Sports,5,84.37,421.85
+Chrome,a9488d99,2026-01-11T03:18:12.252928Z,mobile,LA,Danielberg,CO,home,PROD_1076,Somebody Home,3,229.28,687.84
+Chrome,a9488d99,2026-01-11T03:18:12.252928Z,mobile,LA,Danielberg,CO,home,PROD_1185,Early Home,2,65.51,131.02
+Chrome,a9488d99,2026-01-11T03:18:12.252928Z,mobile,LA,Danielberg,CO,beauty,PROD_1178,Yet Beauty,1,92.41,92.41
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,desktop,LA,Danielberg,CO,sports,PROD_1072,Also Sports,5,84.37,421.85
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,desktop,LA,Danielberg,CO,home,PROD_1076,Somebody Home,3,229.28,687.84
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,desktop,LA,Danielberg,CO,home,PROD_1185,Early Home,2,65.51,131.02
+Edge,a9488d99,2026-01-11T03:18:12.252928Z,desktop,LA,Danielberg,CO,beauty,PROD_1178,Yet Beauty,1,92.41,92.41
+Chrome,eb2263dd,2026-01-11T03:18:12.264289Z,mobile,TN,North Jill,AT,clothing,PROD_1143,Your Clothing,4,349.75,1399.00
+Chrome,eb2263dd,2026-01-11T03:18:12.264289Z,mobile,TN,North Jill,AT,sports,PROD_1087,Member Sports,5,114.75,573.75
+Chrome,eb2263dd,2026-01-11T03:18:12.264289Z,mobile,TN,North Jill,AT,beauty,PROD_1056,Establish Beauty,3,472.55,1417.65
+Firefox,eb2263dd,2026-01-11T03:18:12.264289Z,desktop,TN,North Jill,AT,clothing,PROD_1143,Your Clothing,4,349.75,1399.00
+Firefox,eb2263dd,2026-01-11T03:18:12.264289Z,desktop,TN,North Jill,AT,sports,PROD_1087,Member Sports,5,114.75,573.75
+Firefox,eb2263dd,2026-01-11T03:18:12.264289Z,desktop,TN,North Jill,AT,beauty,PROD_1056,Establish Beauty,3,472.55,1417.65
+Chrome,81f76d1c,2026-01-11T03:18:12.336570Z,tablet,NV,New Tracy,AU,toys,PROD_1185,Here Toys,2,42.25,84.50
+Chrome,81f76d1c,2026-01-11T03:18:12.336570Z,tablet,NV,New Tracy,AU,beauty,PROD_1142,Security Beauty,5,437.23,2186.15
+Chrome,81f76d1c,2026-01-11T03:18:12.336570Z,tablet,NV,New Tracy,AU,clothing,PROD_1185,Return Clothing,3,295.7,887.10
+Chrome,81f76d1c,2026-01-11T03:18:12.336570Z,tablet,NV,New Tracy,AU,beauty,PROD_1073,Large Beauty,5,357.52,1787.60
+Chrome,81f76d1c,2026-01-11T03:18:12.336570Z,tablet,NV,New Tracy,AU,home,PROD_1040,Politics Home,5,290.57,1452.85
+Firefox,3eabedcb,2026-01-11T03:18:12.396025Z,mobile,TN,Lake Katelynfort,AD,beauty,PROD_1021,Only Beauty,2,43.75,87.50
+Firefox,3eabedcb,2026-01-11T03:18:12.396025Z,mobile,TN,Lake Katelynfort,AD,electronics,PROD_1108,Yet Electronics,5,239.87,1199.35
+Edge,3eabedcb,2026-01-11T03:18:12.396025Z,desktop,TN,Lake Katelynfort,AD,beauty,PROD_1021,Only Beauty,2,43.75,87.50
+Edge,3eabedcb,2026-01-11T03:18:12.396025Z,desktop,TN,Lake Katelynfort,AD,electronics,PROD_1108,Yet Electronics,5,239.87,1199.35
+Safari,a28defe3,2026-01-11T03:18:12.431459Z,desktop,TX,South Gregoryberg,KG,home,PROD_1165,Structure Home,2,368.28,736.56
+Safari,a28defe3,2026-01-11T03:18:12.431459Z,desktop,TX,South Gregoryberg,KG,clothing,PROD_1102,Its Clothing,2,399.54,799.08
+Safari,a28defe3,2026-01-11T03:18:12.431459Z,desktop,TX,South Gregoryberg,KG,beauty,PROD_1037,Information Beauty,1,241.71,241.71
+Safari,a28defe3,2026-01-11T03:18:12.431459Z,desktop,TX,South Gregoryberg,KG,beauty,PROD_1173,Challenge Beauty,5,41.53,207.65
+Safari,a28defe3,2026-01-11T03:18:12.431459Z,desktop,TX,South Gregoryberg,KG,books,PROD_1190,Herself Books,2,33.02,66.04
+Edge,1d53434b,2026-01-11T03:18:12.653251Z,desktop,MH,Lucasport,MX,books,PROD_1078,Test Books,4,25.48,101.92
+Edge,1d53434b,2026-01-11T03:18:12.653251Z,desktop,MH,Lucasport,MX,toys,PROD_1006,Store Toys,2,434.15,868.30
+Edge,1d53434b,2026-01-11T03:18:12.653251Z,desktop,MH,Lucasport,MX,sports,PROD_1053,Mr Sports,4,486.3,1945.20
+Edge,1d53434b,2026-01-11T03:18:12.653251Z,desktop,MH,Lucasport,MX,beauty,PROD_1079,Hair Beauty,3,109.01,327.03
+Edge,1d53434b,2026-01-11T03:18:12.653251Z,desktop,MH,Lucasport,MX,electronics,PROD_1030,Information Electronics,4,178.37,713.48
+Firefox,1d53434b,2026-01-11T03:18:12.653251Z,mobile,MH,Lucasport,MX,books,PROD_1078,Test Books,4,25.48,101.92
+Firefox,1d53434b,2026-01-11T03:18:12.653251Z,mobile,MH,Lucasport,MX,toys,PROD_1006,Store Toys,2,434.15,868.30
+Firefox,1d53434b,2026-01-11T03:18:12.653251Z,mobile,MH,Lucasport,MX,sports,PROD_1053,Mr Sports,4,486.3,1945.20
+Firefox,1d53434b,2026-01-11T03:18:12.653251Z,mobile,MH,Lucasport,MX,beauty,PROD_1079,Hair Beauty,3,109.01,327.03
+Firefox,1d53434b,2026-01-11T03:18:12.653251Z,mobile,MH,Lucasport,MX,electronics,PROD_1030,Information Electronics,4,178.37,713.48
+Firefox,5be6128e,2026-01-11T03:18:12.700814Z,mobile,FL,Smithton,AL,clothing,PROD_1017,Blue Clothing,3,325.37,976.11
+Firefox,5be6128e,2026-01-11T03:18:12.700814Z,mobile,FL,Smithton,AL,beauty,PROD_1184,Rise Beauty,3,93.51,280.53
+Firefox,5be6128e,2026-01-11T03:18:12.700814Z,mobile,FL,Smithton,AL,home,PROD_1137,Board Home,2,74.88,149.76
+Firefox,5be6128e,2026-01-11T03:18:12.700814Z,mobile,FL,Smithton,AL,beauty,PROD_1146,Itself Beauty,1,383.05,383.05
+Firefox,5be6128e,2026-01-11T03:18:12.700814Z,mobile,FL,Smithton,AL,sports,PROD_1185,Reduce Sports,3,233.97,701.91
+Edge,5be6128e,2026-01-11T03:18:12.700814Z,tablet,FL,Smithton,AL,clothing,PROD_1017,Blue Clothing,3,325.37,976.11
+Edge,5be6128e,2026-01-11T03:18:12.700814Z,tablet,FL,Smithton,AL,beauty,PROD_1184,Rise Beauty,3,93.51,280.53
+Edge,5be6128e,2026-01-11T03:18:12.700814Z,tablet,FL,Smithton,AL,home,PROD_1137,Board Home,2,74.88,149.76
+Edge,5be6128e,2026-01-11T03:18:12.700814Z,tablet,FL,Smithton,AL,beauty,PROD_1146,Itself Beauty,1,383.05,383.05
+Edge,5be6128e,2026-01-11T03:18:12.700814Z,tablet,FL,Smithton,AL,sports,PROD_1185,Reduce Sports,3,233.97,701.91
+Chrome,a9488d99,2026-01-11T03:18:12.905379Z,mobile,NY,Josehaven,UA,sports,PROD_1152,Company Sports,1,468.65,468.65
+Chrome,a9488d99,2026-01-11T03:18:12.905379Z,mobile,NY,Josehaven,UA,toys,PROD_1043,Off Toys,5,55.31,276.55
+Chrome,a9488d99,2026-01-11T03:18:12.905379Z,mobile,NY,Josehaven,UA,sports,PROD_1015,Clear Sports,5,91.24,456.20
+Firefox,5be6128e,2026-01-11T03:18:12.993605Z,tablet,MA,Mullenshire,VA,home,PROD_1150,Leave Home,5,426.12,2130.60
+Firefox,5be6128e,2026-01-11T03:18:12.993605Z,tablet,MA,Mullenshire,VA,books,PROD_1149,Bit Books,5,300.79,1503.95
+Firefox,5be6128e,2026-01-11T03:18:12.993605Z,tablet,MA,Mullenshire,VA,home,PROD_1071,Anyone Home,5,158.05,790.25
+Firefox,5be6128e,2026-01-11T03:18:12.993605Z,tablet,MA,Mullenshire,VA,beauty,PROD_1044,Trouble Beauty,5,112.82,564.10
+Firefox,839fbc50,2026-01-11T03:18:13.041950Z,desktop,NM,East Catherinemouth,PH,toys,PROD_1070,Receive Toys,4,222.72,890.88
+Firefox,839fbc50,2026-01-11T03:18:13.041950Z,desktop,NM,East Catherinemouth,PH,toys,PROD_1140,Window Toys,1,459.15,459.15
+Firefox,839fbc50,2026-01-11T03:18:13.041950Z,desktop,NM,East Catherinemouth,PH,toys,PROD_1015,Mr Toys,4,426.3,1705.20
+Firefox,839fbc50,2026-01-11T03:18:13.041950Z,desktop,NM,East Catherinemouth,PH,beauty,PROD_1021,Number Beauty,1,102.68,102.68
+Firefox,839fbc50,2026-01-11T03:18:13.041950Z,desktop,NM,East Catherinemouth,PH,clothing,PROD_1029,After Clothing,3,446.14,1338.42
+Chrome,405cacec,2026-01-11T03:18:13.053876Z,desktop,MT,North Edwardfort,AO,books,PROD_1181,Daughter Books,2,495.27,990.54
+Chrome,405cacec,2026-01-11T03:18:13.053876Z,desktop,MT,North Edwardfort,AO,home,PROD_1115,Box Home,1,344.2,344.20
+Chrome,405cacec,2026-01-11T03:18:13.053876Z,desktop,MT,North Edwardfort,AO,clothing,PROD_1113,Election Clothing,3,401.53,1204.59
+Chrome,405cacec,2026-01-11T03:18:13.053876Z,desktop,MT,North Edwardfort,AO,books,PROD_1187,Power Books,4,400.65,1602.60
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,tablet,KS,Elizabethmouth,BB,toys,PROD_1102,Issue Toys,4,402.97,1611.88
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,tablet,KS,Elizabethmouth,BB,home,PROD_1194,Experience Home,2,369.12,738.24
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,tablet,KS,Elizabethmouth,BB,electronics,PROD_1108,Change Electronics,2,19.67,39.34
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,tablet,KS,Elizabethmouth,BB,food,PROD_1132,Investment Food,2,259.24,518.48
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,tablet,KS,Elizabethmouth,BB,food,PROD_1017,Note Food,5,163.08,815.40
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,mobile,KS,Elizabethmouth,BB,toys,PROD_1102,Issue Toys,4,402.97,1611.88
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,mobile,KS,Elizabethmouth,BB,home,PROD_1194,Experience Home,2,369.12,738.24
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,mobile,KS,Elizabethmouth,BB,electronics,PROD_1108,Change Electronics,2,19.67,39.34
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,mobile,KS,Elizabethmouth,BB,food,PROD_1132,Investment Food,2,259.24,518.48
+Chrome,b92da22b,2026-01-11T03:18:13.114498Z,mobile,KS,Elizabethmouth,BB,food,PROD_1017,Note Food,5,163.08,815.40
