@@ -11,7 +11,7 @@ from airflow.hooks.base import BaseHook
 from datetime import datetime, timedelta
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
-TIME_DURATION = '5' # In seconds 
+TIME_DURATION = '30' # In seconds 
 FIRST_TOPIC = 'user_events'
 SECOND_TOPIC = 'transaction_events'
 BRONZE_PATH = '/opt/spark-data/landing'
@@ -23,33 +23,34 @@ default_args = {
     # TODO: Add retry logic, email alerts, etc.
 }
 
+# UNIMPLEMENTED!
 # We are trying to get the kafka information from connection
-def get_kafka_details(**context):
-    """
-    We are trying to collect the kafka information that is stored in the airflow connections using basehook
+# def get_kafka_details(**context):
+#     """
+#     We are trying to collect the kafka information that is stored in the airflow connections using basehook
     
-    """
-    print("Collecting connection details")
+#     """
+#     print("Collecting connection details")
     
-    try:
-        kafka_connection = BaseHook.get_connection("kafka_connection")
+#     try:
+#         kafka_connection = BaseHook.get_connection("kafka_connection")
         
-        # Our kafka information is stored in the extra box
-        if kafka_connection.extra:
-            extra = kafka_connection.extra_dejson
-            print("Kafka Configurations")
+#         # Our kafka information is stored in the extra box
+#         if kafka_connection.extra:
+#             extra = kafka_connection.extra_dejson
+#             print("Kafka Configurations")
             
-            # Makes the configurations into a xcomm variable
-            return extra
+#             # Makes the configurations into a xcomm variable
+#             return extra
         
-        else:
-            print("we found no kafka configurations")
-            return {}
+#         else:
+#             print("we found no kafka configurations")
+#             return {}
     
-    except Exception as e:
-        print(f"Connection 'kafka_connection' is not found: {e}")
-        print("Please create the connection in the airflow UI")
-        return {}
+#     except Exception as e:
+#         print(f"Connection 'kafka_connection' is not found: {e}")
+#         print("Please create the connection in the airflow UI")
+#         return {}
     
 
 
