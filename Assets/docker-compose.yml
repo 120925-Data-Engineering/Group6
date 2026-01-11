@@ -178,10 +178,9 @@ services:
       - ./dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
       - ./jobs:/opt/spark-jobs
-      - spark_data:/opt/spark-data
+      - ./spark_data:/opt/spark-data
       - ./logs:/opt/airflow/logs
       - airflow_data:/opt/airflow
-      - .data:/opt/spark-data
     command: >
       bash -c "airflow db upgrade && \ 
       airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com && \ 

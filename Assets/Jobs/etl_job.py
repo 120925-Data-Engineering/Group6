@@ -31,8 +31,8 @@ def collecting_bronze_layer(starting_path: str = "./Assests/data/landing"):
 
 def reading_data_from_landing(spark: SparkSession, input_path_topic1: str, input_path_topic2: str):
     # Reads the data into spark
-    df_topic_transaction = spark.read.json(f"./{input_path_topic1}")
-    df_topic_user = spark.read.json(f"./{input_path_topic2}")
+    df_topic_transaction = spark.read.json(f"{input_path_topic1}")
+    df_topic_user = spark.read.json(f"{input_path_topic2}")
     
     # returns the spark dataframes
     return df_topic_transaction, df_topic_user
@@ -50,6 +50,7 @@ def advertising_gold_zone(spark: SparkSession, df_topic_transaction, df_topic_us
               ((F.col("user.user_id") == F.col("transaction.user_id")) & (F.col("user.product_id") == F.col("transaction.product.product_id"))), 
               "inner")
 
+    print(df_topics_combined.show())
     # Selects the needed rows for the advertising department
     # and expands products
     df_advertising_dept = df_topics_combined \
@@ -99,9 +100,10 @@ def run_etl(spark: SparkSession, input_path: str, output_path: str):
 
 if __name__ == "__main__":
     # TODO: Create SparkSession, parse args, run ETL
-    parser = argparse.ArgumentParser(description = "Subscribing to a Kafka server and writing to a json file")
-    parser.add_argument("--topic", default= "user_events", help = "Kafka topic name")
-    parser.add_argument("--batch-time", default = "30", help = "How long it subscribes for in seconds")
-    parser.add_argument("--output-path", default = "./data/landing", help = "Where is the folder where the files are saved")
+    # parser = argparse.ArgumentParser(description = "Subscribing to a Kafka server and writing to a json file")
+    # parser.add_argument("--topic", default= "user_events", help = "Kafka topic name")
+    # parser.add_argument("--batch-time", default = "30", help = "How long it subscribes for in seconds")
+    # parser.add_argument("--output-path", default = "./data/landing", help = "Where is the folder where the files are saved")
     
-    run_etl(create_spark_session("ETL_job"),'./Assets/data/landing', "./Assets/data/gold")
+    spark = create_spark_session("ETL_job")
+    run_etl(spark,'/opt/spark-data/landing', '/opt/spark-data/gold')

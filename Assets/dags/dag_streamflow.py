@@ -11,7 +11,7 @@ from airflow.hooks.base import BaseHook
 from datetime import datetime, timedelta
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
-TIME_DURATION = '180' # In seconds
+TIME_DURATION = '5' # In seconds - 3 minutes
 FIRST_TOPIC = 'user_events'
 SECOND_TOPIC = 'transaction_events'
 BRONZE_PATH = '/opt/spark-data/landing'
@@ -89,15 +89,19 @@ with DAG(
         """
     )
     
-    # submit_spark_job = BashOperator(
-    #     task_id = "Spark_Submit",
-    #     bash_command = """
-    #         spark-submit \
-    #             --master 
-    #     """
-    # )
     
-    start >> [kafka_consumers_transaction, kafka_consumers_user] >> end
+    
+    
+    submit_spark_job = BashOperator(
+        task_id = "Spark_Submit",
+        bash_command = """
+            spark-submit \
+                --master spark://spark-master:7077 \
+                /opt/spark-jobs/etl_job.py
+        """
+    )
+    
+    start >> [kafka_consumers_transaction, kafka_consumers_user] >> submit_spark_job >> end
     
     
     
