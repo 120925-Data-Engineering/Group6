@@ -119,6 +119,13 @@ def transaction_analytics_gold(spark: SparkSession, df_topic_transaction, output
     print("Analytics Table with Window Functions created successfully.")
     return df_analytics
 
+def transaction_cleaned(spark: SparkSession, df_topic_transaction, output_path: str):
+    
+    exploded_topic_transaction = df_topic_transaction.withColumn("product", F.explode("products"))
+    
+    
+    
+    return exploded_topic_transaction
 
 def run_etl(spark: SparkSession, input_path: str, output_path: str):
     """
