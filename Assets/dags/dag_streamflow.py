@@ -8,7 +8,9 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
 from airflow.hooks.base import BaseHook
+from airflow.providers.snowflake.hooks.snowflake import SnowflakeHook
 from datetime import datetime, timedelta
+from pathlib import Path
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
 TIME_DURATION = '30' # In seconds 
@@ -53,6 +55,17 @@ default_args = {
 #         print(f"Connection 'kafka_connection' is not found: {e}")
 #         print("Please create the connection in the airflow UI")
 #         return {}
+
+def upload_local_files_to_snowflake(folder: str, table_name: str):
+    hook = SnowflakeHook(snowflake_conn_id = "snowflake_connection")
+    local_gold_dir = f'/opt/spark_data/gold/{folder}'
+    
+    spark_files = [f for f in local_gold_dir.rglob("*.csv")]
+    
+    for file_path in spark_files:
+        print(f"Uploading {file_path} to snowflake stage @%{table_name}")
+        
+    
     
 
 
