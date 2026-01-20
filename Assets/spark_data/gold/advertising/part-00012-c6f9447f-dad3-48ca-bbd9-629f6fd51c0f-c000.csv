@@ -1,0 +1,226 @@
+browser,user_id,t_timestamp,device,state,city,country,brand,category,product_id,product_name,quantity,unit_price,line_revenue
+Chrome,25a9c1ae,2026-01-19T17:47:57.576275Z,mobile,MS,Leachbury,US,EliteChoice,food,PROD_2084,Elite Food Pack,5,254.81,1274.05
+Chrome,25a9c1ae,2026-01-19T17:47:57.576275Z,mobile,MS,Leachbury,US,StyleCo,books,PROD_2416,Advanced Books Model,2,48.81,97.62
+Chrome,25a9c1ae,2026-01-19T17:47:57.576275Z,mobile,MS,Leachbury,US,SmartChoice,electronics,PROD_2890,Premium Electronics Model,5,38.55,192.75
+Chrome,25a9c1ae,2026-01-19T17:47:57.576275Z,mobile,MS,Leachbury,US,StyleCo,sports,PROD_2332,Essential Sports Model,4,164.88,659.52
+Edge,4b55c9d1,2026-01-19T17:47:57.802608Z,tablet,SD,South Matthewmouth,US,ValueBest,beauty,PROD_1542,Ultimate Beauty Series,3,423.73,1271.19
+Edge,4b55c9d1,2026-01-19T17:47:57.802608Z,tablet,SD,South Matthewmouth,US,EliteChoice,home,PROD_2519,Classic Home Series,2,410.56,821.12
+Edge,4b55c9d1,2026-01-19T17:47:57.802608Z,tablet,SD,South Matthewmouth,US,ValueBest,beauty,PROD_2270,Classic Beauty Version,4,148.1,592.40
+Chrome,bbd07fda,2026-01-19T17:47:58.014591Z,mobile,IL,Lisahaven,US,SportFlex,food,PROD_2210,Deluxe Food Set,1,232.8,232.80
+Chrome,bbd07fda,2026-01-19T17:47:58.014591Z,mobile,IL,Lisahaven,US,ProGear,clothing,PROD_2921,Mega Clothing Kit,4,336.86,1347.44
+Chrome,bbd07fda,2026-01-19T17:47:58.014591Z,mobile,IL,Lisahaven,US,ValueBest,sports,PROD_1836,Pro Sports Line,4,49.79,199.16
+Chrome,bbd07fda,2026-01-19T17:47:58.014591Z,mobile,IL,Lisahaven,US,ProGear,books,PROD_1102,Mega Books Collection,5,416.25,2081.25
+Firefox,8051d8b1,2026-01-19T17:47:58.494570Z,desktop,DE,Churchview,US,StyleCo,books,PROD_2015,Premium Books Line,1,416.88,416.88
+Edge,3ac5bf6d,2026-01-19T17:48:01.372234Z,tablet,MH,Shanefort,US,GreenLife,toys,PROD_1512,Ultra Toys Version,2,416.24,832.48
+Edge,3ac5bf6d,2026-01-19T17:48:01.372234Z,tablet,MH,Shanefort,US,GreenLife,books,PROD_1075,Essential Books Set,3,219.69,659.07
+Edge,3ac5bf6d,2026-01-19T17:48:01.372234Z,tablet,MH,Shanefort,US,SportFlex,sports,PROD_2944,Essential Sports Collection,4,462.87,1851.48
+Edge,3ac5bf6d,2026-01-19T17:48:01.372234Z,tablet,MH,Shanefort,US,ValueBest,sports,PROD_1836,Pro Sports Line,4,49.87,199.48
+Firefox,9ff2d619,2026-01-19T17:48:01.444812Z,mobile,AZ,New Derrick,US,SmartChoice,toys,PROD_2279,Ultra Toys Bundle,2,426.77,853.54
+Firefox,9ff2d619,2026-01-19T17:48:01.444812Z,mobile,AZ,New Derrick,US,StyleCo,electronics,PROD_2965,Modern Electronics Series,3,114.93,344.79
+Firefox,9ff2d619,2026-01-19T17:48:01.444812Z,mobile,AZ,New Derrick,US,EliteChoice,clothing,PROD_2384,Compact Clothing Kit,4,165.9,663.60
+Firefox,9ff2d619,2026-01-19T17:48:01.444812Z,mobile,AZ,New Derrick,US,ProGear,clothing,PROD_2994,Essential Clothing Series,3,119.94,359.82
+Firefox,9ff2d619,2026-01-19T17:48:01.444812Z,mobile,AZ,New Derrick,US,SmartChoice,home,PROD_2900,Deluxe Home Version,2,327.81,655.62
+Safari,910cda79,2026-01-19T17:48:01.754807Z,desktop,DE,Lake Daniel,US,HomeMax,sports,PROD_2008,Ultimate Sports Bundle,5,360.11,1800.55
+Safari,910cda79,2026-01-19T17:48:01.754807Z,desktop,DE,Lake Daniel,US,HomeMax,beauty,PROD_2498,Ultra Beauty Version,5,368.95,1844.75
+Safari,910cda79,2026-01-19T17:48:01.754807Z,desktop,DE,Lake Daniel,US,EliteChoice,toys,PROD_1960,Advanced Toys Collection,1,336.76,336.76
+Safari,910cda79,2026-01-19T17:48:01.754807Z,desktop,DE,Lake Daniel,US,StyleCo,books,PROD_2959,Ultra Books Version,3,133.71,401.13
+Edge,7d2f87be,2026-01-19T17:48:01.974100Z,desktop,NY,Phillipstown,US,TechPro,beauty,PROD_1277,Basic Beauty Kit,5,37.93,189.65
+Edge,7d2f87be,2026-01-19T17:48:01.974100Z,desktop,NY,Phillipstown,US,ProGear,food,PROD_2949,Ultimate Food Set,2,393.81,787.62
+Edge,7d2f87be,2026-01-19T17:48:01.974100Z,desktop,NY,Phillipstown,US,SportFlex,beauty,PROD_1238,Compact Beauty Version,1,267.82,267.82
+Edge,7d2f87be,2026-01-19T17:48:01.974100Z,desktop,NY,Phillipstown,US,TechPro,home,PROD_1767,Modern Home Pack,5,467.78,2338.90
+Chrome,25da67fb,2026-01-19T17:48:02.002356Z,mobile,KY,New Thomas,US,HomeMax,food,PROD_2780,Professional Food Set,1,187.35,187.35
+Chrome,25da67fb,2026-01-19T17:48:02.002356Z,mobile,KY,New Thomas,US,TechPro,food,PROD_1393,Advanced Food Series,5,25.2,126.00
+Chrome,25da67fb,2026-01-19T17:48:02.002356Z,mobile,KY,New Thomas,US,StyleCo,toys,PROD_1323,Advanced Toys Line,4,130.17,520.68
+Chrome,25da67fb,2026-01-19T17:48:02.002356Z,mobile,KY,New Thomas,US,HomeMax,home,PROD_1554,Ultimate Home Line,1,43.79,43.79
+Chrome,1fe0cb77,2026-01-19T17:48:02.260830Z,desktop,OR,Port Michellemouth,US,SportFlex,toys,PROD_1875,Compact Toys Line,3,166.85,500.55
+Chrome,87623304,2026-01-19T17:48:02.419156Z,mobile,MH,Morenoville,US,GreenLife,home,PROD_1360,Elite Home Kit,5,294.21,1471.05
+Chrome,87623304,2026-01-19T17:48:02.419156Z,mobile,MH,Morenoville,US,SportFlex,food,PROD_1873,Essential Food Bundle,3,339.4,1018.20
+Edge,f7281eea,2026-01-19T17:48:02.653544Z,desktop,WY,North Rebecca,US,EliteChoice,books,PROD_2794,Professional Books Pack,5,200.8,1004.00
+Edge,f7281eea,2026-01-19T17:48:02.653544Z,desktop,WY,North Rebecca,US,EliteChoice,clothing,PROD_2384,Compact Clothing Kit,1,183.66,183.66
+Edge,f7281eea,2026-01-19T17:48:02.653544Z,desktop,WY,North Rebecca,US,TechPro,sports,PROD_1724,Modern Sports Version,4,333.82,1335.28
+Firefox,02974775,2026-01-19T17:48:03.192062Z,tablet,VA,Manuelside,US,GreenLife,beauty,PROD_2556,Professional Beauty Line,5,183.87,919.35
+Firefox,02974775,2026-01-19T17:48:03.192062Z,tablet,VA,Manuelside,US,TechPro,food,PROD_1662,Professional Food Set,5,16.31,81.55
+Firefox,02974775,2026-01-19T17:48:03.192062Z,tablet,VA,Manuelside,US,TechPro,food,PROD_2657,Ultra Food Pack,2,442.19,884.38
+Edge,d35c7907,2026-01-19T17:48:04.861862Z,tablet,NJ,North Tammy,US,StyleCo,electronics,PROD_2324,Advanced Electronics Model,2,462.28,924.56
+Edge,d35c7907,2026-01-19T17:48:04.861862Z,tablet,NJ,North Tammy,US,SportFlex,toys,PROD_2510,Classic Toys Line,3,487.79,1463.37
+Edge,d35c7907,2026-01-19T17:48:04.861862Z,tablet,NJ,North Tammy,US,SportFlex,food,PROD_1229,Ultra Food Version,4,44.06,176.24
+Edge,d35c7907,2026-01-19T17:48:04.861862Z,tablet,NJ,North Tammy,US,ProGear,beauty,PROD_2412,Ultra Beauty Kit,4,286.32,1145.28
+Edge,d35c7907,2026-01-19T17:48:04.861862Z,tablet,NJ,North Tammy,US,GreenLife,home,PROD_2316,Classic Home Edition,1,189.74,189.74
+Chrome,019a0581,2026-01-19T17:48:04.874218Z,desktop,NH,Ellisbury,US,GreenLife,clothing,PROD_2122,Basic Clothing Edition,1,149.94,149.94
+Chrome,019a0581,2026-01-19T17:48:04.874218Z,desktop,NH,Ellisbury,US,SportFlex,clothing,PROD_2693,Classic Clothing Model,4,208.92,835.68
+Chrome,019a0581,2026-01-19T17:48:04.874218Z,desktop,NH,Ellisbury,US,ProGear,beauty,PROD_2028,Modern Beauty Collection,5,150.56,752.80
+Chrome,019a0581,2026-01-19T17:48:04.874218Z,desktop,NH,Ellisbury,US,EliteChoice,sports,PROD_1856,Mega Sports Bundle,5,66.93,334.65
+Chrome,019a0581,2026-01-19T17:48:04.874218Z,desktop,NH,Ellisbury,US,EliteChoice,home,PROD_2110,Ultra Home Kit,3,163.86,491.58
+Chrome,e8b3375a,2026-01-19T17:48:05.054570Z,mobile,ME,Lake Tarashire,US,GreenLife,electronics,PROD_1164,Advanced Electronics Pack,3,245.98,737.94
+Chrome,e8b3375a,2026-01-19T17:48:05.054570Z,mobile,ME,Lake Tarashire,US,SportFlex,sports,PROD_1481,Basic Sports Kit,3,478.97,1436.91
+Chrome,e8b3375a,2026-01-19T17:48:05.054570Z,mobile,ME,Lake Tarashire,US,SportFlex,toys,PROD_2926,Essential Toys Line,2,54.93,109.86
+Chrome,e8b3375a,2026-01-19T17:48:05.054570Z,mobile,ME,Lake Tarashire,US,ProGear,home,PROD_1688,Modern Home Edition,4,467.02,1868.08
+Chrome,9fff1d0e,2026-01-19T17:48:05.069036Z,mobile,KS,West Nicholasside,US,PremiumPlus,clothing,PROD_1306,Deluxe Clothing Edition,3,77.69,233.07
+Safari,ca3ef85e,2026-01-19T17:48:05.658201Z,mobile,DC,New Carolville,US,EliteChoice,home,PROD_2110,Ultra Home Kit,1,172.23,172.23
+Safari,ca3ef85e,2026-01-19T17:48:05.658201Z,mobile,DC,New Carolville,US,SportFlex,toys,PROD_1329,Professional Toys Bundle,1,222.37,222.37
+Safari,ca3ef85e,2026-01-19T17:48:05.658201Z,mobile,DC,New Carolville,US,StyleCo,home,PROD_2914,Advanced Home Version,1,243.59,243.59
+Safari,ca3ef85e,2026-01-19T17:48:05.658201Z,mobile,DC,New Carolville,US,SmartChoice,food,PROD_1664,Advanced Food Set,3,421.43,1264.29
+Safari,ca3ef85e,2026-01-19T17:48:05.658201Z,mobile,DC,New Carolville,US,SportFlex,electronics,PROD_1357,Deluxe Electronics Edition,2,451.52,903.04
+Safari,72557353,2026-01-19T17:48:05.680982Z,tablet,IA,Austinburgh,US,StyleCo,beauty,PROD_1461,Classic Beauty Set,5,38.87,194.35
+Safari,bbf04c41,2026-01-19T17:48:05.742924Z,desktop,AL,West Laura,US,GreenLife,clothing,PROD_1917,Professional Clothing Set,1,337.63,337.63
+Safari,bbf04c41,2026-01-19T17:48:05.742924Z,desktop,AL,West Laura,US,SportFlex,home,PROD_2603,Deluxe Home Pack,2,105.59,211.18
+Safari,bbf04c41,2026-01-19T17:48:05.742924Z,desktop,AL,West Laura,US,SmartChoice,sports,PROD_1658,Professional Sports Model,5,379.5,1897.50
+Safari,bbf04c41,2026-01-19T17:48:05.742924Z,desktop,AL,West Laura,US,PremiumPlus,beauty,PROD_2136,Classic Beauty Pack,5,378.02,1890.10
+Safari,bbf04c41,2026-01-19T17:48:05.742924Z,desktop,AL,West Laura,US,PremiumPlus,books,PROD_2730,Ultimate Books Kit,5,177.52,887.60
+Edge,ba158a7e,2026-01-19T17:48:05.887916Z,tablet,PR,North Alyssahaven,US,HomeMax,beauty,PROD_2160,Essential Beauty Line,1,62.51,62.51
+Edge,ba158a7e,2026-01-19T17:48:05.887916Z,tablet,PR,North Alyssahaven,US,StyleCo,clothing,PROD_1232,Deluxe Clothing Set,1,392.34,392.34
+Edge,ba158a7e,2026-01-19T17:48:05.887916Z,tablet,PR,North Alyssahaven,US,SmartChoice,clothing,PROD_1963,Advanced Clothing Kit,5,360.46,1802.30
+Edge,ba158a7e,2026-01-19T17:48:05.887916Z,tablet,PR,North Alyssahaven,US,PremiumPlus,food,PROD_2288,Advanced Food Edition,2,265.74,531.48
+Safari,fba5bf32,2026-01-19T17:48:06.196544Z,mobile,CA,Gregoryland,US,ProGear,home,PROD_2640,Mega Home Kit,2,207.05,414.10
+Safari,fba5bf32,2026-01-19T17:48:06.196544Z,mobile,CA,Gregoryland,US,PremiumPlus,books,PROD_2892,Advanced Books Kit,1,154.82,154.82
+Safari,fba5bf32,2026-01-19T17:48:06.196544Z,mobile,CA,Gregoryland,US,StyleCo,food,PROD_2537,Deluxe Food Set,4,42.17,168.68
+Safari,fba5bf32,2026-01-19T17:48:06.196544Z,mobile,CA,Gregoryland,US,TechPro,electronics,PROD_1247,Ultra Electronics Set,1,24.64,24.64
+Edge,f0f1826f,2026-01-19T17:48:06.688655Z,desktop,NC,New Angelashire,US,ProGear,books,PROD_1819,Ultra Books Collection,4,388.87,1555.48
+Edge,f0f1826f,2026-01-19T17:48:06.688655Z,desktop,NC,New Angelashire,US,GreenLife,clothing,PROD_2348,Classic Clothing Bundle,3,205.03,615.09
+Edge,f0f1826f,2026-01-19T17:48:06.688655Z,desktop,NC,New Angelashire,US,HomeMax,beauty,PROD_2655,Classic Beauty Series,4,168.9,675.60
+Edge,f0f1826f,2026-01-19T17:48:06.688655Z,desktop,NC,New Angelashire,US,ValueBest,sports,PROD_2776,Basic Sports Version,4,284.14,1136.56
+Edge,f0f1826f,2026-01-19T17:48:06.688655Z,desktop,NC,New Angelashire,US,EliteChoice,home,PROD_2215,Advanced Home Bundle,4,156.46,625.84
+Safari,bd9e7d18,2026-01-19T17:48:06.750720Z,tablet,MH,Thomasside,US,GreenLife,home,PROD_2106,Professional Home Pack,5,154.87,774.35
+Safari,bd9e7d18,2026-01-19T17:48:06.750720Z,tablet,MH,Thomasside,US,HomeMax,sports,PROD_2700,Compact Sports Collection,1,127.05,127.05
+Safari,bd9e7d18,2026-01-19T17:48:06.750720Z,tablet,MH,Thomasside,US,HomeMax,food,PROD_1730,Basic Food Model,5,258.46,1292.30
+Safari,bd9e7d18,2026-01-19T17:48:06.750720Z,tablet,MH,Thomasside,US,ProGear,food,PROD_1964,Premium Food Line,3,345.57,1036.71
+Safari,bd9e7d18,2026-01-19T17:48:06.750720Z,tablet,MH,Thomasside,US,ValueBest,food,PROD_2825,Professional Food Bundle,3,364.7,1094.10
+Safari,36222f29,2026-01-19T17:48:06.871629Z,tablet,NC,Elizabethmouth,US,SmartChoice,sports,PROD_1570,Deluxe Sports Collection,2,19.72,39.44
+Safari,36222f29,2026-01-19T17:48:06.871629Z,tablet,NC,Elizabethmouth,US,GreenLife,beauty,PROD_2099,Mega Beauty Bundle,4,86.71,346.84
+Safari,36222f29,2026-01-19T17:48:06.871629Z,tablet,NC,Elizabethmouth,US,SmartChoice,beauty,PROD_2658,Classic Beauty Version,3,79.76,239.28
+Safari,36222f29,2026-01-19T17:48:06.871629Z,tablet,NC,Elizabethmouth,US,SmartChoice,clothing,PROD_2906,Mega Clothing Model,2,429.36,858.72
+Safari,36222f29,2026-01-19T17:48:06.871629Z,tablet,NC,Elizabethmouth,US,TechPro,beauty,PROD_2626,Essential Beauty Edition,4,384.44,1537.76
+Firefox,a7cc34fa,2026-01-19T17:48:06.983618Z,mobile,ID,Webbberg,US,StyleCo,books,PROD_2416,Advanced Books Model,4,45.26,181.04
+Firefox,a7cc34fa,2026-01-19T17:48:06.983618Z,mobile,ID,Webbberg,US,SportFlex,sports,PROD_1780,Ultra Sports Collection,2,155.78,311.56
+Firefox,a7cc34fa,2026-01-19T17:48:06.983618Z,mobile,ID,Webbberg,US,StyleCo,beauty,PROD_2474,Smart Beauty Model,5,136.79,683.95
+Firefox,a7cc34fa,2026-01-19T17:48:06.983618Z,mobile,ID,Webbberg,US,EliteChoice,home,PROD_2444,Professional Home Series,2,425.55,851.10
+Firefox,a7cc34fa,2026-01-19T17:48:06.983618Z,mobile,ID,Webbberg,US,TechPro,home,PROD_2350,Compact Home Collection,3,422.13,1266.39
+Chrome,d95689d9,2026-01-19T17:48:07.096594Z,tablet,NH,New Mariamouth,US,ProGear,food,PROD_2169,Deluxe Food Version,1,301.13,301.13
+Chrome,d95689d9,2026-01-19T17:48:07.096594Z,tablet,NH,New Mariamouth,US,ValueBest,toys,PROD_2179,Mega Toys Collection,4,111.74,446.96
+Chrome,d95689d9,2026-01-19T17:48:07.096594Z,tablet,NH,New Mariamouth,US,StyleCo,electronics,PROD_1240,Advanced Electronics Version,1,43.05,43.05
+Chrome,d95689d9,2026-01-19T17:48:07.096594Z,tablet,NH,New Mariamouth,US,GreenLife,books,PROD_1317,Ultimate Books Edition,1,382.95,382.95
+Chrome,d95689d9,2026-01-19T17:48:07.096594Z,tablet,NH,New Mariamouth,US,SmartChoice,electronics,PROD_2890,Premium Electronics Model,1,39.53,39.53
+Firefox,c5b8d1fb,2026-01-19T17:48:07.400220Z,tablet,WA,Markberg,US,GreenLife,beauty,PROD_2099,Mega Beauty Bundle,3,91.94,275.82
+Firefox,c5b8d1fb,2026-01-19T17:48:07.400220Z,tablet,WA,Markberg,US,ProGear,food,PROD_2058,Mega Food Line,4,243.82,975.28
+Firefox,c5b8d1fb,2026-01-19T17:48:07.400220Z,tablet,WA,Markberg,US,ProGear,clothing,PROD_1145,Elite Clothing Line,1,283.73,283.73
+Firefox,c5b8d1fb,2026-01-19T17:48:07.400220Z,tablet,WA,Markberg,US,PremiumPlus,home,PROD_2227,Mega Home Line,2,236.97,473.94
+Chrome,6398d14c,2026-01-19T17:48:07.712380Z,tablet,NV,North Daisyland,US,SportFlex,home,PROD_1781,Compact Home Line,2,492.75,985.50
+Chrome,6398d14c,2026-01-19T17:48:07.712380Z,tablet,NV,North Daisyland,US,GreenLife,home,PROD_2549,Advanced Home Version,5,397.27,1986.35
+Chrome,6398d14c,2026-01-19T17:48:07.712380Z,tablet,NV,North Daisyland,US,PremiumPlus,books,PROD_2369,Basic Books Kit,5,298.14,1490.70
+Chrome,6398d14c,2026-01-19T17:48:07.712380Z,tablet,NV,North Daisyland,US,TechPro,beauty,PROD_1302,Compact Beauty Model,1,73.36,73.36
+Chrome,6398d14c,2026-01-19T17:48:07.712380Z,tablet,NV,North Daisyland,US,EliteChoice,food,PROD_2453,Ultimate Food Pack,4,305.9,1223.60
+Chrome,e2893e45,2026-01-19T17:48:08.334558Z,tablet,ME,South Nancyfurt,US,ValueBest,electronics,PROD_2247,Professional Electronics Version,4,388.23,1552.92
+Chrome,e2893e45,2026-01-19T17:48:08.334558Z,tablet,ME,South Nancyfurt,US,TechPro,clothing,PROD_2782,Ultra Clothing Series,4,311.46,1245.84
+Chrome,e2893e45,2026-01-19T17:48:08.334558Z,tablet,ME,South Nancyfurt,US,GreenLife,beauty,PROD_2276,Advanced Beauty Collection,5,27.67,138.35
+Chrome,e2893e45,2026-01-19T17:48:08.334558Z,tablet,ME,South Nancyfurt,US,HomeMax,sports,PROD_2801,Ultimate Sports Pack,2,105.3,210.60
+Chrome,e2893e45,2026-01-19T17:48:08.334558Z,tablet,ME,South Nancyfurt,US,StyleCo,food,PROD_1766,Ultra Food Line,2,85.05,170.10
+Firefox,9f0b6420,2026-01-19T17:48:08.657893Z,desktop,AR,Fieldsport,US,GreenLife,home,PROD_1360,Elite Home Kit,4,292.17,1168.68
+Firefox,9f0b6420,2026-01-19T17:48:08.657893Z,desktop,AR,Fieldsport,US,SmartChoice,clothing,PROD_2575,Advanced Clothing Line,4,84.09,336.36
+Firefox,9f0b6420,2026-01-19T17:48:08.657893Z,desktop,AR,Fieldsport,US,EliteChoice,food,PROD_1609,Mega Food Line,5,88.95,444.75
+Firefox,9f0b6420,2026-01-19T17:48:08.657893Z,desktop,AR,Fieldsport,US,PremiumPlus,toys,PROD_2555,Ultimate Toys Model,5,83.21,416.05
+Firefox,9f0b6420,2026-01-19T17:48:08.657893Z,desktop,AR,Fieldsport,US,HomeMax,toys,PROD_2753,Modern Toys Line,5,417.61,2088.05
+Safari,9f0b6420,2026-01-19T17:48:08.657893Z,mobile,AR,Fieldsport,US,GreenLife,home,PROD_1360,Elite Home Kit,4,292.17,1168.68
+Safari,9f0b6420,2026-01-19T17:48:08.657893Z,mobile,AR,Fieldsport,US,SmartChoice,clothing,PROD_2575,Advanced Clothing Line,4,84.09,336.36
+Safari,9f0b6420,2026-01-19T17:48:08.657893Z,mobile,AR,Fieldsport,US,EliteChoice,food,PROD_1609,Mega Food Line,5,88.95,444.75
+Safari,9f0b6420,2026-01-19T17:48:08.657893Z,mobile,AR,Fieldsport,US,PremiumPlus,toys,PROD_2555,Ultimate Toys Model,5,83.21,416.05
+Safari,9f0b6420,2026-01-19T17:48:08.657893Z,mobile,AR,Fieldsport,US,HomeMax,toys,PROD_2753,Modern Toys Line,5,417.61,2088.05
+Edge,38abea88,2026-01-19T17:48:10.172712Z,desktop,WV,East Saratown,US,GreenLife,food,PROD_1989,Classic Food Kit,5,22.11,110.55
+Edge,38abea88,2026-01-19T17:48:10.172712Z,desktop,WV,East Saratown,US,SmartChoice,toys,PROD_1003,Ultimate Toys Series,2,50.03,100.06
+Chrome,e563b532,2026-01-19T17:48:10.441060Z,desktop,DE,Tuckerbury,US,ProGear,clothing,PROD_1145,Elite Clothing Line,5,292.52,1462.60
+Chrome,e563b532,2026-01-19T17:48:10.441060Z,desktop,DE,Tuckerbury,US,ProGear,books,PROD_2804,Compact Books Collection,2,216.67,433.34
+Chrome,e563b532,2026-01-19T17:48:10.441060Z,desktop,DE,Tuckerbury,US,PremiumPlus,beauty,PROD_2339,Modern Beauty Model,1,365.45,365.45
+Edge,d35c7907,2026-01-19T17:48:10.910012Z,mobile,WI,North Laura,US,SmartChoice,food,PROD_2924,Pro Food Version,4,273.33,1093.32
+Edge,d35c7907,2026-01-19T17:48:10.910012Z,mobile,WI,North Laura,US,ProGear,food,PROD_1638,Smart Food Series,5,149.99,749.95
+Edge,d35c7907,2026-01-19T17:48:10.910012Z,mobile,WI,North Laura,US,ProGear,electronics,PROD_1683,Compact Electronics Kit,3,161.91,485.73
+Edge,d35c7907,2026-01-19T17:48:10.910012Z,mobile,WI,North Laura,US,SportFlex,home,PROD_2714,Ultra Home Edition,3,284.49,853.47
+Edge,d35c7907,2026-01-19T17:48:10.910012Z,mobile,WI,North Laura,US,SmartChoice,electronics,PROD_1203,Basic Electronics Line,3,230.11,690.33
+Firefox,bbd07fda,2026-01-19T17:48:12.286100Z,mobile,NM,Lake Brendan,US,EliteChoice,food,PROD_2303,Modern Food Edition,1,215.48,215.48
+Firefox,bbd07fda,2026-01-19T17:48:12.286100Z,mobile,NM,Lake Brendan,US,ValueBest,books,PROD_2285,Modern Books Set,5,362.36,1811.80
+Firefox,bbd07fda,2026-01-19T17:48:12.286100Z,mobile,NM,Lake Brendan,US,ValueBest,clothing,PROD_1615,Deluxe Clothing Edition,1,110.96,110.96
+Firefox,bbd07fda,2026-01-19T17:48:12.286100Z,mobile,NM,Lake Brendan,US,SmartChoice,beauty,PROD_1679,Ultra Beauty Line,4,86.22,344.88
+Firefox,bbd07fda,2026-01-19T17:48:12.286100Z,mobile,NM,Lake Brendan,US,StyleCo,electronics,PROD_1878,Pro Electronics Bundle,2,104.58,209.16
+Firefox,21d49bb6,2026-01-19T17:48:12.678583Z,tablet,WA,New Amychester,US,SportFlex,toys,PROD_1925,Essential Toys Series,5,291.29,1456.45
+Firefox,21d49bb6,2026-01-19T17:48:12.678583Z,tablet,WA,New Amychester,US,ValueBest,food,PROD_1256,Classic Food Line,5,136.2,681.00
+Firefox,21d49bb6,2026-01-19T17:48:12.678583Z,tablet,WA,New Amychester,US,TechPro,sports,PROD_2983,Advanced Sports Line,4,224.3,897.20
+Firefox,b712400d,2026-01-19T17:48:13.549298Z,tablet,RI,Floresville,US,GreenLife,sports,PROD_2456,Premium Sports Set,1,357.07,357.07
+Firefox,b712400d,2026-01-19T17:48:13.549298Z,tablet,RI,Floresville,US,PremiumPlus,toys,PROD_2927,Mega Toys Set,4,337.54,1350.16
+Firefox,b712400d,2026-01-19T17:48:13.549298Z,tablet,RI,Floresville,US,PremiumPlus,beauty,PROD_1563,Ultimate Beauty Series,2,350.04,700.08
+Firefox,b712400d,2026-01-19T17:48:13.549298Z,tablet,RI,Floresville,US,GreenLife,toys,PROD_1143,Elite Toys Model,3,80.41,241.23
+Firefox,b712400d,2026-01-19T17:48:13.549298Z,tablet,RI,Floresville,US,ProGear,food,PROD_1363,Ultra Food Edition,2,117.62,235.24
+Chrome,fcf66b3f,2026-01-19T17:48:14.128486Z,mobile,CT,Heatherstad,US,HomeMax,food,PROD_1949,Professional Food Pack,5,316.56,1582.80
+Chrome,fcf66b3f,2026-01-19T17:48:14.128486Z,mobile,CT,Heatherstad,US,SmartChoice,beauty,PROD_1265,Advanced Beauty Model,4,171.44,685.76
+Firefox,4e9ffc7e,2026-01-19T17:48:14.179612Z,desktop,NC,Sheilahaven,US,HomeMax,sports,PROD_1644,Modern Sports Model,5,344.45,1722.25
+Firefox,4e9ffc7e,2026-01-19T17:48:14.179612Z,desktop,NC,Sheilahaven,US,EliteChoice,food,PROD_2091,Professional Food Series,4,96.15,384.60
+Firefox,4e9ffc7e,2026-01-19T17:48:14.179612Z,desktop,NC,Sheilahaven,US,GreenLife,electronics,PROD_1400,Pro Electronics Version,2,213.94,427.88
+Firefox,4e9ffc7e,2026-01-19T17:48:14.179612Z,desktop,NC,Sheilahaven,US,HomeMax,food,PROD_2454,Premium Food Model,4,192.74,770.96
+Safari,230ce3c8,2026-01-19T17:48:14.580377Z,desktop,PA,New Justinview,US,GreenLife,sports,PROD_2456,Premium Sports Set,3,341.16,1023.48
+Safari,230ce3c8,2026-01-19T17:48:14.580377Z,desktop,PA,New Justinview,US,HomeMax,home,PROD_1064,Ultra Home Line,4,333.63,1334.52
+Safari,230ce3c8,2026-01-19T17:48:14.580377Z,desktop,PA,New Justinview,US,TechPro,clothing,PROD_1099,Mega Clothing Set,3,82.41,247.23
+Safari,230ce3c8,2026-01-19T17:48:14.580377Z,desktop,PA,New Justinview,US,SmartChoice,toys,PROD_1753,Classic Toys Kit,4,180.88,723.52
+Safari,903fe578,2026-01-19T17:48:14.623069Z,desktop,GU,Rileyside,US,HomeMax,clothing,PROD_1539,Compact Clothing Kit,4,41.12,164.48
+Safari,903fe578,2026-01-19T17:48:14.623069Z,desktop,GU,Rileyside,US,StyleCo,electronics,PROD_2340,Modern Electronics Set,2,67.81,135.62
+Safari,903fe578,2026-01-19T17:48:14.623069Z,desktop,GU,Rileyside,US,PremiumPlus,electronics,PROD_2710,Basic Electronics Edition,2,240.74,481.48
+Safari,903fe578,2026-01-19T17:48:14.623069Z,desktop,GU,Rileyside,US,GreenLife,home,PROD_1081,Pro Home Pack,3,56.5,169.50
+Safari,903fe578,2026-01-19T17:48:14.623069Z,desktop,GU,Rileyside,US,GreenLife,home,PROD_2106,Professional Home Pack,5,147.77,738.85
+Safari,6f21fb93,2026-01-19T17:48:14.750782Z,mobile,GA,West Scott,US,EliteChoice,home,PROD_2483,Classic Home Pack,1,190.66,190.66
+Safari,6f21fb93,2026-01-19T17:48:14.750782Z,mobile,GA,West Scott,US,SmartChoice,food,PROD_2641,Classic Food Pack,3,166.62,499.86
+Firefox,87852257,2026-01-19T17:48:14.753077Z,tablet,PR,New Mary,US,PremiumPlus,food,PROD_1120,Elite Food Model,3,61.16,183.48
+Firefox,87852257,2026-01-19T17:48:14.753077Z,tablet,PR,New Mary,US,HomeMax,clothing,PROD_1401,Modern Clothing Kit,4,326.1,1304.40
+Firefox,87852257,2026-01-19T17:48:14.753077Z,tablet,PR,New Mary,US,TechPro,home,PROD_1094,Ultra Home Edition,1,280.34,280.34
+Firefox,87852257,2026-01-19T17:48:14.753077Z,tablet,PR,New Mary,US,ProGear,books,PROD_2681,Ultra Books Pack,5,96.26,481.30
+Firefox,87852257,2026-01-19T17:48:14.753077Z,tablet,PR,New Mary,US,TechPro,books,PROD_2542,Ultimate Books Model,1,441.12,441.12
+Firefox,15957161,2026-01-19T17:48:15.065577Z,mobile,PR,East Beverly,US,ValueBest,beauty,PROD_1729,Deluxe Beauty Collection,2,335.41,670.82
+Firefox,15957161,2026-01-19T17:48:15.065577Z,mobile,PR,East Beverly,US,PremiumPlus,sports,PROD_1973,Advanced Sports Set,5,111.47,557.35
+Firefox,15957161,2026-01-19T17:48:15.065577Z,mobile,PR,East Beverly,US,SportFlex,sports,PROD_1568,Advanced Sports Kit,5,37.88,189.40
+Firefox,15957161,2026-01-19T17:48:15.065577Z,mobile,PR,East Beverly,US,ValueBest,electronics,PROD_2758,Advanced Electronics Pack,3,304.49,913.47
+Firefox,15957161,2026-01-19T17:48:15.065577Z,mobile,PR,East Beverly,US,SportFlex,books,PROD_2428,Ultimate Books Edition,2,313.64,627.28
+Edge,a2d52d8f,2026-01-19T17:48:15.442073Z,desktop,MA,Peterland,US,PremiumPlus,food,PROD_1922,Professional Food Series,1,65.48,65.48
+Edge,a2d52d8f,2026-01-19T17:48:15.442073Z,desktop,MA,Peterland,US,HomeMax,electronics,PROD_2500,Ultra Electronics Line,3,15.43,46.29
+Edge,a2d52d8f,2026-01-19T17:48:15.442073Z,desktop,MA,Peterland,US,SmartChoice,electronics,PROD_2861,Professional Electronics Bundle,2,208.76,417.52
+Edge,a2d52d8f,2026-01-19T17:48:15.442073Z,desktop,MA,Peterland,US,StyleCo,food,PROD_1124,Ultra Food Version,4,365.32,1461.28
+Edge,a2d52d8f,2026-01-19T17:48:15.442073Z,desktop,MA,Peterland,US,EliteChoice,electronics,PROD_1537,Premium Electronics Bundle,5,109.31,546.55
+Firefox,18b3e94f,2026-01-19T17:48:15.647717Z,mobile,NE,Markmouth,US,TechPro,clothing,PROD_1954,Smart Clothing Pack,5,205.85,1029.25
+Firefox,18b3e94f,2026-01-19T17:48:15.647717Z,mobile,NE,Markmouth,US,PremiumPlus,electronics,PROD_2042,Smart Electronics Pack,3,20.11,60.33
+Firefox,18b3e94f,2026-01-19T17:48:15.647717Z,mobile,NE,Markmouth,US,GreenLife,home,PROD_2406,Smart Home Bundle,4,243.9,975.60
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,mobile,WI,Port Melinda,US,EliteChoice,books,PROD_1452,Advanced Books Line,5,128.98,644.90
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,mobile,WI,Port Melinda,US,SmartChoice,electronics,PROD_2861,Professional Electronics Bundle,4,209.24,836.96
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,mobile,WI,Port Melinda,US,SportFlex,sports,PROD_2957,Elite Sports Line,5,156.83,784.15
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,mobile,WI,Port Melinda,US,StyleCo,electronics,PROD_2182,Mega Electronics Set,5,103.54,517.70
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,mobile,WI,Port Melinda,US,ValueBest,beauty,PROD_2749,Elite Beauty Version,2,436.49,872.98
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,desktop,WI,Port Melinda,US,EliteChoice,books,PROD_1452,Advanced Books Line,5,128.98,644.90
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,desktop,WI,Port Melinda,US,SmartChoice,electronics,PROD_2861,Professional Electronics Bundle,4,209.24,836.96
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,desktop,WI,Port Melinda,US,SportFlex,sports,PROD_2957,Elite Sports Line,5,156.83,784.15
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,desktop,WI,Port Melinda,US,StyleCo,electronics,PROD_2182,Mega Electronics Set,5,103.54,517.70
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,desktop,WI,Port Melinda,US,ValueBest,beauty,PROD_2749,Elite Beauty Version,2,436.49,872.98
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,tablet,WI,Port Melinda,US,EliteChoice,books,PROD_1452,Advanced Books Line,5,128.98,644.90
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,tablet,WI,Port Melinda,US,SmartChoice,electronics,PROD_2861,Professional Electronics Bundle,4,209.24,836.96
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,tablet,WI,Port Melinda,US,SportFlex,sports,PROD_2957,Elite Sports Line,5,156.83,784.15
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,tablet,WI,Port Melinda,US,StyleCo,electronics,PROD_2182,Mega Electronics Set,5,103.54,517.70
+Safari,048ecd74,2026-01-19T17:48:16.506936Z,tablet,WI,Port Melinda,US,ValueBest,beauty,PROD_2749,Elite Beauty Version,2,436.49,872.98
+Firefox,21d49bb6,2026-01-19T17:48:16.520558Z,mobile,VI,Taylortown,US,EliteChoice,toys,PROD_2327,Classic Toys Edition,3,235.8,707.40
+Firefox,21d49bb6,2026-01-19T17:48:16.520558Z,mobile,VI,Taylortown,US,HomeMax,sports,PROD_2700,Compact Sports Collection,3,130.63,391.89
+Firefox,21d49bb6,2026-01-19T17:48:16.520558Z,mobile,VI,Taylortown,US,EliteChoice,electronics,PROD_2976,Basic Electronics Series,4,74.86,299.44
+Safari,3e3a3dd6,2026-01-19T17:48:17.595678Z,desktop,MS,South Jamie,US,SmartChoice,electronics,PROD_2254,Ultimate Electronics Model,4,339.85,1359.40
+Safari,3e3a3dd6,2026-01-19T17:48:17.595678Z,desktop,MS,South Jamie,US,GreenLife,electronics,PROD_2932,Essential Electronics Set,5,355.45,1777.25
+Safari,3e3a3dd6,2026-01-19T17:48:17.595678Z,desktop,MS,South Jamie,US,StyleCo,sports,PROD_2472,Mega Sports Kit,3,178.83,536.49
+Safari,3e3a3dd6,2026-01-19T17:48:17.595678Z,desktop,MS,South Jamie,US,PremiumPlus,books,PROD_2151,Deluxe Books Edition,2,297.07,594.14
+Safari,2bd3a118,2026-01-19T17:48:17.762379Z,desktop,SC,Port Stevenfort,US,ValueBest,toys,PROD_2179,Mega Toys Collection,1,113.48,113.48
+Safari,2bd3a118,2026-01-19T17:48:17.762379Z,desktop,SC,Port Stevenfort,US,SportFlex,toys,PROD_2378,Classic Toys Collection,4,80.26,321.04
+Safari,2bd3a118,2026-01-19T17:48:17.762379Z,desktop,SC,Port Stevenfort,US,EliteChoice,books,PROD_2581,Ultimate Books Bundle,4,144.7,578.80
+Edge,394968f9,2026-01-19T17:48:18.130441Z,tablet,MT,Fernandezborough,US,TechPro,sports,PROD_2147,Basic Sports Collection,5,235.25,1176.25
+Edge,394968f9,2026-01-19T17:48:18.130441Z,tablet,MT,Fernandezborough,US,HomeMax,beauty,PROD_2263,Essential Beauty Model,1,150.01,150.01
+Edge,394968f9,2026-01-19T17:48:18.130441Z,tablet,MT,Fernandezborough,US,EliteChoice,home,PROD_2355,Compact Home Collection,4,133.65,534.60
+Edge,394968f9,2026-01-19T17:48:18.130441Z,tablet,MT,Fernandezborough,US,TechPro,food,PROD_2093,Premium Food Set,5,11.59,57.95
+Edge,394968f9,2026-01-19T17:48:18.130441Z,tablet,MT,Fernandezborough,US,GreenLife,electronics,PROD_2459,Mega Electronics Kit,1,420.33,420.33
+Safari,b5c72a66,2026-01-19T17:48:19.168184Z,desktop,PA,Port Ronald,US,PremiumPlus,food,PROD_1231,Classic Food Model,3,192.7,578.10
+Safari,b5c72a66,2026-01-19T17:48:19.168184Z,desktop,PA,Port Ronald,US,SportFlex,sports,PROD_2558,Ultra Sports Line,1,244.65,244.65
+Firefox,15957161,2026-01-19T17:48:19.357038Z,desktop,NH,Leahburgh,US,StyleCo,clothing,PROD_1018,Classic Clothing Line,4,19.6,78.40
+Firefox,15957161,2026-01-19T17:48:19.357038Z,desktop,NH,Leahburgh,US,SportFlex,clothing,PROD_2712,Classic Clothing Pack,3,17.8,53.40
+Firefox,15957161,2026-01-19T17:48:19.357038Z,desktop,NH,Leahburgh,US,SportFlex,electronics,PROD_1523,Compact Electronics Model,2,351.18,702.36
+Firefox,15957161,2026-01-19T17:48:19.357038Z,desktop,NH,Leahburgh,US,ProGear,food,PROD_1131,Premium Food Kit,3,69.96,209.88
+Firefox,15957161,2026-01-19T17:48:19.357038Z,desktop,NH,Leahburgh,US,GreenLife,books,PROD_1053,Elite Books Kit,5,308.84,1544.20
+Firefox,b3579541,2026-01-19T17:48:21.444683Z,tablet,OK,Yvettechester,US,TechPro,books,PROD_1430,Modern Books Pack,4,475.44,1901.76
+Firefox,b3579541,2026-01-19T17:48:21.444683Z,tablet,OK,Yvettechester,US,PremiumPlus,toys,PROD_2555,Ultimate Toys Model,5,91.49,457.45
+Firefox,b3579541,2026-01-19T17:48:21.444683Z,tablet,OK,Yvettechester,US,StyleCo,books,PROD_2318,Ultimate Books Kit,1,207.85,207.85
+Firefox,b3579541,2026-01-19T17:48:21.444683Z,tablet,OK,Yvettechester,US,EliteChoice,electronics,PROD_2431,Ultra Electronics Line,2,117.11,234.22
+Firefox,b3579541,2026-01-19T17:48:21.444683Z,tablet,OK,Yvettechester,US,TechPro,books,PROD_2156,Essential Books Edition,4,359.47,1437.88

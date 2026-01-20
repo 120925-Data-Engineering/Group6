@@ -10,8 +10,10 @@ import json
 import time
 import os
 import argparse
+import os
+from dotenv import load_dotenv
 
-
+# kafka_server_connection = os.getenv("KAFKA_SERVER")
 def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     """
     Consume from Kafka for specified duration and write to landing zone.
@@ -27,7 +29,7 @@ def consume_batch(topic: str, batch_duration_sec: int, output_path: str) -> int:
     # Creates a kafka consumer
     consumer = KafkaConsumer(
         topic,
-        bootstrap_servers = ["kafka:9092"],
+        bootstrap_servers = "localhost:9094",
         auto_offset_reset = "earliest",
         enable_auto_commit = True,
         group_id = "landing_group",
@@ -73,7 +75,7 @@ if __name__ == "__main__":
     # TODO: Parse args and call consume_batch
     parser = argparse.ArgumentParser(description = "Subscribing to a Kafka server and writing to a json file")
     parser.add_argument("--topic", default= "user_events", help = "Kafka topic name")
-    parser.add_argument("--batch-time", default = "30", help = "How long it subscribes for in seconds")
+    parser.add_argument("--batch-time", default = "120", help = "How long it subscribes for in seconds")
     parser.add_argument("--output-path", default = "./data/landing", help = "Where is the folder where the files are saved")
     
     args = parser.parse_args()

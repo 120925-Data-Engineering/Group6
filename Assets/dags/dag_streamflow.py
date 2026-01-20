@@ -68,27 +68,27 @@ with DAG(
     
     # First thing we need to do is collect from the topics
     # by the consumers we have
-    kafka_consumers_user = BashOperator(
-        task_id = "kafka_consumers_users",
-        bash_command = f"""
-            echo "Starting Kafka consumer"
-            python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
-                --topic {FIRST_TOPIC} \\
-                --batch-time {TIME_DURATION} \\
-                --output-path {BRONZE_PATH}
-        """
-    )
+    # kafka_consumers_user = BashOperator(
+    #     task_id = "kafka_consumers_users",
+    #     bash_command = f"""
+    #         echo "Starting Kafka consumer"
+    #         python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
+    #             --topic {FIRST_TOPIC} \\
+    #             --batch-time {TIME_DURATION} \\
+    #             --output-path {BRONZE_PATH}
+    #     """
+    # )
     
-    kafka_consumers_transaction = BashOperator(
-        task_id = "kafka_consumers_transaction",
-        bash_command = f"""
-            echo "Starting Kafka consumer"
-            python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
-                --topic {SECOND_TOPIC} \\
-                --batch-time {TIME_DURATION} \\
-                --output-path {BRONZE_PATH}
-        """
-    )
+    # kafka_consumers_transaction = BashOperator(
+    #     task_id = "kafka_consumers_transaction",
+    #     bash_command = f"""
+    #         echo "Starting Kafka consumer"
+    #         python {SPARK_JOBS_PATH}/ingest_kafka_to_landing.py \\
+    #             --topic {SECOND_TOPIC} \\
+    #             --batch-time {TIME_DURATION} \\
+    #             --output-path {BRONZE_PATH}
+    #     """
+    # )
     
     
     
@@ -101,8 +101,8 @@ with DAG(
                 /opt/spark-jobs/etl_job.py
         """
     )
-    
-    start >> [kafka_consumers_transaction, kafka_consumers_user] >> submit_spark_job >> end
+    # [kafka_consumers_transaction, kafka_consumers_user]
+    start >> submit_spark_job >> end
     
     
     

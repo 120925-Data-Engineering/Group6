@@ -49,24 +49,24 @@ def reading_data_from_landing(spark: SparkSession, input_path_topic1: str, input
 def advertising_gold_zone(spark: SparkSession, df_topic_transaction, df_topic_user, output_path: str):
     
     # Expands the products into their own columns
-    df_exploded_transaction = df_topic_transaction.withColumn("product", F.explode("products")) \
+    df_exploded_transaction = df_topic_transaction.withColumn("line_item", F.explode("line_items")) \
         .withColumnRenamed("timestamp", "t_timestamp")
     
     # Combines the user and transaction tables on user id and product id
     # can lead to a cartesian effect on tables but the best I can do with the tables provided
     df_topics_combined = df_exploded_transaction.alias("transaction") \
-        .join(df_topic_user.alias("user"), 
-              ((F.col("user.user_id") == F.col("transaction.user_id")) & (F.col("user.product_id") == F.col("transaction.product.product_id"))), 
+        .join(df_topic_user.alias("user").where(F.col('event_type') == 'add_to_cart'), 
+              ((F.col("user.user_id") == F.col("transaction.user_id")) & (F.col("user.product_id") == F.col("transaction.line_item.product_id"))), 
               "inner")
 
-    print(df_topics_combined.show())
+    # print(df_topics_combined.show())
     # Selects the needed rows for the advertising department
     # and expands products
     df_advertising_dept = df_topics_combined \
-        .select("products","browser",
+        .select("line_items","browser",
             "transaction.user_id","t_timestamp", "device", 
             "shipping_address.state", "shipping_address.city", "shipping_address.country") \
-                .withColumn("product", F.explode("products")).drop("products")
+                .withColumn("product", F.explode("line_items")).drop("line_items")
             
     # Collects the names of each product column
     prod_column_names = df_advertising_dept.select("product").schema["product"].dataType.__dict__["names"]
@@ -121,11 +121,28 @@ def transaction_analytics_gold(spark: SparkSession, df_topic_transaction, output
 
 def transaction_cleaned(spark: SparkSession, df_topic_transaction, output_path: str):
     
-    exploded_topic_transaction = df_topic_transaction.withColumn("product", F.explode("products"))
+    address_info_list = ["city", "country", "state", "street", "zip_code"]
+    line_item_info = ["brand", "category", "product_name", "product_id", "quantity", "unit_price"]
     
+    # Exploding the line items each line having its own line item
+    # expanding the address structures into having their own columns
+    exploded_topic_transaction = df_topic_transaction.withColumn("line_item", F.explode("line_items")).drop("line_items") \
+        .select("*",*[F.col(f"shipping_address.{x}").alias(f"shipping_address_{x}") for x in address_info_list],
+                *[F.col(f"billing_address.{x}").alias(f"billing_address_{x}") for x in address_info_list],
+                *[F.col(f"line_item.{x}").alias(x) for x in line_item_info]).drop("billing_address","shipping_address", "line_item")
     
+    print("Transactions All Of them!")
+    exploded_topic_transaction.show(truncate = False)
+    exploded_topic_transaction.printSchema()
+    exploded_topic_transaction.coalesce(1).write.csv(f"{output_path}/transactions_all", mode="overwrite", header=True)
     
     return exploded_topic_transaction
+
+def user_events_cleaned(spark: SparkSession, df_topic_user_events, output_path: str):
+    
+    df_topic_user_events.coalesce(1).write.csv(f"{output_path}/user_events_all", mode="overwrite", header=True)
+    
+    return None
 
 def run_etl(spark: SparkSession, input_path: str, output_path: str):
     """
@@ -149,6 +166,9 @@ def run_etl(spark: SparkSession, input_path: str, output_path: str):
     # Creates the gold zone
     advertising_gold_zone(spark,df_topic_transaction,df_topic_user,output_path)
     transaction_analytics_gold(spark, df_topic_transaction, output_path)
+    transaction_cleaned(spark, df_topic_transaction, output_path)
+    user_events_cleaned(spark, df_topic_user, output_path)
+    
     
     spark.stop()
 
