@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 SPARK_JOBS_PATH = '/opt/spark-jobs'
-TIME_DURATION = '30' # In seconds 
+# TIME_DURATION = '30' # In seconds 
 FIRST_TOPIC = 'user_events'
 SECOND_TOPIC = 'transaction_events'
 BRONZE_PATH = '/opt/spark-data/landing'
@@ -22,7 +22,7 @@ GOLD_PATH = '/opt/spark-data/gold'
 
 default_args = {
     'owner': 'student',
-    'retries' : 3,
+    'retries' : 1,
     'trigger_rule': 'all_success'
     # TODO: Add retry logic, email alerts, etc.
 }
@@ -56,17 +56,36 @@ default_args = {
 #         print("Please create the connection in the airflow UI")
 #         return {}
 
-def upload_local_files_to_snowflake(folder: str, table_name: str):
+def upload_local_files_to_snowflake(folder: str, table_name: str, **context):
     hook = SnowflakeHook(snowflake_conn_id = "snowflake_connection")
+    conn = hook.get_conn()
+    cursor = conn.cursor()
+    
     local_gold_dir = f'/opt/spark_data/gold/{folder}'
     
     spark_files = [f for f in local_gold_dir.rglob("*.csv")]
     
     for file_path in spark_files:
         print(f"Uploading {file_path} to snowflake stage @%{table_name}")
-        
+        cursor.execute(f"PUT file://{file_path} @BRONZE.CSV_STAGE AUTO_COMPRESS=TRUE OVERWRITE=TRUE")
     
+    cursor.execute(f"""
+            COPY INTO {table_name}(raw_data, source_file)
+            FROM (
+                SELECT
+                    $1 AS raw_data,
+                    METADATA$FILENAME AS source_file,
+                FROM @BRONZE.CSV_STAGE
+            )
+            FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1)
+            ON_ERROR = 'CONTINUE'
+        """)
     
+    cursor.execute("REMOVE @CSV_STAGE")
+    conn.commit()
+    cursor.close()
+    conn.close()
+
 
 
 with DAG(
@@ -106,6 +125,14 @@ with DAG(
     # )
     
     
+    upload_to_stage = PythonOperator(
+        task_id = "Snowflake_loading_files",
+        python_callable=upload_local_files_to_snowflake,
+        op_kwargs={
+        "folder": "transactions_all",
+        "table_name": "BRONZE.user_events"
+        }
+    )
     
     
     submit_spark_job = BashOperator(
@@ -117,7 +144,7 @@ with DAG(
         """
     )
     # [kafka_consumers_transaction, kafka_consumers_user]
-    start >> submit_spark_job >> end
+    start >> submit_spark_job >> upload_to_stage >> end
     
     
     
