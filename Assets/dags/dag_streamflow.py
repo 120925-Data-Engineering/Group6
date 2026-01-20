@@ -20,6 +20,8 @@ GOLD_PATH = '/opt/spark-data/gold'
 
 default_args = {
     'owner': 'student',
+    'retries' : 3,
+    'trigger_rule': 'all_success'
     # TODO: Add retry logic, email alerts, etc.
 }
 
